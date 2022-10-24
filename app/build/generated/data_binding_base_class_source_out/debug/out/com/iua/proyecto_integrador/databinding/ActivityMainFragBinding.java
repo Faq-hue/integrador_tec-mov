@@ -28,14 +28,18 @@ public final class ActivityMainFragBinding implements ViewBinding {
   public final FragmentContainerView fragmentContainerView2;
 
   @NonNull
+  public final ImageButton perfilButton;
+
+  @NonNull
   public final Toolbar toolbar;
 
   private ActivityMainFragBinding(@NonNull ConstraintLayout rootView,
       @NonNull ImageButton backButton, @NonNull FragmentContainerView fragmentContainerView2,
-      @NonNull Toolbar toolbar) {
+      @NonNull ImageButton perfilButton, @NonNull Toolbar toolbar) {
     this.rootView = rootView;
     this.backButton = backButton;
     this.fragmentContainerView2 = fragmentContainerView2;
+    this.perfilButton = perfilButton;
     this.toolbar = toolbar;
   }
 
@@ -78,6 +82,12 @@ public final class ActivityMainFragBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.perfilButton;
+      ImageButton perfilButton = ViewBindings.findChildViewById(rootView, id);
+      if (perfilButton == null) {
+        break missingId;
+      }
+
       id = R.id.toolbar;
       Toolbar toolbar = ViewBindings.findChildViewById(rootView, id);
       if (toolbar == null) {
@@ -85,7 +95,7 @@ public final class ActivityMainFragBinding implements ViewBinding {
       }
 
       return new ActivityMainFragBinding((ConstraintLayout) rootView, backButton,
-          fragmentContainerView2, toolbar);
+          fragmentContainerView2, perfilButton, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

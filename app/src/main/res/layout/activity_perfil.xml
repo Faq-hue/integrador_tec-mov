@@ -76,10 +76,13 @@
         android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="444dp"
         android:text="@string/email"
         android:textSize="20dp"
-        tools:layout_editor_absoluteX="102dp"
-        tools:layout_editor_absoluteY="267dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/shoppingHistoryButton"
@@ -87,8 +90,10 @@
         android:layout_height="wrap_content"
         android:text="Shopping history"
         android:textSize="20dp"
-        tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="369dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/editUserButton"

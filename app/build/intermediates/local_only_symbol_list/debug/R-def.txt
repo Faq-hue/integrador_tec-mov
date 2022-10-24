@@ -12,6 +12,7 @@ color teal_700
 color white
 drawable arrow
 drawable buy
+drawable ic_baseline_person_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable login
@@ -66,6 +67,7 @@ id nombreProductoCarrito
 id nombreProductoListaIndividual
 id password
 id pedidoRealizadoFragment
+id perfilButton
 id precio
 id precioCarrito
 id progressBar

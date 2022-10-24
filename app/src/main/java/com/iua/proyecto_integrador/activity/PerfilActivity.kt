@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.iua.proyecto_integrador.R
 import com.iua.proyecto_integrador.databinding.ActivityPerfilBinding
+import com.iua.proyecto_integrador.fragment.ListadoFragment
 
 class PerfilActivity : AppCompatActivity() {
 
@@ -24,8 +25,8 @@ class PerfilActivity : AppCompatActivity() {
         }
 
         binding.backButton.setOnClickListener {
-            //TODO debe hacerce el intent de volver a todas las pantallas que pueden acceder al perfil
-            //val intent = Intent(this, )
+            val intent = Intent(this, ListadoFragment::class.java)
+            startActivity(intent)
 
         }
 
