@@ -4,7 +4,9 @@ package com.iua.proyecto_integrador.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.FrameLayout;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,12 +22,34 @@ public final class FragmentDetalleProductoBinding implements ViewBinding {
   private final FrameLayout rootView;
 
   @NonNull
-  public final TextView textView2;
+  public final Button addToCartButton;
+
+  @NonNull
+  public final Button buyNowButton;
+
+  @NonNull
+  public final ImageView imageView7;
+
+  @NonNull
+  public final TextView nombreProductoListaIndividual;
+
+  @NonNull
+  public final TextView precio;
+
+  @NonNull
+  public final TextView quantity;
 
   private FragmentDetalleProductoBinding(@NonNull FrameLayout rootView,
-      @NonNull TextView textView2) {
+      @NonNull Button addToCartButton, @NonNull Button buyNowButton, @NonNull ImageView imageView7,
+      @NonNull TextView nombreProductoListaIndividual, @NonNull TextView precio,
+      @NonNull TextView quantity) {
     this.rootView = rootView;
-    this.textView2 = textView2;
+    this.addToCartButton = addToCartButton;
+    this.buyNowButton = buyNowButton;
+    this.imageView7 = imageView7;
+    this.nombreProductoListaIndividual = nombreProductoListaIndividual;
+    this.precio = precio;
+    this.quantity = quantity;
   }
 
   @Override
@@ -55,13 +79,44 @@ public final class FragmentDetalleProductoBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.textView2;
-      TextView textView2 = ViewBindings.findChildViewById(rootView, id);
-      if (textView2 == null) {
+      id = R.id.addToCartButton;
+      Button addToCartButton = ViewBindings.findChildViewById(rootView, id);
+      if (addToCartButton == null) {
         break missingId;
       }
 
-      return new FragmentDetalleProductoBinding((FrameLayout) rootView, textView2);
+      id = R.id.buyNowButton;
+      Button buyNowButton = ViewBindings.findChildViewById(rootView, id);
+      if (buyNowButton == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView7;
+      ImageView imageView7 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView7 == null) {
+        break missingId;
+      }
+
+      id = R.id.nombreProductoListaIndividual;
+      TextView nombreProductoListaIndividual = ViewBindings.findChildViewById(rootView, id);
+      if (nombreProductoListaIndividual == null) {
+        break missingId;
+      }
+
+      id = R.id.precio;
+      TextView precio = ViewBindings.findChildViewById(rootView, id);
+      if (precio == null) {
+        break missingId;
+      }
+
+      id = R.id.quantity;
+      TextView quantity = ViewBindings.findChildViewById(rootView, id);
+      if (quantity == null) {
+        break missingId;
+      }
+
+      return new FragmentDetalleProductoBinding((FrameLayout) rootView, addToCartButton,
+          buyNowButton, imageView7, nombreProductoListaIndividual, precio, quantity);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

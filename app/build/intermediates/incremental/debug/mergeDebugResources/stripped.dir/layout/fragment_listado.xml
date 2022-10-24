@@ -11,4 +11,12 @@
         android:layout_width="178dp"
         android:layout_height="123dp"
         android:text="Button" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/activity_listado_producto_individual"
+        />
+
+
 </FrameLayout>
