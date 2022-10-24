@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_fragments"
+    app:startDestination="@id/listadoFragment">
+
+    <fragment
+        android:id="@+id/listadoFragment"
+        android:name="com.iua.proyecto_integrador.fragment.ListadoFragment"
+        android:label="fragment_listado"
+        tools:layout="@layout/fragment_listado" >
+        <action
+            android:id="@+id/action_listadoFragment_to_detalleProductoFragment"
+            app:destination="@id/detalleProductoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detalleProductoFragment"
+        android:name="com.iua.proyecto_integrador.fragment.DetalleProductoFragment"
+        android:label="fragment_detalle_producto"
+        tools:layout="@layout/fragment_detalle_producto" />
+</navigation>

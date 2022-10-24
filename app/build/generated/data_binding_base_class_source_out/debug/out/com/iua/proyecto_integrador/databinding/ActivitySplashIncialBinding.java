@@ -5,9 +5,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
+import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.iua.proyecto_integrador.R;
@@ -17,20 +18,24 @@ import java.lang.String;
 
 public final class ActivitySplashIncialBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final RelativeLayout rootView;
 
   @NonNull
   public final ImageView imageView;
 
-  private ActivitySplashIncialBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageView imageView) {
+  @NonNull
+  public final ProgressBar progressBar;
+
+  private ActivitySplashIncialBinding(@NonNull RelativeLayout rootView,
+      @NonNull ImageView imageView, @NonNull ProgressBar progressBar) {
     this.rootView = rootView;
     this.imageView = imageView;
+    this.progressBar = progressBar;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -61,7 +66,13 @@ public final class ActivitySplashIncialBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivitySplashIncialBinding((ConstraintLayout) rootView, imageView);
+      id = R.id.progressBar;
+      ProgressBar progressBar = ViewBindings.findChildViewById(rootView, id);
+      if (progressBar == null) {
+        break missingId;
+      }
+
+      return new ActivitySplashIncialBinding((RelativeLayout) rootView, imageView, progressBar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

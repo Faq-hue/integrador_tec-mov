@@ -22,10 +22,14 @@
         android:testOnly="true"
         android:theme="@style/Theme.Proyecto_integrador" >
         <activity
-            android:name="com.iua.proyecto_integrador.activity.ListadoProductoIndividualActivity"
-            android:exported="false" />
+            android:name="com.iua.proyecto_integrador.activity.MainFragActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
-            android:name="com.iua.proyecto_integrador.activity.ListadoActivity"
+            android:name="com.iua.proyecto_integrador.activity.ListadoProductoIndividualActivity"
             android:exported="false" />
         <activity
             android:name="com.iua.proyecto_integrador.activity.CambiarContraseniaActivity"
@@ -51,6 +55,13 @@
         <activity
             android:name="com.iua.proyecto_integrador.activity.RegisterActivity"
             android:exported="false" />
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

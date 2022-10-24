@@ -16,12 +16,12 @@ class PedidoRealizadoActivity : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
-        binding.thanksButton.setOnClickListener {
+        /*binding.thanksButton.setOnClickListener {
 
             val intent = Intent(this, ListadoActivity::class.java)
             startActivity(intent)
 
-        }
+        }*/
 
     }
 }

@@ -11,7 +11,7 @@
 9-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:5:5-45:19
+11-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:5:5-49:19
 12        android:allowBackup="true"
 12-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -34,86 +34,106 @@
 23        android:theme="@style/Theme.Proyecto_integrador" >
 23-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:13:9-57
 24        <activity
-24-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:15:9-17:40
-25            android:name="com.iua.proyecto_integrador.activity.ListadoProductoIndividualActivity"
-25-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:16:13-71
-26            android:exported="false" />
+24-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:15:9-21:20
+25            android:name="com.iua.proyecto_integrador.activity.MainFragActivity"
+25-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:16:13-54
+26            android:exported="false" >
 26-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:17:13-37
-27        <activity
-27-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:18:9-20:40
-28            android:name="com.iua.proyecto_integrador.activity.ListadoActivity"
-28-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:19:13-53
-29            android:exported="false" />
-29-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:20:13-37
-30        <activity
-30-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:21:9-23:40
-31            android:name="com.iua.proyecto_integrador.activity.CambiarContraseniaActivity"
-31-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:22:13-64
-32            android:exported="false" />
-32-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:23:13-37
-33        <activity
-33-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:24:9-32:20
-34            android:name="com.iua.proyecto_integrador.activity.LoginActivity"
-34-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:25:13-51
-35            android:exported="true" >
-35-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:26:13-36
-36            <intent-filter>
-36-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:27:13-31:29
-37                <action android:name="android.intent.action.MAIN" />
-37-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:28:17-69
-37-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:28:25-66
-38
-39                <category android:name="android.intent.category.LAUNCHER" />
-39-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:30:17-77
-39-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:30:27-74
-40            </intent-filter>
-41        </activity>
-42        <activity
-42-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:33:9-35:40
-43            android:name="com.iua.proyecto_integrador.activity.PerfilSettingsActivity"
-43-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:34:13-60
-44            android:exported="false" />
-44-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:35:13-37
-45        <activity
-45-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:36:9-38:40
-46            android:name="com.iua.proyecto_integrador.activity.PedidoRealizadoActivity"
-46-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:37:13-61
-47            android:exported="false" />
-47-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:38:13-37
-48        <activity
-48-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:39:9-41:40
-49            android:name="com.iua.proyecto_integrador.activity.PerfilActivity"
-49-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:40:13-52
-50            android:exported="false" />
-50-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:41:13-37
-51        <activity
-51-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:42:9-44:40
-52            android:name="com.iua.proyecto_integrador.activity.RegisterActivity"
-52-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:43:13-54
-53            android:exported="false" />
-53-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:44:13-37
-54
-55        <provider
-55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\facun\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-56            android:name="androidx.startup.InitializationProvider"
-56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\facun\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-57            android:authorities="com.iua.proyecto_integrador.androidx-startup"
-57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\facun\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-58            android:exported="false" >
-58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\facun\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-59            <meta-data
-59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\facun\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-60                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\facun\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-61                android:value="androidx.startup" />
-61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\facun\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-62            <meta-data
-62-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\facun\.gradle\caches\transforms-3\025ed7849c6f43c10d9a6c1cd4d240b1\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-63                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-63-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\facun\.gradle\caches\transforms-3\025ed7849c6f43c10d9a6c1cd4d240b1\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-64                android:value="androidx.startup" />
-64-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\facun\.gradle\caches\transforms-3\025ed7849c6f43c10d9a6c1cd4d240b1\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-65        </provider>
-66    </application>
-67
-68</manifest>
+27            <meta-data
+27-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:18:13-20:36
+28                android:name="android.app.lib_name"
+28-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:19:17-52
+29                android:value="" />
+29-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:20:17-33
+30        </activity>
+31        <activity
+31-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:22:9-24:40
+32            android:name="com.iua.proyecto_integrador.activity.ListadoProductoIndividualActivity"
+32-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:23:13-71
+33            android:exported="false" />
+33-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:24:13-37
+34        <activity
+34-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:25:9-27:40
+35            android:name="com.iua.proyecto_integrador.activity.CambiarContraseniaActivity"
+35-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:26:13-64
+36            android:exported="false" />
+36-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:27:13-37
+37        <activity
+37-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:28:9-36:20
+38            android:name="com.iua.proyecto_integrador.activity.LoginActivity"
+38-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:29:13-51
+39            android:exported="true" >
+39-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:30:13-36
+40            <intent-filter>
+40-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:31:13-35:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:32:17-69
+41-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:32:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:34:17-77
+43-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:34:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity
+46-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:37:9-39:40
+47            android:name="com.iua.proyecto_integrador.activity.PerfilSettingsActivity"
+47-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:38:13-60
+48            android:exported="false" />
+48-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:39:13-37
+49        <activity
+49-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:40:9-42:40
+50            android:name="com.iua.proyecto_integrador.activity.PedidoRealizadoActivity"
+50-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:41:13-61
+51            android:exported="false" />
+51-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:42:13-37
+52        <activity
+52-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:43:9-45:40
+53            android:name="com.iua.proyecto_integrador.activity.PerfilActivity"
+53-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:44:13-52
+54            android:exported="false" />
+54-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:45:13-37
+55        <activity
+55-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:46:9-48:40
+56            android:name="com.iua.proyecto_integrador.activity.RegisterActivity"
+56-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:47:13-54
+57            android:exported="false" />
+57-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:48:13-37
+58
+59        <uses-library
+59-->[androidx.window:window:1.0.0] C:\Users\facun\.gradle\caches\transforms-3\3c65846e402a3018f0157401bd77d39f\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+60            android:name="androidx.window.extensions"
+60-->[androidx.window:window:1.0.0] C:\Users\facun\.gradle\caches\transforms-3\3c65846e402a3018f0157401bd77d39f\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+61            android:required="false" />
+61-->[androidx.window:window:1.0.0] C:\Users\facun\.gradle\caches\transforms-3\3c65846e402a3018f0157401bd77d39f\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+62        <uses-library
+62-->[androidx.window:window:1.0.0] C:\Users\facun\.gradle\caches\transforms-3\3c65846e402a3018f0157401bd77d39f\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+63            android:name="androidx.window.sidecar"
+63-->[androidx.window:window:1.0.0] C:\Users\facun\.gradle\caches\transforms-3\3c65846e402a3018f0157401bd77d39f\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+64            android:required="false" />
+64-->[androidx.window:window:1.0.0] C:\Users\facun\.gradle\caches\transforms-3\3c65846e402a3018f0157401bd77d39f\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+65
+66        <provider
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\facun\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+67            android:name="androidx.startup.InitializationProvider"
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\facun\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+68            android:authorities="com.iua.proyecto_integrador.androidx-startup"
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\facun\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+69            android:exported="false" >
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\facun\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+70            <meta-data
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\facun\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+71                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\facun\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+72                android:value="androidx.startup" />
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\facun\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+73            <meta-data
+73-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\facun\.gradle\caches\transforms-3\025ed7849c6f43c10d9a6c1cd4d240b1\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+74                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+74-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\facun\.gradle\caches\transforms-3\025ed7849c6f43c10d9a6c1cd4d240b1\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+75                android:value="androidx.startup" />
+75-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\facun\.gradle\caches\transforms-3\025ed7849c6f43c10d9a6c1cd4d240b1\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+76        </provider>
+77    </application>
+78
+79</manifest>

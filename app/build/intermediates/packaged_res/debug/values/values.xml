@@ -12,6 +12,7 @@
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">proyecto_integrador</string>
     <string name="email">samplemail@mail.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="producto">Producto</string>
     <string name="userName">user</string>
     <style name="Theme.Proyecto_integrador" parent="Theme.MaterialComponents.DayNight.NoActionBar">

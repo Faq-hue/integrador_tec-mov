@@ -17,12 +17,12 @@ class RegisterActivity  : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
-        binding.register.setOnClickListener{
+        /*binding.register.setOnClickListener{
 
             val intent = Intent(this, ListadoActivity::class.java)
             startActivity(intent)
 
-        }
+        }*/
 
         binding.backButton.setOnClickListener {
 
