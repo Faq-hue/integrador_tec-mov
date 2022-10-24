@@ -16,7 +16,7 @@ import com.iua.proyecto_integrador.model.Producto
 
 class ListadoFragment : Fragment() {
 
-    private lateinit var nextButton: Button
+    //private lateinit var nextButton: Button
 
     private lateinit var adapter: ProductoAdapter
     private lateinit var recyclerView: RecyclerView
@@ -27,7 +27,7 @@ class ListadoFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val view = inflater.inflate(R.layout.fragment_listado, container, false)
-        nextButton = view.findViewById(R.id.buttonNav)
+        //nextButton = view.findViewById(R.id.buttonNav)
 
         return view
     }
@@ -45,10 +45,10 @@ class ListadoFragment : Fragment() {
         recyclerView.adapter = adapter
 
 
-        nextButton.setOnClickListener{
+       /* nextButton.setOnClickListener{
             findNavController().navigate(R.id.action_listadoFragment_to_detalleProductoFragment)
 
-        }
+        }*/
     }
 
     private fun dataInitialize() {
