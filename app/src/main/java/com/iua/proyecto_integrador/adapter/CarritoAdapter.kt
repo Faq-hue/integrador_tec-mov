@@ -31,7 +31,7 @@ class CarritoAdapter(private val carrito: List<ProductoCarrito>): RecyclerView.A
         private fun total(): Double {
             var temp: Double = 0.0
 
-            for (i in 0..carrito.size){
+            for (i in 0..carrito.size-1){
                 temp += carrito[i].precio * carrito[i].cantidadComprada
             }
             return temp

@@ -1,12 +1,10 @@
 package com.iua.proyecto_integrador.fragment
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -17,8 +15,6 @@ import com.iua.proyecto_integrador.model.Producto
 
 class ListadoFragment : Fragment(), RecyclerViewOnClickListener {
 
-    //private lateinit var nextButton: Button
-
     private lateinit var adapter: ProductoAdapter
     private lateinit var recyclerView: RecyclerView
     private lateinit var productosArray: ArrayList<Producto>
@@ -28,7 +24,6 @@ class ListadoFragment : Fragment(), RecyclerViewOnClickListener {
         savedInstanceState: Bundle?
     ): View? {
         val view = inflater.inflate(R.layout.fragment_listado, container, false)
-        //nextButton = view.findViewById(R.id.buttonNav)
 
         return view
     }
