@@ -5,13 +5,6 @@
     android:layout_height="match_parent"
     tools:context=".fragment.ListadoFragment">
 
-
-    <Button
-        android:id="@+id/buttonNav"
-        android:layout_width="178dp"
-        android:layout_height="123dp"
-        android:text="Button" />
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewListado"
         android:layout_width="match_parent"

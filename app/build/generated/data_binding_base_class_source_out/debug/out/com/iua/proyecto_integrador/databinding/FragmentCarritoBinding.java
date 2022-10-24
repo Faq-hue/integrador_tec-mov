@@ -4,20 +4,47 @@ package com.iua.proyecto_integrador.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.FrameLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.iua.proyecto_integrador.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class FragmentCarritoBinding implements ViewBinding {
   @NonNull
   private final FrameLayout rootView;
 
-  private FragmentCarritoBinding(@NonNull FrameLayout rootView) {
+  @NonNull
+  public final Button buyButton;
+
+  @NonNull
+  public final TextView cart;
+
+  @NonNull
+  public final Button continueShoppingButton;
+
+  @NonNull
+  public final RecyclerView recyclerViewCarrito;
+
+  @NonNull
+  public final TextView totalCarrito;
+
+  private FragmentCarritoBinding(@NonNull FrameLayout rootView, @NonNull Button buyButton,
+      @NonNull TextView cart, @NonNull Button continueShoppingButton,
+      @NonNull RecyclerView recyclerViewCarrito, @NonNull TextView totalCarrito) {
     this.rootView = rootView;
+    this.buyButton = buyButton;
+    this.cart = cart;
+    this.continueShoppingButton = continueShoppingButton;
+    this.recyclerViewCarrito = recyclerViewCarrito;
+    this.totalCarrito = totalCarrito;
   }
 
   @Override
@@ -43,10 +70,44 @@ public final class FragmentCarritoBinding implements ViewBinding {
 
   @NonNull
   public static FragmentCarritoBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.buyButton;
+      Button buyButton = ViewBindings.findChildViewById(rootView, id);
+      if (buyButton == null) {
+        break missingId;
+      }
 
-    return new FragmentCarritoBinding((FrameLayout) rootView);
+      id = R.id.cart;
+      TextView cart = ViewBindings.findChildViewById(rootView, id);
+      if (cart == null) {
+        break missingId;
+      }
+
+      id = R.id.continueShoppingButton;
+      Button continueShoppingButton = ViewBindings.findChildViewById(rootView, id);
+      if (continueShoppingButton == null) {
+        break missingId;
+      }
+
+      id = R.id.recyclerViewCarrito;
+      RecyclerView recyclerViewCarrito = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerViewCarrito == null) {
+        break missingId;
+      }
+
+      id = R.id.totalCarrito;
+      TextView totalCarrito = ViewBindings.findChildViewById(rootView, id);
+      if (totalCarrito == null) {
+        break missingId;
+      }
+
+      return new FragmentCarritoBinding((FrameLayout) rootView, buyButton, cart,
+          continueShoppingButton, recyclerViewCarrito, totalCarrito);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

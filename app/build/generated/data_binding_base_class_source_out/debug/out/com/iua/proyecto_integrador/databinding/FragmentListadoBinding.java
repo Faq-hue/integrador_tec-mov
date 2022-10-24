@@ -4,7 +4,6 @@ package com.iua.proyecto_integrador.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -21,15 +20,11 @@ public final class FragmentListadoBinding implements ViewBinding {
   private final FrameLayout rootView;
 
   @NonNull
-  public final Button buttonNav;
-
-  @NonNull
   public final RecyclerView recyclerViewListado;
 
-  private FragmentListadoBinding(@NonNull FrameLayout rootView, @NonNull Button buttonNav,
+  private FragmentListadoBinding(@NonNull FrameLayout rootView,
       @NonNull RecyclerView recyclerViewListado) {
     this.rootView = rootView;
-    this.buttonNav = buttonNav;
     this.recyclerViewListado = recyclerViewListado;
   }
 
@@ -60,19 +55,13 @@ public final class FragmentListadoBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.buttonNav;
-      Button buttonNav = ViewBindings.findChildViewById(rootView, id);
-      if (buttonNav == null) {
-        break missingId;
-      }
-
       id = R.id.recyclerViewListado;
       RecyclerView recyclerViewListado = ViewBindings.findChildViewById(rootView, id);
       if (recyclerViewListado == null) {
         break missingId;
       }
 
-      return new FragmentListadoBinding((FrameLayout) rootView, buttonNav, recyclerViewListado);
+      return new FragmentListadoBinding((FrameLayout) rootView, recyclerViewListado);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.iua.proyecto_integrador.R
@@ -13,6 +15,7 @@ import com.iua.proyecto_integrador.model.ProductoCarrito
 
 class CarritoFragment : Fragment() {
 
+    private lateinit var buyButton: Button
     private lateinit var adapter: CarritoAdapter
     private lateinit var recyclerView: RecyclerView
     private lateinit var carritoArrayList: ArrayList<ProductoCarrito>
@@ -23,7 +26,7 @@ class CarritoFragment : Fragment() {
     ): View? {
 
         val view = inflater.inflate(R.layout.fragment_carrito, container, false)
-
+        buyButton = view.findViewById(R.id.buyButton)
         return view
     }
 
@@ -38,7 +41,11 @@ class CarritoFragment : Fragment() {
         recyclerView.setHasFixedSize(true)
         adapter = CarritoAdapter(carritoArrayList)
         recyclerView.adapter = adapter
-        
+
+        buyButton.setOnClickListener {
+            findNavController().navigate(R.id.action_carritoFragment_to_pedidoRealizadoFragment)
+        }
+
     }
 
     private fun dataInitialize(){
@@ -48,10 +55,5 @@ class CarritoFragment : Fragment() {
             ProductoCarrito("Producto 3", 40.0, 6),
             ProductoCarrito("Producto 4", 50.0, 9),
         )
-
-
-
     }
-
-
 }

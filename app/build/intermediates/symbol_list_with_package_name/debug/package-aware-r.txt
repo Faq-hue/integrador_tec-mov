@@ -2669,6 +2669,7 @@ id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
 id backButton
+id backToMenu
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -2680,14 +2681,15 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id buttonNav
 id buttonPanel
+id buyButton
 id buyNowButton
 id cache_measures
 id callMeasure
 id cancel_button
 id carritoFragment
 id carryVelocity
+id cart
 id center
 id centerCrop
 id centerInside
@@ -2719,6 +2721,7 @@ id container
 id content
 id contentPanel
 id contiguous
+id continueShoppingButton
 id continuousVelocity
 id coordinator
 id cos
@@ -2823,6 +2826,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView10
 id imageView2
 id imageView3
 id imageView4
@@ -2830,6 +2834,7 @@ id imageView5
 id imageView6
 id imageView7
 id imageView8
+id imageView9
 id immediateStop
 id included
 id info
@@ -2926,6 +2931,7 @@ id neverCompleteToStart
 id newPassword
 id noScroll
 id noState
+id nombreProductoCarrito
 id nombreProductoListaIndividual
 id none
 id normal
@@ -2956,13 +2962,16 @@ id pin
 id position
 id postLayout
 id precio
+id precioCarrito
 id progressBar
 id progress_circular
 id progress_horizontal
 id quantity
+id quantityBuyCarrito
 id radio
 id ratio
 id rectangles
+id recyclerViewCarrito
 id recyclerViewListado
 id register
 id repeatNewPassword
@@ -3085,6 +3094,7 @@ id toolbar
 id toolbar2
 id top
 id topPanel
+id totalCarrito
 id touch_outside
 id transitionToEnd
 id transitionToStart
@@ -3218,6 +3228,7 @@ layout activity_main_frag
 layout activity_pedido_realizado
 layout activity_perfil
 layout activity_perfil_settings
+layout activity_producto_carrito
 layout activity_registro_usuario
 layout activity_splash_incial
 layout custom_dialog

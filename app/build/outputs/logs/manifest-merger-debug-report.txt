@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:2:1-51:12
+ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:2:1-58:12
 MERGED from [androidx.databinding:viewbinding:7.3.1] C:\Users\facun\.gradle\caches\transforms-3\670a454c3e71eac4619ad05e4ba0b12f\transformed\viewbinding-7.3.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] C:\Users\facun\.gradle\caches\transforms-3\787a44505c2b8173a309bd84fac5d7cc\transformed\navigation-ui-ktx-2.5.3\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.5.3] C:\Users\facun\.gradle\caches\transforms-3\ff5d09f98f0bbe1b4993388238435419\transformed\navigation-ui-2.5.3\AndroidManifest.xml:17:1-24:12
@@ -61,27 +61,27 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\facun\.gradle\ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\facun\.gradle\caches\transforms-3\7d21f26541ec7699f8fc0ef6bf311b87\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\facun\.gradle\caches\transforms-3\5bf6ecdd05e88e24e35708386f629fa5\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\facun\.gradle\caches\transforms-3\52dc8a3342dcf1a1dff1d6981a48cf32\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:2:1-58:12
 	package
 		INJECTED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:2:1-51:12
+		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:2:1-58:12
 		INJECTED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:2:1-51:12
+		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:2:1-58:12
 		INJECTED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:2:1-51:12
+		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:2:1-58:12
 		INJECTED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:5:5-49:19
+ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:5:5-56:19
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\facun\.gradle\caches\transforms-3\4a53207dcabe7f0975fb5d95a8744ca1\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\facun\.gradle\caches\transforms-3\4a53207dcabe7f0975fb5d95a8744ca1\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\facun\.gradle\caches\transforms-3\b767dad15c535e9fb21b84fb10b8766f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -118,70 +118,76 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\facun\.gradle\cach
 		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:13:9-57
 	android:dataExtractionRules
 		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:7:9-65
-activity#com.iua.proyecto_integrador.activity.MainFragActivity
+activity#com.iua.proyecto_integrador.ProductoCarritoActivity
 ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:15:9-21:20
 	android:exported
 		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:16:13-54
+		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:16:13-52
 meta-data#android.app.lib_name
 ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:18:13-20:36
 	android:value
 		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:20:17-33
 	android:name
 		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:19:17-52
-activity#com.iua.proyecto_integrador.activity.ListadoProductoIndividualActivity
-ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:22:9-24:40
+activity#com.iua.proyecto_integrador.activity.MainFragActivity
+ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:22:9-28:20
 	android:exported
 		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:24:13-37
 	android:name
-		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:23:13-71
+		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:23:13-54
+activity#com.iua.proyecto_integrador.activity.ListadoProductoIndividualActivity
+ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:29:9-31:40
+	android:exported
+		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:30:13-71
 activity#com.iua.proyecto_integrador.activity.CambiarContraseniaActivity
-ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:25:9-27:40
+ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:32:9-34:40
 	android:exported
-		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:27:13-37
+		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:26:13-64
+		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:33:13-64
 activity#com.iua.proyecto_integrador.activity.LoginActivity
-ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:28:9-36:20
+ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:35:9-43:20
 	android:exported
-		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:30:13-36
+		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:37:13-36
 	android:name
-		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:29:13-51
+		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:36:13-51
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:31:13-35:29
+ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:38:13-42:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:32:17-69
+ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:39:17-69
 	android:name
-		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:32:25-66
+		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:39:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:34:17-77
+ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:41:17-77
 	android:name
-		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:34:27-74
+		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:41:27-74
 activity#com.iua.proyecto_integrador.activity.PerfilSettingsActivity
-ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:37:9-39:40
+ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:44:9-46:40
 	android:exported
-		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:39:13-37
+		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:46:13-37
 	android:name
-		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:38:13-60
+		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:45:13-60
 activity#com.iua.proyecto_integrador.activity.PedidoRealizadoActivity
-ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:40:9-42:40
+ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:47:9-49:40
 	android:exported
-		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:42:13-37
+		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:49:13-37
 	android:name
-		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:41:13-61
+		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:48:13-61
 activity#com.iua.proyecto_integrador.activity.PerfilActivity
-ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:43:9-45:40
+ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:50:9-52:40
 	android:exported
-		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:45:13-37
+		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:52:13-37
 	android:name
-		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:44:13-52
+		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:51:13-52
 activity#com.iua.proyecto_integrador.activity.RegisterActivity
-ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:46:9-48:40
+ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:53:9-55:40
 	android:exported
-		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:48:13-37
+		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:55:13-37
 	android:name
-		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:47:13-54
+		ADDED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:54:13-54
 uses-sdk
 INJECTED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml

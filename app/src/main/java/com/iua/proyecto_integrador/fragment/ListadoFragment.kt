@@ -12,9 +12,10 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.iua.proyecto_integrador.R
 import com.iua.proyecto_integrador.adapter.ProductoAdapter
+import com.iua.proyecto_integrador.adapter.RecyclerViewOnClickListener
 import com.iua.proyecto_integrador.model.Producto
 
-class ListadoFragment : Fragment() {
+class ListadoFragment : Fragment(), RecyclerViewOnClickListener {
 
     //private lateinit var nextButton: Button
 
@@ -41,14 +42,9 @@ class ListadoFragment : Fragment() {
         recyclerView = view.findViewById(R.id.recyclerViewListado)
         recyclerView.layoutManager = layoutManager
         recyclerView.setHasFixedSize(true)
-        adapter = ProductoAdapter(productosArray)
+        adapter = ProductoAdapter(productosArray, this)
         recyclerView.adapter = adapter
 
-
-       /* nextButton.setOnClickListener{
-            findNavController().navigate(R.id.action_listadoFragment_to_detalleProductoFragment)
-
-        }*/
     }
 
     private fun dataInitialize() {
@@ -76,6 +72,10 @@ class ListadoFragment : Fragment() {
             Producto("Producto20", 2000, 20, 0)
         )
 
+    }
+
+    override fun onItemClick(position: Int) {
+        findNavController().navigate(R.id.action_listadoFragment_to_detalleProductoFragment)
     }
 
 }
