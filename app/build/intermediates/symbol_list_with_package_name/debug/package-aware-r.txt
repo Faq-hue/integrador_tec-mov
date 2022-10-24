@@ -2672,7 +2672,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id button
+id buttonNav
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2784,7 +2784,7 @@ id flip
 id floating
 id forever
 id forgotPass
-id fragmentContainerView
+id fragmentContainerView2
 id fragment_container_view_tag
 id frost
 id fullscreen_header
@@ -3051,6 +3051,7 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView2
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon

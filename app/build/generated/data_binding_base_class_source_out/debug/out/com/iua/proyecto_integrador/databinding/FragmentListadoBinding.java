@@ -20,11 +20,11 @@ public final class FragmentListadoBinding implements ViewBinding {
   private final FrameLayout rootView;
 
   @NonNull
-  public final Button button;
+  public final Button buttonNav;
 
-  private FragmentListadoBinding(@NonNull FrameLayout rootView, @NonNull Button button) {
+  private FragmentListadoBinding(@NonNull FrameLayout rootView, @NonNull Button buttonNav) {
     this.rootView = rootView;
-    this.button = button;
+    this.buttonNav = buttonNav;
   }
 
   @Override
@@ -54,13 +54,13 @@ public final class FragmentListadoBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.button;
-      Button button = ViewBindings.findChildViewById(rootView, id);
-      if (button == null) {
+      id = R.id.buttonNav;
+      Button buttonNav = ViewBindings.findChildViewById(rootView, id);
+      if (buttonNav == null) {
         break missingId;
       }
 
-      return new FragmentListadoBinding((FrameLayout) rootView, button);
+      return new FragmentListadoBinding((FrameLayout) rootView, buttonNav);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

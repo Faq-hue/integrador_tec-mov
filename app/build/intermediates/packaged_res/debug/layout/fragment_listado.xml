@@ -7,7 +7,7 @@
 
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonNav"
         android:layout_width="178dp"
         android:layout_height="123dp"
         android:text="Button" />

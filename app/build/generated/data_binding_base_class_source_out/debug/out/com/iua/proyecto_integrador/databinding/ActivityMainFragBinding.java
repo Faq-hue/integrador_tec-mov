@@ -25,17 +25,17 @@ public final class ActivityMainFragBinding implements ViewBinding {
   public final ImageButton backButton;
 
   @NonNull
-  public final FragmentContainerView fragmentContainerView;
+  public final FragmentContainerView fragmentContainerView2;
 
   @NonNull
   public final Toolbar toolbar;
 
   private ActivityMainFragBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageButton backButton, @NonNull FragmentContainerView fragmentContainerView,
+      @NonNull ImageButton backButton, @NonNull FragmentContainerView fragmentContainerView2,
       @NonNull Toolbar toolbar) {
     this.rootView = rootView;
     this.backButton = backButton;
-    this.fragmentContainerView = fragmentContainerView;
+    this.fragmentContainerView2 = fragmentContainerView2;
     this.toolbar = toolbar;
   }
 
@@ -72,9 +72,9 @@ public final class ActivityMainFragBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.fragmentContainerView;
-      FragmentContainerView fragmentContainerView = ViewBindings.findChildViewById(rootView, id);
-      if (fragmentContainerView == null) {
+      id = R.id.fragmentContainerView2;
+      FragmentContainerView fragmentContainerView2 = ViewBindings.findChildViewById(rootView, id);
+      if (fragmentContainerView2 == null) {
         break missingId;
       }
 
@@ -85,7 +85,7 @@ public final class ActivityMainFragBinding implements ViewBinding {
       }
 
       return new ActivityMainFragBinding((ConstraintLayout) rootView, backButton,
-          fragmentContainerView, toolbar);
+          fragmentContainerView2, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
