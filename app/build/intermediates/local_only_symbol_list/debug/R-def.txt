@@ -64,6 +64,7 @@ id pedidoRealizadoFragment
 id precio
 id progressBar
 id quantity
+id recyclerViewListado
 id register
 id repeatNewPassword
 id repeatPassword

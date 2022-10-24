@@ -2962,6 +2962,7 @@ int id quantity 0x7f080225
 int id radio 0x7f080178
 int id ratio 0x7f080179
 int id rectangles 0x7f08017a
+int id recyclerViewListado 0x7f080226
 int id register 0x7f08017b
 int id repeatNewPassword 0x7f08017c
 int id repeatPassword 0x7f08017d

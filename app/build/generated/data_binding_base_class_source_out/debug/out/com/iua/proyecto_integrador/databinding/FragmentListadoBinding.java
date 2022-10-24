@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.iua.proyecto_integrador.R;
@@ -22,9 +23,14 @@ public final class FragmentListadoBinding implements ViewBinding {
   @NonNull
   public final Button buttonNav;
 
-  private FragmentListadoBinding(@NonNull FrameLayout rootView, @NonNull Button buttonNav) {
+  @NonNull
+  public final RecyclerView recyclerViewListado;
+
+  private FragmentListadoBinding(@NonNull FrameLayout rootView, @NonNull Button buttonNav,
+      @NonNull RecyclerView recyclerViewListado) {
     this.rootView = rootView;
     this.buttonNav = buttonNav;
+    this.recyclerViewListado = recyclerViewListado;
   }
 
   @Override
@@ -60,7 +66,13 @@ public final class FragmentListadoBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentListadoBinding((FrameLayout) rootView, buttonNav);
+      id = R.id.recyclerViewListado;
+      RecyclerView recyclerViewListado = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerViewListado == null) {
+        break missingId;
+      }
+
+      return new FragmentListadoBinding((FrameLayout) rootView, buttonNav, recyclerViewListado);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

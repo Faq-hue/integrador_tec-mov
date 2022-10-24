@@ -2963,6 +2963,7 @@ id quantity
 id radio
 id ratio
 id rectangles
+id recyclerViewListado
 id register
 id repeatNewPassword
 id repeatPassword
