@@ -11,7 +11,7 @@
 9-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:5:5-56:19
+11-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:5:5-53:19
 12        android:allowBackup="true"
 12-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -35,8 +35,8 @@
 23-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:13:9-57
 24        <activity
 24-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:15:9-21:20
-25            android:name="com.iua.proyecto_integrador.ProductoCarritoActivity"
-25-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:16:13-52
+25            android:name="com.iua.proyecto_integrador.activity.ProductoCarritoActivity"
+25-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:16:13-61
 26            android:exported="false" >
 26-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:17:13-37
 27            <meta-data
@@ -96,57 +96,51 @@
 55-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:46:13-37
 56        <activity
 56-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:47:9-49:40
-57            android:name="com.iua.proyecto_integrador.activity.PedidoRealizadoActivity"
-57-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:48:13-61
+57            android:name="com.iua.proyecto_integrador.activity.PerfilActivity"
+57-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:48:13-52
 58            android:exported="false" />
 58-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:49:13-37
 59        <activity
 59-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:50:9-52:40
-60            android:name="com.iua.proyecto_integrador.activity.PerfilActivity"
-60-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:51:13-52
+60            android:name="com.iua.proyecto_integrador.activity.RegisterActivity"
+60-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:51:13-54
 61            android:exported="false" />
 61-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:52:13-37
-62        <activity
-62-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:53:9-55:40
-63            android:name="com.iua.proyecto_integrador.activity.RegisterActivity"
-63-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:54:13-54
-64            android:exported="false" />
-64-->C:\Users\facun\AndroidStudioProjects\integrador_tec-mov\app\src\main\AndroidManifest.xml:55:13-37
-65
+62
+63        <uses-library
+63-->[androidx.window:window:1.0.0] C:\Users\facun\.gradle\caches\transforms-3\3c65846e402a3018f0157401bd77d39f\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+64            android:name="androidx.window.extensions"
+64-->[androidx.window:window:1.0.0] C:\Users\facun\.gradle\caches\transforms-3\3c65846e402a3018f0157401bd77d39f\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+65            android:required="false" />
+65-->[androidx.window:window:1.0.0] C:\Users\facun\.gradle\caches\transforms-3\3c65846e402a3018f0157401bd77d39f\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
 66        <uses-library
-66-->[androidx.window:window:1.0.0] C:\Users\facun\.gradle\caches\transforms-3\3c65846e402a3018f0157401bd77d39f\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-67            android:name="androidx.window.extensions"
-67-->[androidx.window:window:1.0.0] C:\Users\facun\.gradle\caches\transforms-3\3c65846e402a3018f0157401bd77d39f\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+66-->[androidx.window:window:1.0.0] C:\Users\facun\.gradle\caches\transforms-3\3c65846e402a3018f0157401bd77d39f\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+67            android:name="androidx.window.sidecar"
+67-->[androidx.window:window:1.0.0] C:\Users\facun\.gradle\caches\transforms-3\3c65846e402a3018f0157401bd77d39f\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
 68            android:required="false" />
-68-->[androidx.window:window:1.0.0] C:\Users\facun\.gradle\caches\transforms-3\3c65846e402a3018f0157401bd77d39f\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-69        <uses-library
-69-->[androidx.window:window:1.0.0] C:\Users\facun\.gradle\caches\transforms-3\3c65846e402a3018f0157401bd77d39f\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-70            android:name="androidx.window.sidecar"
-70-->[androidx.window:window:1.0.0] C:\Users\facun\.gradle\caches\transforms-3\3c65846e402a3018f0157401bd77d39f\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-71            android:required="false" />
-71-->[androidx.window:window:1.0.0] C:\Users\facun\.gradle\caches\transforms-3\3c65846e402a3018f0157401bd77d39f\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-72
-73        <provider
-73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\facun\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-74            android:name="androidx.startup.InitializationProvider"
-74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\facun\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-75            android:authorities="com.iua.proyecto_integrador.androidx-startup"
-75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\facun\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-76            android:exported="false" >
-76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\facun\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+68-->[androidx.window:window:1.0.0] C:\Users\facun\.gradle\caches\transforms-3\3c65846e402a3018f0157401bd77d39f\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+69
+70        <provider
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\facun\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+71            android:name="androidx.startup.InitializationProvider"
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\facun\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+72            android:authorities="com.iua.proyecto_integrador.androidx-startup"
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\facun\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+73            android:exported="false" >
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\facun\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+74            <meta-data
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\facun\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+75                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\facun\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+76                android:value="androidx.startup" />
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\facun\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
 77            <meta-data
-77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\facun\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-78                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\facun\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+77-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\facun\.gradle\caches\transforms-3\025ed7849c6f43c10d9a6c1cd4d240b1\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+78                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+78-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\facun\.gradle\caches\transforms-3\025ed7849c6f43c10d9a6c1cd4d240b1\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
 79                android:value="androidx.startup" />
-79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\facun\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-80            <meta-data
-80-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\facun\.gradle\caches\transforms-3\025ed7849c6f43c10d9a6c1cd4d240b1\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-81                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-81-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\facun\.gradle\caches\transforms-3\025ed7849c6f43c10d9a6c1cd4d240b1\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-82                android:value="androidx.startup" />
-82-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\facun\.gradle\caches\transforms-3\025ed7849c6f43c10d9a6c1cd4d240b1\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-83        </provider>
-84    </application>
-85
-86</manifest>
+79-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\facun\.gradle\caches\transforms-3\025ed7849c6f43c10d9a6c1cd4d240b1\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+80        </provider>
+81    </application>
+82
+83</manifest>

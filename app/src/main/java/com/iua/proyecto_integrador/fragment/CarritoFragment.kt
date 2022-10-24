@@ -16,6 +16,7 @@ import com.iua.proyecto_integrador.model.ProductoCarrito
 class CarritoFragment : Fragment() {
 
     private lateinit var buyButton: Button
+    private lateinit var continueShoppingButton: Button
     private lateinit var adapter: CarritoAdapter
     private lateinit var recyclerView: RecyclerView
     private lateinit var carritoArrayList: ArrayList<ProductoCarrito>
@@ -27,6 +28,7 @@ class CarritoFragment : Fragment() {
 
         val view = inflater.inflate(R.layout.fragment_carrito, container, false)
         buyButton = view.findViewById(R.id.buyButton)
+        continueShoppingButton = view.findViewById(R.id.continueShoppingButton)
         return view
     }
 
@@ -44,6 +46,10 @@ class CarritoFragment : Fragment() {
 
         buyButton.setOnClickListener {
             findNavController().navigate(R.id.action_carritoFragment_to_pedidoRealizadoFragment)
+        }
+
+        continueShoppingButton.setOnClickListener {
+            findNavController().navigate(R.id.action_carritoFragment_to_listadoFragment)
         }
 
     }

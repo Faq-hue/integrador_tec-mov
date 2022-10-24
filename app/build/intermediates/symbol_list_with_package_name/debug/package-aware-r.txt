@@ -2829,7 +2829,6 @@ id imageView
 id imageView10
 id imageView2
 id imageView3
-id imageView4
 id imageView5
 id imageView6
 id imageView7
@@ -3084,14 +3083,12 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
-id thanksButton
 id time
 id title
 id titleDividerNoCustom
 id title_template
 id toggle
 id toolbar
-id toolbar2
 id top
 id topPanel
 id totalCarrito
@@ -3225,7 +3222,6 @@ layout activity_cambiar_contrasenia
 layout activity_listado_producto_individual
 layout activity_login
 layout activity_main_frag
-layout activity_pedido_realizado
 layout activity_perfil
 layout activity_perfil_settings
 layout activity_producto_carrito
