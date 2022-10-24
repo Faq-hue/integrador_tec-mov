@@ -1,13 +1,12 @@
 package com.iua.proyecto_integrador.fragment
 
-import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
-import androidx.navigation.Navigation
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -52,7 +51,7 @@ class ListadoFragment : Fragment() {
         }
     }
 
-    private fun dataInitialize(){
+    private fun dataInitialize() {
         productosArray = arrayListOf(
 
             Producto("Producto1", 100, 1, 0),
@@ -74,11 +73,10 @@ class ListadoFragment : Fragment() {
             Producto("Producto17", 1700, 17, 0),
             Producto("Producto18", 1800, 18, 0),
             Producto("Producto19", 1900, 19, 0),
-            Producto("Producto20", 2000, 20, 0))
+            Producto("Producto20", 2000, 20, 0)
+        )
 
     }
 
-
-
-    }
+}
 
