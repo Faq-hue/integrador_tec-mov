@@ -18,5 +18,39 @@
         android:id="@+id/detalleProductoFragment"
         android:name="com.iua.proyecto_integrador.fragment.DetalleProductoFragment"
         android:label="fragment_detalle_producto"
-        tools:layout="@layout/fragment_detalle_producto" />
+        tools:layout="@layout/fragment_detalle_producto" >
+        <action
+            android:id="@+id/action_detalleProductoFragment_to_carritoFragment"
+            app:destination="@id/carritoFragment" />
+        <action
+            android:id="@+id/action_detalleProductoFragment_to_listadoFragment"
+            app:destination="@id/listadoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/carritoFragment"
+        android:name="com.iua.proyecto_integrador.fragment.CarritoFragment"
+        android:label="fragment_carrito"
+        tools:layout="@layout/fragment_carrito" >
+        <action
+            android:id="@+id/action_carritoFragment_to_pedidoRealizadoFragment"
+            app:destination="@id/pedidoRealizadoFragment" />
+        <action
+            android:id="@+id/action_carritoFragment_to_detalleProductoFragment"
+            app:destination="@id/detalleProductoFragment" />
+        <action
+            android:id="@+id/action_carritoFragment_to_listadoFragment"
+            app:destination="@id/listadoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pedidoRealizadoFragment"
+        android:name="com.iua.proyecto_integrador.fragment.PedidoRealizadoFragment"
+        android:label="fragment_pedido_realizado"
+        tools:layout="@layout/fragment_pedido_realizado" >
+        <action
+            android:id="@+id/action_pedidoRealizadoFragment_to_carritoFragment"
+            app:destination="@id/carritoFragment" />
+        <action
+            android:id="@+id/action_pedidoRealizadoFragment_to_listadoFragment"
+            app:destination="@id/listadoFragment" />
+    </fragment>
 </navigation>
