@@ -3,7 +3,6 @@ package com.iua.proyecto_integrador.activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.iua.proyecto_integrador.R
 import com.iua.proyecto_integrador.databinding.ActivityPerfilBinding
 import com.iua.proyecto_integrador.fragment.ListadoFragment
 
@@ -26,6 +25,12 @@ class PerfilActivity : AppCompatActivity() {
 
         binding.backButton.setOnClickListener {
             val intent = Intent(this, ListadoFragment::class.java)
+            startActivity(intent)
+
+        }
+
+        binding.shoppingHistoryButton.setOnClickListener {
+            val intent = Intent(this, HistorialActivity::class.java)
             startActivity(intent)
 
         }

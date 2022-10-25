@@ -1,5 +1,9 @@
 [
     {
+        "merged": "com.iua.proyecto_integrador.app-mergeDebugResources-44:/layout/activity_historial.xml",
+        "source": "com.iua.proyecto_integrador.app-main-47:/layout/activity_historial.xml"
+    },
+    {
         "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-mergeDebugResources-44:\\layout\\fragment_pedido_realizado.xml",
         "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\fragment_pedido_realizado.xml"
     },
@@ -32,20 +36,16 @@
         "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\fragment_carrito.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-mergeDebugResources-44:/layout/activity_perfil.xml",
-        "source": "com.iua.proyecto_integrador.app-main-47:/layout/activity_perfil.xml"
-    },
-    {
         "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-mergeDebugResources-44:\\layout\\activity_producto_carrito.xml",
         "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_producto_carrito.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-mergeDebugResources-44:\\layout\\activity_splash_incial.xml",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_splash_incial.xml"
-    },
-    {
         "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-mergeDebugResources-44:\\layout\\activity_perfil.xml",
         "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_perfil.xml"
+    },
+    {
+        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-mergeDebugResources-44:\\layout\\activity_splash_incial.xml",
+        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_splash_incial.xml"
     },
     {
         "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-mergeDebugResources-44:\\layout\\fragment_detalle_producto.xml",

@@ -81,10 +81,12 @@ id repeatPassword
 id savePerfilSettingsButton
 id shoppingHistoryButton
 id textView
+id textView3
 id toolbar
 id totalCarrito
 id userName
 layout activity_cambiar_contrasenia
+layout activity_historial
 layout activity_listado_producto_individual
 layout activity_login
 layout activity_main_frag
