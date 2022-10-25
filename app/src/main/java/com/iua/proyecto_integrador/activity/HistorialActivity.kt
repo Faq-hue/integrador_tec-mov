@@ -47,7 +47,15 @@ class HistorialActivity : AppCompatActivity() {
             ProductoCarrito("Producto 1", 20.0, 2),
             ProductoCarrito("Producto 2", 30.0, 4),
             ProductoCarrito("Producto 3", 40.0, 6),
-            ProductoCarrito("Producto 4", 50.0, 9),
+            ProductoCarrito("Producto 43", 50.0, 9),
+            ProductoCarrito("Producto 13", 20.0, 2),
+            ProductoCarrito("Producto 32", 30.0, 4),
+            ProductoCarrito("Producto 33", 40.0, 6),
+            ProductoCarrito("Producto 43", 50.0, 9),
+            ProductoCarrito("Producto 12", 20.0, 2),
+            ProductoCarrito("Producto 21", 30.0, 4),
+            ProductoCarrito("Producto 31", 40.0, 6),
+            ProductoCarrito("Producto 45", 50.0, 9),
         )
     }
 

@@ -8,9 +8,8 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewListado"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:listitem="@layout/activity_listado_producto_individual"
-        />
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/activity_listado_producto_individual" />
 
 
 </FrameLayout>
