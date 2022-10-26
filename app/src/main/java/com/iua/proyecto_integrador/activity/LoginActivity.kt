@@ -16,12 +16,14 @@ class LoginActivity  : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
+        binding.forgotPass.setOnClickListener {
+            val intent = Intent(this, OlvidoContraseniaActivity::class.java)
+            startActivity(intent)
+        }
 
         binding.createAccount.setOnClickListener{
-
             val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
-
         }
 
         binding.loginButton.setOnClickListener {
