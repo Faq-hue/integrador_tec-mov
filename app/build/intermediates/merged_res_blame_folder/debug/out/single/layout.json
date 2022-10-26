@@ -1,5 +1,9 @@
 [
     {
+        "merged": "com.iua.proyecto_integrador.app-mergeDebugResources-44:/layout/activity_login.xml",
+        "source": "com.iua.proyecto_integrador.app-main-47:/layout/activity_login.xml"
+    },
+    {
         "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-mergeDebugResources-44:\\layout\\fragment_pedido_realizado.xml",
         "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\fragment_pedido_realizado.xml"
     },
@@ -20,12 +24,12 @@
         "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_cambiar_contrasenia.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-mergeDebugResources-44:\\layout\\activity_main_frag.xml",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_main_frag.xml"
+        "merged": "com.iua.proyecto_integrador.app-mergeDebugResources-44:/layout/activity_splash.xml",
+        "source": "com.iua.proyecto_integrador.app-main-47:/layout/activity_splash.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-mergeDebugResources-44:/layout/activity_main_frag.xml",
-        "source": "com.iua.proyecto_integrador.app-main-47:/layout/activity_main_frag.xml"
+        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-mergeDebugResources-44:\\layout\\activity_main_frag.xml",
+        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_main_frag.xml"
     },
     {
         "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-mergeDebugResources-44:\\layout\\fragment_listado.xml",

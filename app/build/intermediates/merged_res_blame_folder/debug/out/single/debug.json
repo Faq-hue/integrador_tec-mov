@@ -88,16 +88,16 @@
         "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-45:/layout_activity_main_frag.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-47:/layout/activity_main_frag.xml"
-    },
-    {
         "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.iua.proyecto_integrador.app-merged_res-45:/layout_activity_login.xml.flat",
+        "source": "com.iua.proyecto_integrador.app-main-47:/layout/activity_login.xml"
     },
     {
         "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\drawable_login.png.flat",
@@ -154,6 +154,10 @@
     {
         "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.iua.proyecto_integrador.app-merged_res-45:/layout_activity_splash.xml.flat",
+        "source": "com.iua.proyecto_integrador.app-main-47:/layout/activity_splash.xml"
     },
     {
         "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",

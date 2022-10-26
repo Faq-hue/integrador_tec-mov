@@ -22,11 +22,29 @@
         android:testOnly="true"
         android:theme="@style/Theme.Proyecto_integrador" >
         <activity
+            android:name="com.iua.proyecto_integrador.activity.SplashActivity"
+            android:exported="true"
+            android:theme="@style/SplashScreen" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name="com.iua.proyecto_integrador.activity.HistorialActivity"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
+        </activity>
+        <activity
+            android:name="com.iua.proyecto_integrador.MainActivity"
+            android:exported="true" >
         </activity>
         <activity
             android:name="com.iua.proyecto_integrador.activity.ProductoCarritoActivity"
@@ -50,12 +68,7 @@
             android:exported="false" />
         <activity
             android:name="com.iua.proyecto_integrador.activity.LoginActivity"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:exported="false" >
         </activity>
         <activity
             android:name="com.iua.proyecto_integrador.activity.PerfilSettingsActivity"

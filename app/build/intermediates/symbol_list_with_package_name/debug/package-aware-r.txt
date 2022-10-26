@@ -2964,7 +2964,6 @@ id position
 id postLayout
 id precio
 id precioCarrito
-id progressBar
 id progress_circular
 id progress_horizontal
 id quantity
@@ -3230,7 +3229,7 @@ layout activity_perfil
 layout activity_perfil_settings
 layout activity_producto_carrito
 layout activity_registro_usuario
-layout activity_splash_incial
+layout activity_splash
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3833,6 +3832,7 @@ style ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year
 style ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox
 style ShapeAppearanceOverlay_TopLeftCut
 style ShapeAppearanceOverlay_TopRightDifferentCornerSize
+style SplashScreen
 style Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day
 style Test_Theme_MaterialComponents_MaterialCalendar
 style Test_Widget_MaterialComponents_MaterialCalendar

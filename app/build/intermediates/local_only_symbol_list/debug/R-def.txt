@@ -70,7 +70,6 @@ id pedidoRealizadoFragment
 id perfilButton
 id precio
 id precioCarrito
-id progressBar
 id quantity
 id quantityBuyCarrito
 id recyclerViewCarrito
@@ -94,7 +93,7 @@ layout activity_perfil
 layout activity_perfil_settings
 layout activity_producto_carrito
 layout activity_registro_usuario
-layout activity_splash_incial
+layout activity_splash
 layout fragment_carrito
 layout fragment_detalle_producto
 layout fragment_listado
@@ -109,6 +108,7 @@ string precio
 string producto
 string quantity
 string userName
+style SplashScreen
 style Theme.Proyecto_integrador
 xml backup_rules
 xml data_extraction_rules
