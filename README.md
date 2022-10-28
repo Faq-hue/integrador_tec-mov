@@ -9,5 +9,5 @@ Trabajo integrador de la materia Tecnologias Moviles, es una aplicación de comp
 
 [YouTube](https://www.youtube.com/watch?v=3G7mZB6P3pg)
 
-[Trello](![image](https://user-images.githubusercontent.com/69550808/198421032-68cadca5-9231-43d9-8569-ea4772f2cb6d.png)
+![Trello](https://user-images.githubusercontent.com/69550808/198421032-68cadca5-9231-43d9-8569-ea4772f2cb6d.png)
 
