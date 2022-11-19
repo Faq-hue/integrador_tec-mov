@@ -60,10 +60,6 @@
         "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-45:/layout_activity_olvido_contrasenia.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-47:/layout/activity_olvido_contrasenia.xml"
-    },
-    {
         "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\navigation_navigation_fragments.xml.flat",
         "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\navigation\\navigation_fragments.xml"
     },
@@ -92,8 +88,12 @@
         "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-45:/layout_activity_main_frag.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-47:/layout/activity_main_frag.xml"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-45:/layout_activity_registro_usuario.xml.flat",
+        "source": "com.iua.proyecto_integrador.app-main-47:/layout/activity_registro_usuario.xml"
+    },
+    {
+        "merged": "com.iua.proyecto_integrador.app-merged_res-45:/layout_activity_perfil.xml.flat",
+        "source": "com.iua.proyecto_integrador.app-main-47:/layout/activity_perfil.xml"
     },
     {
         "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\mipmap-hdpi_ic_launcher.webp.flat",
@@ -124,12 +124,12 @@
         "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_splash.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-45:/layout_activity_historial.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-47:/layout/activity_historial.xml"
-    },
-    {
         "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\drawable_person.png.flat",
         "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\drawable\\person.png"
+    },
+    {
+        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\layout_activity_olvido_contrasenia.xml.flat",
+        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_olvido_contrasenia.xml"
     },
     {
         "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\mipmap-xhdpi_ic_launcher.webp.flat",
@@ -138,6 +138,10 @@
     {
         "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\drawable_pass.png.flat",
         "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\drawable\\pass.png"
+    },
+    {
+        "merged": "com.iua.proyecto_integrador.app-merged_res-45:/layout_activity_listado_producto_individual.xml.flat",
+        "source": "com.iua.proyecto_integrador.app-main-47:/layout/activity_listado_producto_individual.xml"
     },
     {
         "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\layout_activity_perfil_settings.xml.flat",

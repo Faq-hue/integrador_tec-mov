@@ -21,11 +21,6 @@ class PerfilActivity : AppCompatActivity() {
             startActivity(intent)
 
         }
-/*
-        binding.backButton.setOnClickListener {
-            val intent = Intent(this, ListadoFragment::class.java)
-            startActivity(intent)
-        }*/
 
         binding.backButton.setOnClickListener {
             val intent = Intent(this, MainFragActivity::class.java)

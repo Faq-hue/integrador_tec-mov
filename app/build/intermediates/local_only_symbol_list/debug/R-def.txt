@@ -48,7 +48,6 @@ id email
 id forgotPass
 id fragmentContainerView2
 id guideline2
-id guideline3
 id guideline4
 id imageView
 id imageView10
