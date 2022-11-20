@@ -104,6 +104,7 @@ layout fragment_pedido_realizado
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation navigation_fragments
+string api_key
 string app_name
 string email
 string hello_blank_fragment
