@@ -18,7 +18,7 @@
 
 
         <ImageView
-            android:id="@+id/imageView8"
+            android:id="@+id/imagenProductoIndividual"
             android:layout_width="160dp"
             android:layout_height="56dp"
             android:layout_weight="1"

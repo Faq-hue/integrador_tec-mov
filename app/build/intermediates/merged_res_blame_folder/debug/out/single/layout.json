@@ -1,86 +1,62 @@
 [
     {
-        "merged": "com.iua.proyecto_integrador.app-mergeDebugResources-44:/layout/activity_login.xml",
-        "source": "com.iua.proyecto_integrador.app-main-47:/layout/activity_login.xml"
+        "merged": "com.iua.proyecto_integrador.app-mergeDebugResources-45:/layout/activity_main_frag.xml",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/activity_main_frag.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-mergeDebugResources-44:/layout/activity_registro_usuario.xml",
-        "source": "com.iua.proyecto_integrador.app-main-47:/layout/activity_registro_usuario.xml"
+        "merged": "com.iua.proyecto_integrador.app-mergeDebugResources-45:/layout/fragment_carrito.xml",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/fragment_carrito.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-mergeDebugResources-44:\\layout\\fragment_pedido_realizado.xml",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\fragment_pedido_realizado.xml"
+        "merged": "com.iua.proyecto_integrador.app-mergeDebugResources-45:/layout/activity_registro_usuario.xml",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/activity_registro_usuario.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-mergeDebugResources-44:\\layout\\activity_historial.xml",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_historial.xml"
+        "merged": "com.iua.proyecto_integrador.app-mergeDebugResources-45:/layout/activity_cambiar_contrasenia.xml",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/activity_cambiar_contrasenia.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-mergeDebugResources-44:\\layout\\activity_registro_usuario.xml",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_registro_usuario.xml"
+        "merged": "com.iua.proyecto_integrador.app-mergeDebugResources-45:/layout/activity_producto_carrito.xml",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/activity_producto_carrito.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-mergeDebugResources-44:\\layout\\activity_pedido_realizado.xml",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_pedido_realizado.xml"
+        "merged": "com.iua.proyecto_integrador.app-mergeDebugResources-45:/layout/activity_historial.xml",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/activity_historial.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-mergeDebugResources-44:\\layout\\activity_cambiar_contrasenia.xml",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_cambiar_contrasenia.xml"
+        "merged": "com.iua.proyecto_integrador.app-mergeDebugResources-45:/layout/fragment_pedido_realizado.xml",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/fragment_pedido_realizado.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-mergeDebugResources-44:\\layout\\activity_splash.xml",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_splash.xml"
+        "merged": "com.iua.proyecto_integrador.app-mergeDebugResources-45:/layout/fragment_listado.xml",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/fragment_listado.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-mergeDebugResources-44:\\layout\\activity_main_frag.xml",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_main_frag.xml"
+        "merged": "com.iua.proyecto_integrador.app-mergeDebugResources-45:/layout/activity_login.xml",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-mergeDebugResources-44:\\layout\\activity_olvido_contrasenia.xml",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_olvido_contrasenia.xml"
+        "merged": "com.iua.proyecto_integrador.app-mergeDebugResources-45:/layout/activity_perfil_settings.xml",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/activity_perfil_settings.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-mergeDebugResources-44:\\layout\\fragment_listado.xml",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\fragment_listado.xml"
+        "merged": "com.iua.proyecto_integrador.app-mergeDebugResources-45:/layout/activity_perfil.xml",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/activity_perfil.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-mergeDebugResources-44:\\layout\\activity_perfil_settings.xml",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_perfil_settings.xml"
+        "merged": "com.iua.proyecto_integrador.app-mergeDebugResources-45:/layout/fragment_detalle_producto.xml",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/fragment_detalle_producto.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-mergeDebugResources-44:\\layout\\fragment_carrito.xml",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\fragment_carrito.xml"
+        "merged": "com.iua.proyecto_integrador.app-mergeDebugResources-45:/layout/activity_splash.xml",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/activity_splash.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-mergeDebugResources-44:/layout/activity_perfil.xml",
-        "source": "com.iua.proyecto_integrador.app-main-47:/layout/activity_perfil.xml"
+        "merged": "com.iua.proyecto_integrador.app-mergeDebugResources-45:/layout/activity_olvido_contrasenia.xml",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/activity_olvido_contrasenia.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-mergeDebugResources-44:\\layout\\activity_producto_carrito.xml",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_producto_carrito.xml"
-    },
-    {
-        "merged": "com.iua.proyecto_integrador.app-mergeDebugResources-44:/layout/activity_listado_producto_individual.xml",
-        "source": "com.iua.proyecto_integrador.app-main-47:/layout/activity_listado_producto_individual.xml"
-    },
-    {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-mergeDebugResources-44:\\layout\\activity_perfil.xml",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_perfil.xml"
-    },
-    {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-mergeDebugResources-44:\\layout\\activity_splash_incial.xml",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_splash_incial.xml"
-    },
-    {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-mergeDebugResources-44:\\layout\\fragment_detalle_producto.xml",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\fragment_detalle_producto.xml"
-    },
-    {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-mergeDebugResources-44:\\layout\\activity_login.xml",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_login.xml"
-    },
-    {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-mergeDebugResources-44:\\layout\\activity_listado_producto_individual.xml",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_listado_producto_individual.xml"
+        "merged": "com.iua.proyecto_integrador.app-mergeDebugResources-45:/layout/activity_listado_producto_individual.xml",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/activity_listado_producto_individual.xml"
     }
 ]

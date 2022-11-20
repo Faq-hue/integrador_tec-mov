@@ -1,190 +1,166 @@
 [
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\layout_fragment_detalle_producto.xml.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\fragment_detalle_producto.xml"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/layout_activity_perfil.xml.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/activity_perfil.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\drawable_logo.png.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\drawable\\logo.png"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/drawable_login.png.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/drawable/login.png"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\drawable_ic_baseline_person_24.xml.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\drawable\\ic_baseline_person_24.xml"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/drawable_person.png.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/drawable/person.png"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\layout_activity_listado_producto_individual.xml.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_listado_producto_individual.xml"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/layout_activity_perfil_settings.xml.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/activity_perfil_settings.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/layout_activity_registro_usuario.xml.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/activity_registro_usuario.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\drawable_register.png.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\drawable\\register.png"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\layout_fragment_pedido_realizado.xml.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\fragment_pedido_realizado.xml"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/layout_fragment_listado.xml.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/fragment_listado.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\layout_activity_pedido_realizado.xml.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_pedido_realizado.xml"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/drawable_register.png.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/drawable/register.png"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\layout_activity_perfil.xml.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_perfil.xml"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/drawable_buy.png.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/drawable/buy.png"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\drawable_arrow.png.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\drawable\\arrow.png"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/layout_activity_producto_carrito.xml.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/activity_producto_carrito.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\layout_fragment_listado.xml.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\fragment_listado.xml"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/layout_activity_main_frag.xml.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/activity_main_frag.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_login.xml"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/xml_data_extraction_rules.xml.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/layout_fragment_detalle_producto.xml.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/fragment_detalle_producto.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\navigation_navigation_fragments.xml.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\navigation\\navigation_fragments.xml"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\layout_activity_cambiar_contrasenia.xml.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_cambiar_contrasenia.xml"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/layout_fragment_pedido_realizado.xml.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/fragment_pedido_realizado.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\layout_activity_producto_carrito.xml.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_producto_carrito.xml"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\drawable_buy.png.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\drawable\\buy.png"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-pngs-40:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/layout_activity_olvido_contrasenia.xml.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/activity_olvido_contrasenia.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\layout_activity_registro_usuario.xml.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_registro_usuario.xml"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/layout_activity_historial.xml.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/activity_historial.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-45:/layout_activity_registro_usuario.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-47:/layout/activity_registro_usuario.xml"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/layout_activity_splash.xml.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/activity_splash.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-45:/layout_activity_perfil.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-47:/layout/activity_perfil.xml"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/layout_activity_listado_producto_individual.xml.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/activity_listado_producto_individual.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/navigation_navigation_fragments.xml.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/navigation/navigation_fragments.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-45:/layout_activity_login.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-47:/layout/activity_login.xml"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/drawable_logo.png.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/drawable/logo.png"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\drawable_login.png.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\drawable\\login.png"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/layout_activity_login.xml.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\layout_fragment_carrito.xml.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\fragment_carrito.xml"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/xml_backup_rules.xml.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\layout_activity_main_frag.xml.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_main_frag.xml"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/drawable_arrow.png.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/drawable/arrow.png"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\layout_activity_splash.xml.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_splash.xml"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\drawable_person.png.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\drawable\\person.png"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/layout_fragment_carrito.xml.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/fragment_carrito.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\layout_activity_olvido_contrasenia.xml.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_olvido_contrasenia.xml"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.iua.proyecto_integrador.app-pngs-41:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\drawable_pass.png.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\drawable\\pass.png"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-45:/layout_activity_listado_producto_individual.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-47:/layout/activity_listado_producto_individual.xml"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\layout_activity_perfil_settings.xml.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_perfil_settings.xml"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/drawable_producto.webp.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/drawable/producto.webp"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/drawable_ic_baseline_person_24.xml.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/drawable/ic_baseline_person_24.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\layout_activity_splash_incial.xml.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_splash_incial.xml"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/drawable_pass.png.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/drawable/pass.png"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\drawable_producto.webp.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\drawable\\producto.webp"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\xml\\backup_rules.xml"
-    },
-    {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\drawable\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\layout_activity_historial.xml.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\layout\\activity_historial.xml"
-    },
-    {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\mipmap-xxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\xml\\data_extraction_rules.xml"
-    },
-    {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-45:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-47:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/layout_activity_cambiar_contrasenia.xml.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/activity_cambiar_contrasenia.xml"
     }
 ]

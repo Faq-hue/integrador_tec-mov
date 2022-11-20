@@ -1,6 +1,5 @@
 package com.iua.proyecto_integrador.fragment
 
-import android.bluetooth.BluetoothAdapter.ERROR
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -15,6 +14,7 @@ import com.iua.proyecto_integrador.adapter.ProductoAdapter
 import com.iua.proyecto_integrador.adapter.RecyclerViewOnClickListener
 import com.iua.proyecto_integrador.model.Producto
 import com.iua.proyecto_integrador.model.ProductoClient
+import com.iua.proyecto_integrador.model.ProductoListado
 import kotlin.concurrent.thread
 
 class ListadoFragment : Fragment(), RecyclerViewOnClickListener {
@@ -46,20 +46,20 @@ class ListadoFragment : Fragment(), RecyclerViewOnClickListener {
 
                 if (body !=  null){
 
-                    Log.d("Debuj","PASA ALGOOOOOOOOOOOOOOOOOOOOOOOOOOO")
                     productosArray = body
+
+                    val layoutManager = LinearLayoutManager(context)
+                    recyclerView = view.findViewById(R.id.recyclerViewListado)
+                    recyclerView.layoutManager = layoutManager
+                    recyclerView.setHasFixedSize(true)
+                    adapter = ProductoAdapter(productosArray, this)
+                    recyclerView.adapter = adapter
                 }
             }
         }
 
-        val layoutManager = LinearLayoutManager(context)
-        recyclerView = view.findViewById(R.id.recyclerViewListado)
-        recyclerView.layoutManager = layoutManager
-        recyclerView.setHasFixedSize(true)
-        adapter = ProductoAdapter(productosArray, this)
-        recyclerView.adapter = adapter
-
     }
+
 
     private fun dataInitialize() {
         productosArray = arrayListOf()

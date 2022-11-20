@@ -11,6 +11,7 @@ MERGED from [com.google.android.material:material:1.6.1] C:\Users\facun\.gradle\
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\facun\.gradle\caches\transforms-3\b767dad15c535e9fb21b84fb10b8766f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\facun\.gradle\caches\transforms-3\99d53bfdd748ee40b332d3bdd10f2416\transformed\appcompat-resources-1.5.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.5.1] C:\Users\facun\.gradle\caches\transforms-3\68ee75195f0df5ad8d472ec660be41c8\transformed\appcompat-1.5.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\facun\.gradle\caches\transforms-3\1af8c5b9eaf8f9425b61ef70031e7126\transformed\glide-4.11.0\AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\facun\.gradle\caches\transforms-3\2c123ef870a0ced663f0b95801c263d3\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.5.3] C:\Users\facun\.gradle\caches\transforms-3\c7077b0de9a2e1e6a8a0a170b1c84b8a\transformed\navigation-fragment-ktx-2.5.3\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-fragment:2.5.3] C:\Users\facun\.gradle\caches\transforms-3\1d8c2a3bc8923ecb948a3284b6b4ba28\transformed\navigation-fragment-2.5.3\AndroidManifest.xml:17:1-24:12
@@ -49,6 +50,8 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\facun\.gradle\
 MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] C:\Users\facun\.gradle\caches\transforms-3\4cc8a968e1b067cfd89f91a49bdbc86f\transformed\savedstate-ktx-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\facun\.gradle\caches\transforms-3\180614d0086dcc563b9fa688954c856d\transformed\savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\facun\.gradle\caches\transforms-3\6a7043a1ea02e267aacd751d3a4a761c\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\facun\.gradle\caches\transforms-3\58582030be447dc85bdc2e31f4dd8e88\transformed\gifdecoder-4.11.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\facun\.gradle\caches\transforms-3\5a63bbea8f5f3029f6beebc37d46042e\transformed\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\facun\.gradle\caches\transforms-3\637254c3d2a156e838808a54cebac2f0\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\facun\.gradle\caches\transforms-3\c1b6e674c901a86b1b75ef9d7430c863\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\facun\.gradle\caches\transforms-3\408356092f4a4d1a4e27173b1b9b3ab1\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -94,6 +97,8 @@ MERGED from [com.google.android.material:material:1.6.1] C:\Users\facun\.gradle\
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\facun\.gradle\caches\transforms-3\4a53207dcabe7f0975fb5d95a8744ca1\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\facun\.gradle\caches\transforms-3\b767dad15c535e9fb21b84fb10b8766f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\facun\.gradle\caches\transforms-3\b767dad15c535e9fb21b84fb10b8766f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\facun\.gradle\caches\transforms-3\1af8c5b9eaf8f9425b61ef70031e7126\transformed\glide-4.11.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\facun\.gradle\caches\transforms-3\1af8c5b9eaf8f9425b61ef70031e7126\transformed\glide-4.11.0\AndroidManifest.xml:10:5-20
 MERGED from [androidx.window:window:1.0.0] C:\Users\facun\.gradle\caches\transforms-3\3c65846e402a3018f0157401bd77d39f\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0] C:\Users\facun\.gradle\caches\transforms-3\3c65846e402a3018f0157401bd77d39f\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\facun\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
@@ -102,6 +107,8 @@ MERGED from [androidx.core:core:1.8.0] C:\Users\facun\.gradle\caches\transforms-
 MERGED from [androidx.core:core:1.8.0] C:\Users\facun\.gradle\caches\transforms-3\cbd2cea7a41c8b4414f86c37a63fa3c1\transformed\core-1.8.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\facun\.gradle\caches\transforms-3\025ed7849c6f43c10d9a6c1cd4d240b1\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\facun\.gradle\caches\transforms-3\025ed7849c6f43c10d9a6c1cd4d240b1\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\facun\.gradle\caches\transforms-3\58582030be447dc85bdc2e31f4dd8e88\transformed\gifdecoder-4.11.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\facun\.gradle\caches\transforms-3\58582030be447dc85bdc2e31f4dd8e88\transformed\gifdecoder-4.11.0\AndroidManifest.xml:9:5-20
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\facun\.gradle\caches\transforms-3\637254c3d2a156e838808a54cebac2f0\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\facun\.gradle\caches\transforms-3\637254c3d2a156e838808a54cebac2f0\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\facun\.gradle\caches\transforms-3\c1b6e674c901a86b1b75ef9d7430c863\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
@@ -234,6 +241,8 @@ MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\facun\.gradl
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\facun\.gradle\caches\transforms-3\99d53bfdd748ee40b332d3bdd10f2416\transformed\appcompat-resources-1.5.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.5.1] C:\Users\facun\.gradle\caches\transforms-3\68ee75195f0df5ad8d472ec660be41c8\transformed\appcompat-1.5.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.5.1] C:\Users\facun\.gradle\caches\transforms-3\68ee75195f0df5ad8d472ec660be41c8\transformed\appcompat-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\facun\.gradle\caches\transforms-3\1af8c5b9eaf8f9425b61ef70031e7126\transformed\glide-4.11.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\facun\.gradle\caches\transforms-3\1af8c5b9eaf8f9425b61ef70031e7126\transformed\glide-4.11.0\AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\facun\.gradle\caches\transforms-3\2c123ef870a0ced663f0b95801c263d3\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\facun\.gradle\caches\transforms-3\2c123ef870a0ced663f0b95801c263d3\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.5.3] C:\Users\facun\.gradle\caches\transforms-3\c7077b0de9a2e1e6a8a0a170b1c84b8a\transformed\navigation-fragment-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
@@ -310,6 +319,10 @@ MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\facun\.gradle\caches
 MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\facun\.gradle\caches\transforms-3\180614d0086dcc563b9fa688954c856d\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\facun\.gradle\caches\transforms-3\6a7043a1ea02e267aacd751d3a4a761c\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\facun\.gradle\caches\transforms-3\6a7043a1ea02e267aacd751d3a4a761c\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\facun\.gradle\caches\transforms-3\58582030be447dc85bdc2e31f4dd8e88\transformed\gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\facun\.gradle\caches\transforms-3\58582030be447dc85bdc2e31f4dd8e88\transformed\gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\facun\.gradle\caches\transforms-3\5a63bbea8f5f3029f6beebc37d46042e\transformed\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\facun\.gradle\caches\transforms-3\5a63bbea8f5f3029f6beebc37d46042e\transformed\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\facun\.gradle\caches\transforms-3\637254c3d2a156e838808a54cebac2f0\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\facun\.gradle\caches\transforms-3\637254c3d2a156e838808a54cebac2f0\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\facun\.gradle\caches\transforms-3\c1b6e674c901a86b1b75ef9d7430c863\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
