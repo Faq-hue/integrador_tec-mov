@@ -28,7 +28,7 @@ public final class ActivityRegistroUsuarioBinding implements ViewBinding {
   public final ImageButton backButton;
 
   @NonNull
-  public final EditText email;
+  public final EditText emailET;
 
   @NonNull
   public final Guideline guideline2;
@@ -37,7 +37,7 @@ public final class ActivityRegistroUsuarioBinding implements ViewBinding {
   public final ImageView imageView3;
 
   @NonNull
-  public final EditText password;
+  public final EditText passwordET;
 
   @NonNull
   public final Button register;
@@ -52,15 +52,15 @@ public final class ActivityRegistroUsuarioBinding implements ViewBinding {
   public final EditText userName;
 
   private ActivityRegistroUsuarioBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageButton backButton, @NonNull EditText email, @NonNull Guideline guideline2,
-      @NonNull ImageView imageView3, @NonNull EditText password, @NonNull Button register,
+      @NonNull ImageButton backButton, @NonNull EditText emailET, @NonNull Guideline guideline2,
+      @NonNull ImageView imageView3, @NonNull EditText passwordET, @NonNull Button register,
       @NonNull EditText repeatPassword, @NonNull Toolbar toolbar, @NonNull EditText userName) {
     this.rootView = rootView;
     this.backButton = backButton;
-    this.email = email;
+    this.emailET = emailET;
     this.guideline2 = guideline2;
     this.imageView3 = imageView3;
-    this.password = password;
+    this.passwordET = passwordET;
     this.register = register;
     this.repeatPassword = repeatPassword;
     this.toolbar = toolbar;
@@ -100,9 +100,9 @@ public final class ActivityRegistroUsuarioBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.email;
-      EditText email = ViewBindings.findChildViewById(rootView, id);
-      if (email == null) {
+      id = R.id.emailET;
+      EditText emailET = ViewBindings.findChildViewById(rootView, id);
+      if (emailET == null) {
         break missingId;
       }
 
@@ -118,9 +118,9 @@ public final class ActivityRegistroUsuarioBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.password;
-      EditText password = ViewBindings.findChildViewById(rootView, id);
-      if (password == null) {
+      id = R.id.passwordET;
+      EditText passwordET = ViewBindings.findChildViewById(rootView, id);
+      if (passwordET == null) {
         break missingId;
       }
 
@@ -148,8 +148,8 @@ public final class ActivityRegistroUsuarioBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityRegistroUsuarioBinding((ConstraintLayout) rootView, backButton, email,
-          guideline2, imageView3, password, register, repeatPassword, toolbar, userName);
+      return new ActivityRegistroUsuarioBinding((ConstraintLayout) rootView, backButton, emailET,
+          guideline2, imageView3, passwordET, register, repeatPassword, toolbar, userName);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

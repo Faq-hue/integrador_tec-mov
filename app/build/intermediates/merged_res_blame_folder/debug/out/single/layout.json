@@ -4,6 +4,10 @@
         "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-48:\\layout\\activity_olvido_contrasenia.xml"
     },
     {
+        "merged": "com.iua.proyecto_integrador.app-mergeDebugResources-45:/layout/activity_registro_usuario.xml",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/activity_registro_usuario.xml"
+    },
+    {
         "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-mergeDebugResources-45:\\layout\\activity_perfil.xml",
         "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-48:\\layout\\activity_perfil.xml"
     },
@@ -36,6 +40,10 @@
         "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-48:\\layout\\activity_cambiar_contrasenia.xml"
     },
     {
+        "merged": "com.iua.proyecto_integrador.app-mergeDebugResources-45:/layout/activity_login.xml",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/activity_login.xml"
+    },
+    {
         "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-mergeDebugResources-45:\\layout\\activity_main_frag.xml",
         "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-48:\\layout\\activity_main_frag.xml"
     },
@@ -54,10 +62,6 @@
     {
         "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-mergeDebugResources-45:\\layout\\fragment_listado.xml",
         "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-48:\\layout\\fragment_listado.xml"
-    },
-    {
-        "merged": "com.iua.proyecto_integrador.app-mergeDebugResources-45:/layout/fragment_detalle_producto.xml",
-        "source": "com.iua.proyecto_integrador.app-main-48:/layout/fragment_detalle_producto.xml"
     },
     {
         "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-mergeDebugResources-45:\\layout\\fragment_detalle_producto.xml",

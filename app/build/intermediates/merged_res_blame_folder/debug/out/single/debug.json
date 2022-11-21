@@ -40,6 +40,10 @@
         "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-48:\\navigation\\navigation_fragments.xml"
     },
     {
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/layout_activity_registro_usuario.xml.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/activity_registro_usuario.xml"
+    },
+    {
         "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-46:\\drawable_logo.png.flat",
         "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-48:\\drawable\\logo.png"
     },
@@ -54,10 +58,6 @@
     {
         "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-46:\\layout_activity_listado_producto_individual.xml.flat",
         "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-48:\\layout\\activity_listado_producto_individual.xml"
-    },
-    {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/layout_fragment_detalle_producto.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-48:/layout/fragment_detalle_producto.xml"
     },
     {
         "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-46:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -114,6 +114,10 @@
     {
         "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-46:\\layout_activity_cambiar_contrasenia.xml.flat",
         "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-48:\\layout\\activity_cambiar_contrasenia.xml"
+    },
+    {
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/layout_activity_login.xml.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/activity_login.xml"
     },
     {
         "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-merged_res-46:\\xml_data_extraction_rules.xml.flat",

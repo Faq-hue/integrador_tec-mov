@@ -2,8 +2,11 @@ package com.iua.proyecto_integrador.activity
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.iua.proyecto_integrador.databinding.ActivityLoginBinding
+import com.iua.proyecto_integrador.preferences.Preferences
+import com.iua.proyecto_integrador.proyecto_integradorAplication.Companion.prefs
 
 class LoginActivity  : AppCompatActivity() {
 
@@ -26,9 +29,17 @@ class LoginActivity  : AppCompatActivity() {
             startActivity(intent)
         }
 
+
         binding.loginButton.setOnClickListener {
-            val intent = Intent(this, MainFragActivity::class.java)
-            startActivity(intent)
+            if(binding.emailAddressET.toString().isNotEmpty() && binding.passwordET.toString().isNotEmpty()){
+
+                if (prefs.getPassword().equals(binding.passwordET.toString()) && prefs.getEmail().equals(binding.emailAddressET.toString())){
+                    val intent = Intent(this, MainFragActivity::class.java)
+                    startActivity(intent)
+                }else{
+                    Toast.makeText(this, "Contraseña o email incorrectos", Toast.LENGTH_SHORT).show()
+                }
+            }
         }
     }
 }

@@ -2771,13 +2771,14 @@ id easeInOut
 id easeOut
 id east
 id editTextTextEmailAddress
-id editTextTextPassword
 id editUserButton
 id edit_query
 id edittext_dropdown_editable
 id edittext_dropdown_noneditable
 id elastic
 id email
+id emailAddressET
+id emailET
 id end
 id endToStart
 id enterAlways
@@ -2954,6 +2955,7 @@ id parentPanel
 id parentRelative
 id parent_matrix
 id password
+id passwordET
 id password_toggle
 id path
 id pathRelative

@@ -44,9 +44,10 @@ id descripcionDetalleProducto
 id detalleProductoFragment
 id disponible
 id editTextTextEmailAddress
-id editTextTextPassword
 id editUserButton
 id email
+id emailAddressET
+id emailET
 id forgotPass
 id fragmentContainerView2
 id guideline2
@@ -67,6 +68,7 @@ id newPassword
 id nombreProductoCarrito
 id nombreProductoListaIndividual
 id password
+id passwordET
 id pedidoRealizadoFragment
 id perfilButton
 id precio

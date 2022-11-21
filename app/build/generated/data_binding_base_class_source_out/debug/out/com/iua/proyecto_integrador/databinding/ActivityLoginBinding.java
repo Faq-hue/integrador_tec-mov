@@ -31,10 +31,7 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final TextView createAccount;
 
   @NonNull
-  public final EditText editTextTextEmailAddress;
-
-  @NonNull
-  public final EditText editTextTextPassword;
+  public final EditText emailAddressET;
 
   @NonNull
   public final TextView forgotPass;
@@ -46,20 +43,23 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final Button loginButton;
 
   @NonNull
+  public final EditText passwordET;
+
+  @NonNull
   public final Toolbar toolbar;
 
   private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull ImageButton backButton,
-      @NonNull TextView createAccount, @NonNull EditText editTextTextEmailAddress,
-      @NonNull EditText editTextTextPassword, @NonNull TextView forgotPass,
-      @NonNull ImageView imageView2, @NonNull Button loginButton, @NonNull Toolbar toolbar) {
+      @NonNull TextView createAccount, @NonNull EditText emailAddressET,
+      @NonNull TextView forgotPass, @NonNull ImageView imageView2, @NonNull Button loginButton,
+      @NonNull EditText passwordET, @NonNull Toolbar toolbar) {
     this.rootView = rootView;
     this.backButton = backButton;
     this.createAccount = createAccount;
-    this.editTextTextEmailAddress = editTextTextEmailAddress;
-    this.editTextTextPassword = editTextTextPassword;
+    this.emailAddressET = emailAddressET;
     this.forgotPass = forgotPass;
     this.imageView2 = imageView2;
     this.loginButton = loginButton;
+    this.passwordET = passwordET;
     this.toolbar = toolbar;
   }
 
@@ -102,15 +102,9 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.editTextTextEmailAddress;
-      EditText editTextTextEmailAddress = ViewBindings.findChildViewById(rootView, id);
-      if (editTextTextEmailAddress == null) {
-        break missingId;
-      }
-
-      id = R.id.editTextTextPassword;
-      EditText editTextTextPassword = ViewBindings.findChildViewById(rootView, id);
-      if (editTextTextPassword == null) {
+      id = R.id.emailAddressET;
+      EditText emailAddressET = ViewBindings.findChildViewById(rootView, id);
+      if (emailAddressET == null) {
         break missingId;
       }
 
@@ -132,6 +126,12 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.passwordET;
+      EditText passwordET = ViewBindings.findChildViewById(rootView, id);
+      if (passwordET == null) {
+        break missingId;
+      }
+
       id = R.id.toolbar;
       Toolbar toolbar = ViewBindings.findChildViewById(rootView, id);
       if (toolbar == null) {
@@ -139,8 +139,7 @@ public final class ActivityLoginBinding implements ViewBinding {
       }
 
       return new ActivityLoginBinding((ConstraintLayout) rootView, backButton, createAccount,
-          editTextTextEmailAddress, editTextTextPassword, forgotPass, imageView2, loginButton,
-          toolbar);
+          emailAddressET, forgotPass, imageView2, loginButton, passwordET, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

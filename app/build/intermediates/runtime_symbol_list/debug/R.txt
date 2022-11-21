@@ -2770,13 +2770,14 @@ int id easeInOut 0x7f0800c2
 int id easeOut 0x7f0800c3
 int id east 0x7f0800c4
 int id editTextTextEmailAddress 0x7f0800c5
-int id editTextTextPassword 0x7f0800c6
 int id editUserButton 0x7f0800c7
 int id edit_query 0x7f0800c8
 int id edittext_dropdown_editable 0x7f0800c9
 int id edittext_dropdown_noneditable 0x7f0800ca
 int id elastic 0x7f0800cb
 int id email 0x7f0800cc
+int id emailAddressET 0x7f080234
+int id emailET 0x7f080235
 int id end 0x7f0800cd
 int id endToStart 0x7f0800ce
 int id enterAlways 0x7f0800cf
@@ -2953,6 +2954,7 @@ int id parentPanel 0x7f08017b
 int id parentRelative 0x7f08017c
 int id parent_matrix 0x7f08017d
 int id password 0x7f08017e
+int id passwordET 0x7f080236
 int id password_toggle 0x7f08017f
 int id path 0x7f080180
 int id pathRelative 0x7f080181
