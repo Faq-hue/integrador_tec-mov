@@ -13,7 +13,7 @@
     <string name="api_key">a24fbc26-a37a-45ad-8f99-ab5f1c5beabf</string>
     <string name="app_name">proyecto_integrador</string>
     <string name="email">samplemail@mail.com</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus dui eros, in suscipit nibh pharetra blandit. Vestibulum mi arcu, molestie nec feugiat quis, gravida at lectus.</string>
     <string name="precio">$0</string>
     <string name="producto">Producto</string>
     <string name="quantity">Quantity: 0</string>

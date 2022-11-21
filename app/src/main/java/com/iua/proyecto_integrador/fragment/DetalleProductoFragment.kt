@@ -44,27 +44,29 @@ class DetalleProductoFragment : Fragment() {
         producto = arguments?.getString("producto")
 
 
-        val parser = JsonParser()
-
-        val productoJson = parser.parse(producto).asJsonObject
+        val productoLista = producto?.split("_") as ArrayList<String>
 
 
-        Log.d("Json de mierda", productoJson.toString())
-
-        if (productoJson != null) {
-
-            var tv = view.findViewById<TextView>(R.id.nombreProductoListaIndividual)
-
-            tv.text = productoJson.get("nombre").toString()
-
-            tv = view.findViewById(R.id.precio)
-
-            tv.text = productoJson.get("precio").toString()
 
 
-            Glide.with(view).load(productoJson.get("imagen").toString()).into(view.findViewById(R.id.imagenProductoIndividual))
+        view.findViewById<TextView>(R.id.nombreProductoListaIndividual).text = productoLista[0]
 
+        view.findViewById<TextView>(R.id.precio).text = "$"+ productoLista[1]
+
+        if (productoLista[2] ==  "true"){
+
+            view.findViewById<TextView>(R.id.disponible).text = "Disponible"
+        }else{
+            view.findViewById<TextView>(R.id.disponible).text = "Sin existencias"
         }
+
+        view.findViewById<TextView>(R.id.vendedor).text = "Vendedor: " + productoLista[3]
+
+        view.findViewById<TextView>(R.id.ubicacion).text = "Ubicacion: " + productoLista[4]
+
+        Glide.with(view).load(productoLista[5]).into(view.findViewById(R.id.imagenProductoIndividual))
+
+        view.findViewById<TextView>(R.id.descripcionDetalleProducto).text = "Descripcion: " + productoLista[6]
 
         buyButton.setOnClickListener {
             findNavController().navigate(R.id.action_detalleProductoFragment_to_carritoFragment)

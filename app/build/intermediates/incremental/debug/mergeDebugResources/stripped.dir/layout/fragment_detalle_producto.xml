@@ -11,7 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center|top"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:ignore="ExtraText">
 
 
         <TextView
@@ -37,16 +38,47 @@
             android:textSize="48sp" />
 
         <TextView
-            android:id="@+id/quantity"
+            android:id="@+id/disponible"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/quantity"
+            android:text="Sin existencias"
             android:textSize="30sp"
             />
+
+        <TextView
+            android:id="@+id/descripcionDetalleProducto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="@string/lorem" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/vendedor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/ubicacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:text="TextView" />
+        </LinearLayout>
 
         <Button
             android:id="@+id/buyNowButton"
             android:layout_width="wrap_content"
+            android:layout_marginTop="20sp"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/orange"
             android:textColor="@color/black"

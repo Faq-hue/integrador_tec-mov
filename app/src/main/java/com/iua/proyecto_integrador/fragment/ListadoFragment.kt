@@ -66,7 +66,10 @@ class ListadoFragment : Fragment(), RecyclerViewOnClickListener {
     }
 
     override fun onItemClick(position: Int) {
-        val bundle = bundleOf("producto" to productosArray[position].toString())
+
+        var tmp = productosArray[position].nombre + "_" + productosArray[position].precio + "_" + productosArray[position].disponible + "_" + productosArray[position].vendedor + "_" + productosArray[position].ubicacion + "_" + productosArray[position].imagen + "_" + productosArray[position].descripcion
+
+        val bundle = bundleOf("producto" to tmp)
         findNavController().navigate(R.id.action_listadoFragment_to_detalleProductoFragment, bundle)
 
     }

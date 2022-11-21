@@ -2738,6 +2738,7 @@ int id decor_content_parent 0x7f0800a4
 int id default_activity_button 0x7f0800a5
 int id deltaRelative 0x7f0800a6
 int id dependency_ordering 0x7f0800a7
+int id descripcionDetalleProducto 0x7f080230
 int id design_bottom_sheet 0x7f0800a8
 int id design_menu_item_action_area 0x7f0800a9
 int id design_menu_item_action_area_stub 0x7f0800aa
@@ -2752,6 +2753,7 @@ int id disableIntraAutoTransition 0x7f0800b2
 int id disablePostScroll 0x7f0800b3
 int id disableScroll 0x7f0800b4
 int id disjoint 0x7f0800b5
+int id disponible 0x7f080231
 int id dragAnticlockwise 0x7f0800b6
 int id dragClockwise 0x7f0800b7
 int id dragDown 0x7f0800b8
@@ -2965,7 +2967,6 @@ int id precio 0x7f080189
 int id precioCarrito 0x7f08018a
 int id progress_circular 0x7f08018b
 int id progress_horizontal 0x7f08018c
-int id quantity 0x7f08018d
 int id quantityBuyCarrito 0x7f08018e
 int id radio 0x7f08018f
 int id ratio 0x7f080190
@@ -3104,12 +3105,14 @@ int id transition_position 0x7f080214
 int id transition_scene_layoutid_cache 0x7f080215
 int id transition_transform 0x7f080216
 int id triangle 0x7f080217
+int id ubicacion 0x7f080232
 int id unchecked 0x7f080218
 int id uniform 0x7f080219
 int id unlabeled 0x7f08021a
 int id up 0x7f08021b
 int id useLogo 0x7f08021c
 int id userName 0x7f08021d
+int id vendedor 0x7f080233
 int id vertical_only 0x7f08021e
 int id view_offset_helper 0x7f08021f
 int id view_transition 0x7f080220
@@ -3373,11 +3376,11 @@ int string error_icon_content_description 0x7f0f0027
 int string exposed_dropdown_menu_content_description 0x7f0f0028
 int string fab_transformation_scrim_behavior 0x7f0f0029
 int string fab_transformation_sheet_behavior 0x7f0f002a
-int string hello_blank_fragment 0x7f0f002b
 int string hide_bottom_view_on_scroll_behavior 0x7f0f002c
 int string icon_content_description 0x7f0f002d
 int string item_view_role_description 0x7f0f002e
 int string label 0x7f0f002f
+int string lorem 0x7f0f0084
 int string m3_ref_typeface_brand_medium 0x7f0f0030
 int string m3_ref_typeface_brand_regular 0x7f0f0031
 int string m3_ref_typeface_plain_medium 0x7f0f0032

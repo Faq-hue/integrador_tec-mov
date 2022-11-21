@@ -40,7 +40,9 @@ id cart
 id changePasswordButton
 id continueShoppingButton
 id createAccount
+id descripcionDetalleProducto
 id detalleProductoFragment
+id disponible
 id editTextTextEmailAddress
 id editTextTextPassword
 id editUserButton
@@ -69,7 +71,6 @@ id pedidoRealizadoFragment
 id perfilButton
 id precio
 id precioCarrito
-id quantity
 id quantityBuyCarrito
 id recyclerViewCarrito
 id recyclerViewListado
@@ -84,7 +85,9 @@ id textView3
 id textView4
 id toolbar
 id totalCarrito
+id ubicacion
 id userName
+id vendedor
 layout activity_cambiar_contrasenia
 layout activity_historial
 layout activity_listado_producto_individual
@@ -106,7 +109,7 @@ navigation navigation_fragments
 string api_key
 string app_name
 string email
-string hello_blank_fragment
+string lorem
 string precio
 string producto
 string quantity
