@@ -28,7 +28,7 @@ public final class FragmentDetalleProductoBinding implements ViewBinding {
   public final Button buyNowButton;
 
   @NonNull
-  public final ImageView imageView7;
+  public final ImageView imagenProductoIndividual;
 
   @NonNull
   public final TextView nombreProductoListaIndividual;
@@ -40,13 +40,13 @@ public final class FragmentDetalleProductoBinding implements ViewBinding {
   public final TextView quantity;
 
   private FragmentDetalleProductoBinding(@NonNull FrameLayout rootView,
-      @NonNull Button addToCartButton, @NonNull Button buyNowButton, @NonNull ImageView imageView7,
-      @NonNull TextView nombreProductoListaIndividual, @NonNull TextView precio,
-      @NonNull TextView quantity) {
+      @NonNull Button addToCartButton, @NonNull Button buyNowButton,
+      @NonNull ImageView imagenProductoIndividual, @NonNull TextView nombreProductoListaIndividual,
+      @NonNull TextView precio, @NonNull TextView quantity) {
     this.rootView = rootView;
     this.addToCartButton = addToCartButton;
     this.buyNowButton = buyNowButton;
-    this.imageView7 = imageView7;
+    this.imagenProductoIndividual = imagenProductoIndividual;
     this.nombreProductoListaIndividual = nombreProductoListaIndividual;
     this.precio = precio;
     this.quantity = quantity;
@@ -91,9 +91,9 @@ public final class FragmentDetalleProductoBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView7;
-      ImageView imageView7 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView7 == null) {
+      id = R.id.imagenProductoIndividual;
+      ImageView imagenProductoIndividual = ViewBindings.findChildViewById(rootView, id);
+      if (imagenProductoIndividual == null) {
         break missingId;
       }
 
@@ -116,7 +116,7 @@ public final class FragmentDetalleProductoBinding implements ViewBinding {
       }
 
       return new FragmentDetalleProductoBinding((FrameLayout) rootView, addToCartButton,
-          buyNowButton, imageView7, nombreProductoListaIndividual, precio, quantity);
+          buyNowButton, imagenProductoIndividual, nombreProductoListaIndividual, precio, quantity);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

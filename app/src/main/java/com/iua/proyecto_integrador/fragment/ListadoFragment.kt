@@ -1,11 +1,11 @@
 package com.iua.proyecto_integrador.fragment
 
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.os.bundleOf
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -14,7 +14,6 @@ import com.iua.proyecto_integrador.adapter.ProductoAdapter
 import com.iua.proyecto_integrador.adapter.RecyclerViewOnClickListener
 import com.iua.proyecto_integrador.model.Producto
 import com.iua.proyecto_integrador.model.ProductoClient
-import com.iua.proyecto_integrador.model.ProductoListado
 import kotlin.concurrent.thread
 
 class ListadoFragment : Fragment(), RecyclerViewOnClickListener {
@@ -67,7 +66,9 @@ class ListadoFragment : Fragment(), RecyclerViewOnClickListener {
     }
 
     override fun onItemClick(position: Int) {
-        findNavController().navigate(R.id.action_listadoFragment_to_detalleProductoFragment)
+        val bundle = bundleOf("producto" to productosArray[position].toString())
+        findNavController().navigate(R.id.action_listadoFragment_to_detalleProductoFragment, bundle)
+
     }
 
 }

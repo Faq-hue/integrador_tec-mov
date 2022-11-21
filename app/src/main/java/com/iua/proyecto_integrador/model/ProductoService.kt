@@ -6,7 +6,7 @@ import retrofit2.http.Query
 
 interface ProductoService {
 
-    @GET("v1/ea8fb015-0c3b-459a-8f5a-65b635259ec6")
+    @GET("v1/a24fbc26-a37a-45ad-8f99-ab5f1c5beabf")
     fun listaProductos(@Query("apiKey") apiKey: String): Call<ProductoListado>
 
 }

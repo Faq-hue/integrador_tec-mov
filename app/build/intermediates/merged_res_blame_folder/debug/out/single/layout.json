@@ -56,11 +56,11 @@
         "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-48:\\layout\\fragment_listado.xml"
     },
     {
-        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-mergeDebugResources-45:\\layout\\fragment_detalle_producto.xml",
-        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-48:\\layout\\fragment_detalle_producto.xml"
+        "merged": "com.iua.proyecto_integrador.app-mergeDebugResources-45:/layout/fragment_detalle_producto.xml",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/fragment_detalle_producto.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-mergeDebugResources-45:/layout/activity_listado_producto_individual.xml",
-        "source": "com.iua.proyecto_integrador.app-main-48:/layout/activity_listado_producto_individual.xml"
+        "merged": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-mergeDebugResources-45:\\layout\\fragment_detalle_producto.xml",
+        "source": "C:\\Users\\facun\\.gradle\\daemon\\7.4\\com.iua.proyecto_integrador.app-main-48:\\layout\\fragment_detalle_producto.xml"
     }
 ]
