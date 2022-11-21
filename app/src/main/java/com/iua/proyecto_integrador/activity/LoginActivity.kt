@@ -19,6 +19,11 @@ class LoginActivity  : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
+        if(prefs.getEmail().isNotEmpty() && prefs.getNombre().isNotEmpty() && prefs.getPassword().isNotEmpty()){
+            val intent = Intent(this, MainFragActivity::class.java)
+            startActivity(intent)
+        }
+
         binding.forgotPass.setOnClickListener {
             val intent = Intent(this, OlvidoContraseniaActivity::class.java)
             startActivity(intent)
