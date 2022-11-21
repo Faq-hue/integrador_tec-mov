@@ -31,7 +31,7 @@ public final class ActivityPerfilSettingsBinding implements ViewBinding {
   public final Button changePasswordButton;
 
   @NonNull
-  public final EditText editTextTextEmailAddress;
+  public final EditText emailET;
 
   @NonNull
   public final ImageView imageView5;
@@ -50,13 +50,13 @@ public final class ActivityPerfilSettingsBinding implements ViewBinding {
 
   private ActivityPerfilSettingsBinding(@NonNull ConstraintLayout rootView,
       @NonNull ImageButton backButton, @NonNull Button changePasswordButton,
-      @NonNull EditText editTextTextEmailAddress, @NonNull ImageView imageView5,
+      @NonNull EditText emailET, @NonNull ImageView imageView5,
       @NonNull Button savePerfilSettingsButton, @NonNull TextView textView,
       @NonNull Toolbar toolbar, @NonNull EditText userName) {
     this.rootView = rootView;
     this.backButton = backButton;
     this.changePasswordButton = changePasswordButton;
-    this.editTextTextEmailAddress = editTextTextEmailAddress;
+    this.emailET = emailET;
     this.imageView5 = imageView5;
     this.savePerfilSettingsButton = savePerfilSettingsButton;
     this.textView = textView;
@@ -103,9 +103,9 @@ public final class ActivityPerfilSettingsBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.editTextTextEmailAddress;
-      EditText editTextTextEmailAddress = ViewBindings.findChildViewById(rootView, id);
-      if (editTextTextEmailAddress == null) {
+      id = R.id.emailET;
+      EditText emailET = ViewBindings.findChildViewById(rootView, id);
+      if (emailET == null) {
         break missingId;
       }
 
@@ -140,8 +140,8 @@ public final class ActivityPerfilSettingsBinding implements ViewBinding {
       }
 
       return new ActivityPerfilSettingsBinding((ConstraintLayout) rootView, backButton,
-          changePasswordButton, editTextTextEmailAddress, imageView5, savePerfilSettingsButton,
-          textView, toolbar, userName);
+          changePasswordButton, emailET, imageView5, savePerfilSettingsButton, textView, toolbar,
+          userName);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

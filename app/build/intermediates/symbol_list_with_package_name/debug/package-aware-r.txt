@@ -2770,7 +2770,6 @@ id easeIn
 id easeInOut
 id easeOut
 id east
-id editTextTextEmailAddress
 id editUserButton
 id edit_query
 id edittext_dropdown_editable

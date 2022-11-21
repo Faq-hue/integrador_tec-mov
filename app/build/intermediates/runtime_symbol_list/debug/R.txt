@@ -2769,7 +2769,6 @@ int id easeIn 0x7f0800c1
 int id easeInOut 0x7f0800c2
 int id easeOut 0x7f0800c3
 int id east 0x7f0800c4
-int id editTextTextEmailAddress 0x7f0800c5
 int id editUserButton 0x7f0800c7
 int id edit_query 0x7f0800c8
 int id edittext_dropdown_editable 0x7f0800c9
