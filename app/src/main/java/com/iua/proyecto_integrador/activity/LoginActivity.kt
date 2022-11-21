@@ -33,7 +33,7 @@ class LoginActivity  : AppCompatActivity() {
         binding.loginButton.setOnClickListener {
             if(binding.emailAddressET.toString().isNotEmpty() && binding.passwordET.toString().isNotEmpty()){
 
-                if (prefs.getPassword().equals(binding.passwordET.toString()) && prefs.getEmail().equals(binding.emailAddressET.toString())){
+                if (prefs.getPassword() ==  binding.passwordET.text.toString() && prefs.getEmail() == binding.emailAddressET.text.toString()){
                     val intent = Intent(this, MainFragActivity::class.java)
                     startActivity(intent)
                 }else{
