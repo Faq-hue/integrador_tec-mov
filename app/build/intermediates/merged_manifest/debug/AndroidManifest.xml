@@ -26,6 +26,13 @@
         android:testOnly="true"
         android:theme="@style/Theme.Proyecto_integrador" >
         <activity
+            android:name="com.iua.proyecto_integrador.activity.ProductoHistorialActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name="com.iua.proyecto_integrador.activity.OlvidoContraseniaActivity"
             android:exported="false" >
             <meta-data

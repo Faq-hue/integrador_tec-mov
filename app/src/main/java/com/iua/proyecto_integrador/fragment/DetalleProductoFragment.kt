@@ -15,6 +15,7 @@ import com.bumptech.glide.Glide
 import com.google.gson.Gson
 import com.google.gson.JsonParser
 import com.iua.proyecto_integrador.R
+import com.iua.proyecto_integrador.database.MyDataBase
 import com.iua.proyecto_integrador.databinding.ActivityListadoProductoIndividualBinding
 import com.iua.proyecto_integrador.model.Producto
 import retrofit2.converter.gson.GsonConverterFactory
@@ -24,6 +25,7 @@ class DetalleProductoFragment : Fragment() {
     private lateinit var buyButton: Button
     private lateinit var addButton: Button
     private var producto: String? = null
+    private lateinit var historialDBHelper: MyDataBase
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -31,6 +33,9 @@ class DetalleProductoFragment : Fragment() {
     ): View? {
 
         val view = inflater.inflate(R.layout.fragment_detalle_producto, container, false)
+
+        historialDBHelper = MyDataBase(view.context)
+
         buyButton = view.findViewById(R.id.buyNowButton)
         addButton = view.findViewById(R.id.addToCartButton)
 
@@ -45,9 +50,6 @@ class DetalleProductoFragment : Fragment() {
 
 
         val productoLista = producto?.split("_") as ArrayList<String>
-
-
-
 
         view.findViewById<TextView>(R.id.nombreProductoListaIndividual).text = productoLista[0]
 
@@ -67,6 +69,12 @@ class DetalleProductoFragment : Fragment() {
         Glide.with(view).load(productoLista[5]).into(view.findViewById(R.id.imagenProductoIndividual))
 
         view.findViewById<TextView>(R.id.descripcionDetalleProducto).text = "Descripcion: " + productoLista[6]
+
+        //DATABASE
+
+        historialDBHelper.addDatosHistorial(productoLista[0])
+
+        //BOTONES
 
         buyButton.setOnClickListener {
             findNavController().navigate(R.id.action_detalleProductoFragment_to_carritoFragment)

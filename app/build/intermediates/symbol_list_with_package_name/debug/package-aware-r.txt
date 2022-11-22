@@ -2967,6 +2967,7 @@ id position
 id postLayout
 id precio
 id precioCarrito
+id productoNombreHistorial
 id progress_circular
 id progress_horizontal
 id quantityBuyCarrito
@@ -3235,6 +3236,7 @@ layout activity_olvido_contrasenia
 layout activity_perfil
 layout activity_perfil_settings
 layout activity_producto_carrito
+layout activity_producto_historial
 layout activity_registro_usuario
 layout activity_splash
 layout custom_dialog
