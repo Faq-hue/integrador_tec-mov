@@ -7,30 +7,24 @@
     tools:context=".activity.ListadoProductoIndividualActivity"
     tools:visibility="visible">
 
-
     <LinearLayout
-        android:layout_width="264dp"
-        android:layout_height="56dp"
-        android:gravity="center_horizontal"
-        android:orientation="horizontal"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/imageView8"
-            android:layout_width="160dp"
-            android:layout_height="56dp"
-            android:layout_weight="1"
+            android:id="@+id/imagenProductoIndividual"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="center"
             app:srcCompat="@drawable/producto" />
 
         <TextView
             android:id="@+id/nombreProductoListaIndividual"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15sp"
-            android:layout_weight="1"
             android:text="TextView"
-            android:textSize="20sp" />
+            android:textAlignment="center"
+            android:textSize="30dp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

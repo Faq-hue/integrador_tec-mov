@@ -21,15 +21,16 @@ public final class ActivityListadoProductoIndividualBinding implements ViewBindi
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ImageView imageView8;
+  public final ImageView imagenProductoIndividual;
 
   @NonNull
   public final TextView nombreProductoListaIndividual;
 
   private ActivityListadoProductoIndividualBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageView imageView8, @NonNull TextView nombreProductoListaIndividual) {
+      @NonNull ImageView imagenProductoIndividual,
+      @NonNull TextView nombreProductoListaIndividual) {
     this.rootView = rootView;
-    this.imageView8 = imageView8;
+    this.imagenProductoIndividual = imagenProductoIndividual;
     this.nombreProductoListaIndividual = nombreProductoListaIndividual;
   }
 
@@ -60,9 +61,9 @@ public final class ActivityListadoProductoIndividualBinding implements ViewBindi
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.imageView8;
-      ImageView imageView8 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView8 == null) {
+      id = R.id.imagenProductoIndividual;
+      ImageView imagenProductoIndividual = ViewBindings.findChildViewById(rootView, id);
+      if (imagenProductoIndividual == null) {
         break missingId;
       }
 
@@ -72,8 +73,8 @@ public final class ActivityListadoProductoIndividualBinding implements ViewBindi
         break missingId;
       }
 
-      return new ActivityListadoProductoIndividualBinding((ConstraintLayout) rootView, imageView8,
-          nombreProductoListaIndividual);
+      return new ActivityListadoProductoIndividualBinding((ConstraintLayout) rootView,
+          imagenProductoIndividual, nombreProductoListaIndividual);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

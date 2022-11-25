@@ -8,7 +8,11 @@
         android:minSdkVersion="23"
         android:targetSdkVersion="32" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
+        android:name="com.iua.proyecto_integrador.proyecto_integradorAplication"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -21,6 +25,13 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Proyecto_integrador" >
+        <activity
+            android:name="com.iua.proyecto_integrador.activity.ProductoHistorialActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name="com.iua.proyecto_integrador.activity.OlvidoContraseniaActivity"
             android:exported="false" >

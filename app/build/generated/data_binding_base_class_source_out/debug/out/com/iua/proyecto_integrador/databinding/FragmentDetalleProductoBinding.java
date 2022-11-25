@@ -28,7 +28,13 @@ public final class FragmentDetalleProductoBinding implements ViewBinding {
   public final Button buyNowButton;
 
   @NonNull
-  public final ImageView imageView7;
+  public final TextView descripcionDetalleProducto;
+
+  @NonNull
+  public final TextView disponible;
+
+  @NonNull
+  public final ImageView imagenProductoIndividual;
 
   @NonNull
   public final TextView nombreProductoListaIndividual;
@@ -37,19 +43,26 @@ public final class FragmentDetalleProductoBinding implements ViewBinding {
   public final TextView precio;
 
   @NonNull
-  public final TextView quantity;
+  public final TextView ubicacion;
+
+  @NonNull
+  public final TextView vendedor;
 
   private FragmentDetalleProductoBinding(@NonNull FrameLayout rootView,
-      @NonNull Button addToCartButton, @NonNull Button buyNowButton, @NonNull ImageView imageView7,
-      @NonNull TextView nombreProductoListaIndividual, @NonNull TextView precio,
-      @NonNull TextView quantity) {
+      @NonNull Button addToCartButton, @NonNull Button buyNowButton,
+      @NonNull TextView descripcionDetalleProducto, @NonNull TextView disponible,
+      @NonNull ImageView imagenProductoIndividual, @NonNull TextView nombreProductoListaIndividual,
+      @NonNull TextView precio, @NonNull TextView ubicacion, @NonNull TextView vendedor) {
     this.rootView = rootView;
     this.addToCartButton = addToCartButton;
     this.buyNowButton = buyNowButton;
-    this.imageView7 = imageView7;
+    this.descripcionDetalleProducto = descripcionDetalleProducto;
+    this.disponible = disponible;
+    this.imagenProductoIndividual = imagenProductoIndividual;
     this.nombreProductoListaIndividual = nombreProductoListaIndividual;
     this.precio = precio;
-    this.quantity = quantity;
+    this.ubicacion = ubicacion;
+    this.vendedor = vendedor;
   }
 
   @Override
@@ -91,9 +104,21 @@ public final class FragmentDetalleProductoBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView7;
-      ImageView imageView7 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView7 == null) {
+      id = R.id.descripcionDetalleProducto;
+      TextView descripcionDetalleProducto = ViewBindings.findChildViewById(rootView, id);
+      if (descripcionDetalleProducto == null) {
+        break missingId;
+      }
+
+      id = R.id.disponible;
+      TextView disponible = ViewBindings.findChildViewById(rootView, id);
+      if (disponible == null) {
+        break missingId;
+      }
+
+      id = R.id.imagenProductoIndividual;
+      ImageView imagenProductoIndividual = ViewBindings.findChildViewById(rootView, id);
+      if (imagenProductoIndividual == null) {
         break missingId;
       }
 
@@ -109,14 +134,21 @@ public final class FragmentDetalleProductoBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.quantity;
-      TextView quantity = ViewBindings.findChildViewById(rootView, id);
-      if (quantity == null) {
+      id = R.id.ubicacion;
+      TextView ubicacion = ViewBindings.findChildViewById(rootView, id);
+      if (ubicacion == null) {
+        break missingId;
+      }
+
+      id = R.id.vendedor;
+      TextView vendedor = ViewBindings.findChildViewById(rootView, id);
+      if (vendedor == null) {
         break missingId;
       }
 
       return new FragmentDetalleProductoBinding((FrameLayout) rootView, addToCartButton,
-          buyNowButton, imageView7, nombreProductoListaIndividual, precio, quantity);
+          buyNowButton, descripcionDetalleProducto, disponible, imagenProductoIndividual,
+          nombreProductoListaIndividual, precio, ubicacion, vendedor);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

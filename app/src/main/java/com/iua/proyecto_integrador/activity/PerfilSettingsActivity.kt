@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Toast
 import com.iua.proyecto_integrador.R
 import com.iua.proyecto_integrador.databinding.ActivityPerfilSettingsBinding
+import com.iua.proyecto_integrador.proyecto_integradorAplication
 
 class PerfilSettingsActivity : AppCompatActivity() {
 
@@ -19,9 +20,16 @@ class PerfilSettingsActivity : AppCompatActivity() {
 
         binding.savePerfilSettingsButton.setOnClickListener {
 
+            if (binding.emailET.text.toString().isNotEmpty() && binding.userName.text.toString().isNotEmpty()){
+
+                proyecto_integradorAplication.prefs.saveEmail(binding.emailET.text.toString())
+                proyecto_integradorAplication.prefs.saveNombre(binding.userName.text.toString())
+
+                Toast.makeText(this, "Saved changes!", Toast.LENGTH_LONG).show()
+            }
+
             val intent = Intent(this, PerfilActivity::class.java)
             startActivity(intent)
-            Toast.makeText(this, "Saved changes!", Toast.LENGTH_LONG).show()
 
         }
 
