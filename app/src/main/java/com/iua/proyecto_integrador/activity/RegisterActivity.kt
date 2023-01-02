@@ -23,16 +23,18 @@ class RegisterActivity  : AppCompatActivity() {
         binding.register.setOnClickListener{
 
 
-            if(binding.passwordET.text.toString() ==  binding.repeatPassword.text.toString()){
+            if (comp()){
+                if(binding.passwordET.text.toString() ==  binding.repeatPassword.text.toString()){
 
-                prefs.saveEmail(binding.emailET.text.toString())
-                prefs.saveNombre(binding.userName.text.toString())
-                prefs.savePassword(binding.passwordET.text.toString())
+                    prefs.saveEmail(binding.emailET.text.toString())
+                    prefs.saveNombre(binding.userName.text.toString())
+                    prefs.savePassword(binding.passwordET.text.toString())
 
-                val intent = Intent(this, MainFragActivity::class.java)
-                startActivity(intent)
-            }else{
-                Toast.makeText(this, "Las contraseñas no coinciden", Toast.LENGTH_SHORT).show()
+                    val intent = Intent(this, MainFragActivity::class.java)
+                    startActivity(intent)
+                }else{
+                    Toast.makeText(this, "Las contraseñas no coinciden", Toast.LENGTH_SHORT).show()
+                }
             }
         }
 
@@ -42,5 +44,30 @@ class RegisterActivity  : AppCompatActivity() {
             startActivity(intent)
 
         }
+    }
+//TODO revisar esta funcion
+    private fun comp(): Boolean{
+
+        if(binding.emailET.toString().isEmpty()){
+            Toast.makeText(this, "Complete el campo 'Email'", Toast.LENGTH_SHORT).show()
+            return false
+        }
+
+        if (binding.userName.toString().isEmpty()){
+            Toast.makeText(this, "Complete el campo 'User name'", Toast.LENGTH_SHORT).show()
+            return false
+        }
+
+        if (binding.passwordET.text.isEmpty()){
+            Toast.makeText(this, "Complete el campo 'Password'", Toast.LENGTH_SHORT).show()
+            return false
+        }
+
+        if (binding.repeatPassword.text.isEmpty()){
+            Toast.makeText(this, "Complete el campo 'Repeat password'", Toast.LENGTH_SHORT).show()
+            return false
+        }
+
+        return true
     }
 }

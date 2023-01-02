@@ -4,7 +4,7 @@
             "outputFile": "com.iua.proyecto_integrador.app-mergeDebugResources-44:/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\facun\\.gradle\\caches\\transforms-3\\68ee75195f0df5ad8d472ec660be41c8\\transformed\\appcompat-1.5.1\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "/home/faq/.gradle/caches/transforms-3/68ee75195f0df5ad8d472ec660be41c8/transformed/appcompat-1.5.1/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\facun\\.gradle\\caches\\transforms-3\\4a53207dcabe7f0975fb5d95a8744ca1\\transformed\\material-1.6.1\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "/home/faq/.gradle/caches/transforms-3/4a53207dcabe7f0975fb5d95a8744ca1/transformed/material-1.6.1/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,10",
                         "startColumns": "4,4,4,4",
