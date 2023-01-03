@@ -55,11 +55,7 @@ class CarritoFragment : Fragment() {
     }
 
     private fun dataInitialize(){
-        carritoArrayList = arrayListOf(
-            ProductoCarrito("Producto 1", 20.0, 2),
-            ProductoCarrito("Producto 2", 30.0, 4),
-            ProductoCarrito("Producto 3", 40.0, 6),
-            ProductoCarrito("Producto 4", 50.0, 9),
-        )
+        carritoArrayList = arrayListOf()
     }
+
 }

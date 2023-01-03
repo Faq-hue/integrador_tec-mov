@@ -2,6 +2,7 @@ package com.iua.proyecto_integrador.database
 
 import android.content.ContentValues
 import android.content.Context
+import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 
@@ -9,7 +10,7 @@ class MyDataBase(context: Context) : SQLiteOpenHelper(context,"dataBase.db", nul
 
     override fun onCreate(db: SQLiteDatabase?) {
 
-        //db!!.execSQL("CREATE TABLE compras (id INTEGER PRIMARY KEY AUTOINCREMENT, producto TEXT, precio DOUBLE, user TEXT)")
+        db!!.execSQL("CREATE TABLE compras (id INTEGER PRIMARY KEY, producto TEXT, precio DOUBLE, user TEXT)")
 
         db!!.execSQL("CREATE TABLE historial (id INTEGER PRIMARY KEY AUTOINCREMENT, producto TEXT)")
 
@@ -21,10 +22,11 @@ class MyDataBase(context: Context) : SQLiteOpenHelper(context,"dataBase.db", nul
         //onCreate(db)
 
     }
-
-    fun addDatosCompra(productoNombre: String, precio: Double, user: String){
+    //TODO quizas deberia agregar una columna de "COMPRA REALIZADA"
+    fun addDatosCompra(id: Int, productoNombre: String, precio: String, user: String){
 
         val datos = ContentValues()
+        datos.put("producto", id)
         datos.put("producto", productoNombre)
         datos.put("precio", precio)
         datos.put("user", user)
@@ -35,6 +37,13 @@ class MyDataBase(context: Context) : SQLiteOpenHelper(context,"dataBase.db", nul
 
         db.close()
 
+    }
+
+    fun getDatosCompra(): Int {
+        val db = this.readableDatabase
+        val cursor = db.rawQuery("SELECT LAST(id) FROM compras", null)
+
+        return cursor.getInt(0)
     }
 
     fun addDatosHistorial(productoNombre: String){

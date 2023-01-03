@@ -1,7 +1,6 @@
 package com.iua.proyecto_integrador.preferences
 
 import android.content.Context
-import android.text.Editable
 
 class Preferences(val context: Context) {
 

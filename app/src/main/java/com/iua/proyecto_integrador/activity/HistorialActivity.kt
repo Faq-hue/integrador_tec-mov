@@ -4,16 +4,12 @@ import android.content.Intent
 import android.database.sqlite.SQLiteDatabase
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.iua.proyecto_integrador.R
-import com.iua.proyecto_integrador.adapter.CarritoAdapter
 import com.iua.proyecto_integrador.adapter.HistorialAdapter
 import com.iua.proyecto_integrador.database.MyDataBase
 import com.iua.proyecto_integrador.databinding.ActivityHistorialBinding
-import com.iua.proyecto_integrador.model.ProductoCarrito
-
 
 class HistorialActivity : AppCompatActivity() {
 
@@ -64,8 +60,6 @@ class HistorialActivity : AppCompatActivity() {
             }while (cursor.moveToNext())
 
         }
-
-        Log.d("ARRAY LIST", historialArrayList.size.toString())
 
     }
 

@@ -1,24 +1,18 @@
 package com.iua.proyecto_integrador.fragment
 
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
-import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.Glide
-import com.google.gson.Gson
-import com.google.gson.JsonParser
 import com.iua.proyecto_integrador.R
 import com.iua.proyecto_integrador.database.MyDataBase
-import com.iua.proyecto_integrador.databinding.ActivityListadoProductoIndividualBinding
-import com.iua.proyecto_integrador.model.Producto
-import retrofit2.converter.gson.GsonConverterFactory
+import com.iua.proyecto_integrador.proyecto_integradorAplication.Companion.prefs
 
 class DetalleProductoFragment : Fragment() {
 
@@ -26,6 +20,7 @@ class DetalleProductoFragment : Fragment() {
     private lateinit var addButton: Button
     private var producto: String? = null
     private lateinit var historialDBHelper: MyDataBase
+    private lateinit var comprasDBHelper: MyDataBase
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -35,6 +30,7 @@ class DetalleProductoFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_detalle_producto, container, false)
 
         historialDBHelper = MyDataBase(view.context)
+        comprasDBHelper = MyDataBase(view.context)
 
         buyButton = view.findViewById(R.id.buyNowButton)
         addButton = view.findViewById(R.id.addToCartButton)
@@ -45,9 +41,7 @@ class DetalleProductoFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-
         producto = arguments?.getString("producto")
-
 
         val productoLista = producto?.split("_") as ArrayList<String>
 
@@ -70,17 +64,29 @@ class DetalleProductoFragment : Fragment() {
 
         view.findViewById<TextView>(R.id.descripcionDetalleProducto).text = "Descripcion: " + productoLista[6]
 
-        //DATABASE
+        //DATABASE historial
 
         historialDBHelper.addDatosHistorial(productoLista[0])
 
         //BOTONES
-
+        //TODO este boton tiene que agregar a una lista el item en el que estamos parados y luego pasar al CarritoFragment
         buyButton.setOnClickListener {
-            findNavController().navigate(R.id.action_detalleProductoFragment_to_carritoFragment)
+
+            if (productoLista[2] ==  "true"){
+
+                //DATABASE compras
+
+                comprasDBHelper.addDatosCompra(comprasDBHelper.getDatosCompra() + 1, productoLista[0], productoLista[1], prefs.SHARED_USER_NAME)
+
+                findNavController().navigate(R.id.action_detalleProductoFragment_to_carritoFragment)
+            }
         }
 
+        //TODO este boton tiene que agregar a una lista el item en el que estamos parados
         addButton.setOnClickListener {
+
+            comprasDBHelper.addDatosCompra(comprasDBHelper.getDatosCompra() + 1, productoLista[0], productoLista[1], prefs.SHARED_USER_NAME)
+
             Toast.makeText(view.context, "Added to cart!", Toast.LENGTH_LONG).show()
         }
 
