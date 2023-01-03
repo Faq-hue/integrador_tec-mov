@@ -76,7 +76,17 @@ class DetalleProductoFragment : Fragment() {
 
                 //DATABASE compras
 
-                comprasDBHelper.addDatosCompra(comprasDBHelper.getDatosCompra() + 1, productoLista[0], productoLista[1], prefs.SHARED_USER_NAME)
+                if (!comprasDBHelper.getDatosCompra().isNull(0)){
+
+                    comprasDBHelper.addDatosCompra(comprasDBHelper.getDatosCompra().getInt(0) + 1, productoLista[0], productoLista[1], prefs.SHARED_USER_NAME, false)
+
+                }else{
+
+                    comprasDBHelper.addDatosCompra(0, productoLista[0], productoLista[1], prefs.SHARED_USER_NAME, false)
+
+                }
+
+
 
                 findNavController().navigate(R.id.action_detalleProductoFragment_to_carritoFragment)
             }
@@ -85,7 +95,15 @@ class DetalleProductoFragment : Fragment() {
         //TODO este boton tiene que agregar a una lista el item en el que estamos parados
         addButton.setOnClickListener {
 
-            comprasDBHelper.addDatosCompra(comprasDBHelper.getDatosCompra() + 1, productoLista[0], productoLista[1], prefs.SHARED_USER_NAME)
+            if (!comprasDBHelper.getDatosCompra().isNull(0)){
+
+                comprasDBHelper.addDatosCompra(comprasDBHelper.getDatosCompra().getInt(0), productoLista[0], productoLista[1], prefs.SHARED_USER_NAME, false)
+
+            }else{
+
+                comprasDBHelper.addDatosCompra(0, productoLista[0], productoLista[1], prefs.SHARED_USER_NAME, false)
+
+            }
 
             Toast.makeText(view.context, "Added to cart!", Toast.LENGTH_LONG).show()
         }

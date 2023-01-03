@@ -5,6 +5,8 @@ import android.content.Context
 import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
+import android.util.Log
+import kotlin.math.log
 
 class MyDataBase(context: Context) : SQLiteOpenHelper(context,"dataBase.db", null, 1) {
 
@@ -23,13 +25,14 @@ class MyDataBase(context: Context) : SQLiteOpenHelper(context,"dataBase.db", nul
 
     }
     //TODO quizas deberia agregar una columna de "COMPRA REALIZADA"
-    fun addDatosCompra(id: Int, productoNombre: String, precio: String, user: String){
+    fun addDatosCompra(id: Int, productoNombre: String, precio: String, user: String, comprado: Boolean){
 
         val datos = ContentValues()
         datos.put("producto", id)
         datos.put("producto", productoNombre)
         datos.put("precio", precio)
         datos.put("user", user)
+        datos.put("comprado", comprado)
 
         val db = this.writableDatabase
 
@@ -39,11 +42,14 @@ class MyDataBase(context: Context) : SQLiteOpenHelper(context,"dataBase.db", nul
 
     }
 
-    fun getDatosCompra(): Int {
+    fun getDatosCompra(): Cursor {
         val db = this.readableDatabase
-        val cursor = db.rawQuery("SELECT LAST(id) FROM compras", null)
+        val cursor = db.rawQuery("SELECT LAST(*) FROM compras", null)
 
-        return cursor.getInt(0)
+        Log.e("NUMERO DEL CURSOR",cursor.getInt(0).toString())
+        //Se cierra aca el cursor?
+        cursor.close()
+        return cursor
     }
 
     fun addDatosHistorial(productoNombre: String){

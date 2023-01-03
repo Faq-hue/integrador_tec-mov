@@ -1,5 +1,6 @@
 package com.iua.proyecto_integrador.fragment
 
+import android.database.sqlite.SQLiteDatabase
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -11,6 +12,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.iua.proyecto_integrador.R
 import com.iua.proyecto_integrador.adapter.CarritoAdapter
+import com.iua.proyecto_integrador.database.MyDataBase
 import com.iua.proyecto_integrador.model.ProductoCarrito
 
 class CarritoFragment : Fragment() {
@@ -19,7 +21,8 @@ class CarritoFragment : Fragment() {
     private lateinit var continueShoppingButton: Button
     private lateinit var adapter: CarritoAdapter
     private lateinit var recyclerView: RecyclerView
-    private lateinit var carritoArrayList: ArrayList<ProductoCarrito>
+    private lateinit var carritoArrayList: ArrayList<String>
+    private lateinit var comprasDBHelper: MyDataBase
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -56,6 +59,19 @@ class CarritoFragment : Fragment() {
 
     private fun dataInitialize(){
         carritoArrayList = arrayListOf()
+
+
+        val db: SQLiteDatabase = comprasDBHelper.readableDatabase
+        val cursor = db.rawQuery("SELECT * FROM historial", null)
+
+        if(cursor.moveToFirst()){
+
+            do{
+                carritoArrayList.add(cursor.getString(1))
+
+            }while (cursor.moveToNext())
+
+        }
     }
 
 }
