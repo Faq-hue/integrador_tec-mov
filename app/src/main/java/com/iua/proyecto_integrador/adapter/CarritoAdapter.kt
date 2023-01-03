@@ -23,8 +23,8 @@ class CarritoAdapter(private val carrito: List<ProductoCarrito>): RecyclerView.A
 
         fun bind(carrito: ProductoCarrito){
             binding.nombreProductoCarrito.text = carrito.nombre
-            binding.quantityBuyCarrito.text = carrito.cantidadComprada.toString()
-            binding.precioCarrito.text = total().toString()
+            //binding.quantityBuyCarrito.text = carrito.cantidadComprada.toString()
+            binding.precioCarrito.text = "$" + carrito.precio.toString()
 
         }
 

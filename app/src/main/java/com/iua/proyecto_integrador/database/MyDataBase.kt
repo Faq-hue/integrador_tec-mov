@@ -12,7 +12,7 @@ class MyDataBase(context: Context) : SQLiteOpenHelper(context,"dataBase.db", nul
 
     override fun onCreate(db: SQLiteDatabase?) {
 
-        db!!.execSQL("CREATE TABLE compras (id INTEGER PRIMARY KEY, producto TEXT, precio DOUBLE, user TEXT)")
+        db!!.execSQL("CREATE TABLE compras (id INTEGER PRIMARY KEY, producto TEXT, precio DOUBLE,comprado BOOLEAN, user TEXT)")
 
         db!!.execSQL("CREATE TABLE historial (id INTEGER PRIMARY KEY AUTOINCREMENT, producto TEXT)")
 
@@ -25,7 +25,7 @@ class MyDataBase(context: Context) : SQLiteOpenHelper(context,"dataBase.db", nul
 
     }
     //TODO quizas deberia agregar una columna de "COMPRA REALIZADA"
-    fun addDatosCompra(id: Int, productoNombre: String, precio: String, user: String, comprado: Boolean){
+    fun addDatosCompra(id: Int, productoNombre: String, precio: String, comprado: Boolean, user: String){
 
         val datos = ContentValues()
         datos.put("producto", id)
@@ -44,11 +44,10 @@ class MyDataBase(context: Context) : SQLiteOpenHelper(context,"dataBase.db", nul
 
     fun getDatosCompra(): Cursor {
         val db = this.readableDatabase
-        val cursor = db.rawQuery("SELECT LAST(*) FROM compras", null)
+        val cursor = db.rawQuery("SELECT * FROM compras ORDER BY id DESC LIMIT 1", null)
 
         Log.e("NUMERO DEL CURSOR",cursor.getInt(0).toString())
         //Se cierra aca el cursor?
-        cursor.close()
         return cursor
     }
 

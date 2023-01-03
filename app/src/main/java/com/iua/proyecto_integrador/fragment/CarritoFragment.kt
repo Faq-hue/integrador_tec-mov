@@ -2,6 +2,7 @@ package com.iua.proyecto_integrador.fragment
 
 import android.database.sqlite.SQLiteDatabase
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -21,7 +22,7 @@ class CarritoFragment : Fragment() {
     private lateinit var continueShoppingButton: Button
     private lateinit var adapter: CarritoAdapter
     private lateinit var recyclerView: RecyclerView
-    private lateinit var carritoArrayList: ArrayList<String>
+    private lateinit var carritoArrayList: ArrayList<ProductoCarrito>
     private lateinit var comprasDBHelper: MyDataBase
 
     override fun onCreateView(
@@ -38,6 +39,7 @@ class CarritoFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        comprasDBHelper = MyDataBase(requireContext())
         dataInitialize()
 
         val layoutManager = LinearLayoutManager(context)
@@ -61,17 +63,26 @@ class CarritoFragment : Fragment() {
         carritoArrayList = arrayListOf()
 
 
+
         val db: SQLiteDatabase = comprasDBHelper.readableDatabase
-        val cursor = db.rawQuery("SELECT * FROM historial", null)
+        val cursor = db.rawQuery("SELECT * FROM compras", null)
 
         if(cursor.moveToFirst()){
 
             do{
-                carritoArrayList.add(cursor.getString(1))
+                var aux = ProductoCarrito()
+                Log.e("cursor nombre: ", cursor.getString(1))
+                Log.e("cursor precio: ", cursor.getDouble(2).toString())
+                aux.nombre = cursor.getString(1)
+                aux.precio = cursor.getDouble(2)
+
+                carritoArrayList.add(aux)
 
             }while (cursor.moveToNext())
 
         }
+
+        cursor.close()
     }
 
 }

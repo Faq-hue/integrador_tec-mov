@@ -1,6 +1,7 @@
 package com.iua.proyecto_integrador.fragment
 
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -76,15 +77,21 @@ class DetalleProductoFragment : Fragment() {
 
                 //DATABASE compras
 
-                if (!comprasDBHelper.getDatosCompra().isNull(0)){
+                try {
+                    if (!comprasDBHelper.getDatosCompra().isNull(0)){
 
-                    comprasDBHelper.addDatosCompra(comprasDBHelper.getDatosCompra().getInt(0) + 1, productoLista[0], productoLista[1], prefs.SHARED_USER_NAME, false)
+                        comprasDBHelper.addDatosCompra(comprasDBHelper.getDatosCompra().getInt(0) + 1, productoLista[0], productoLista[1], false, prefs.SHARED_USER_NAME)
 
-                }else{
+                    }else{
 
-                    comprasDBHelper.addDatosCompra(0, productoLista[0], productoLista[1], prefs.SHARED_USER_NAME, false)
 
+
+                    }
+                }catch (e:Exception){
+                    Log.e("error", "Exception con comprasDBHelper")
+                    comprasDBHelper.addDatosCompra(0, productoLista[0], productoLista[1], false, prefs.SHARED_USER_NAME)
                 }
+
 
 
 
@@ -97,11 +104,11 @@ class DetalleProductoFragment : Fragment() {
 
             if (!comprasDBHelper.getDatosCompra().isNull(0)){
 
-                comprasDBHelper.addDatosCompra(comprasDBHelper.getDatosCompra().getInt(0), productoLista[0], productoLista[1], prefs.SHARED_USER_NAME, false)
+                comprasDBHelper.addDatosCompra(comprasDBHelper.getDatosCompra().getInt(0), productoLista[0], productoLista[1], false, prefs.SHARED_USER_NAME)
 
             }else{
 
-                comprasDBHelper.addDatosCompra(0, productoLista[0], productoLista[1], prefs.SHARED_USER_NAME, false)
+                comprasDBHelper.addDatosCompra(0, productoLista[0], productoLista[1], false, prefs.SHARED_USER_NAME)
 
             }
 
