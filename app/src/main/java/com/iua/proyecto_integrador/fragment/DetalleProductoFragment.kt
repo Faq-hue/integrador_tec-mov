@@ -85,7 +85,7 @@ class DetalleProductoFragment : Fragment() {
                             productoLista[0],
                             productoLista[1],
                             false,
-                            prefs.SHARED_USER_NAME
+                            prefs.getNombre()
                         )
 
                     } else {
@@ -121,7 +121,7 @@ class DetalleProductoFragment : Fragment() {
                             productoLista[0],
                             productoLista[1],
                             false,
-                            prefs.SHARED_USER_NAME
+                            prefs.getNombre()
                         )
 
                     } else {

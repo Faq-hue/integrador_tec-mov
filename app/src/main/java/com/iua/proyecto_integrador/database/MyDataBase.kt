@@ -6,6 +6,7 @@ import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 import android.util.Log
+import java.util.concurrent.atomic.AtomicInteger
 import kotlin.math.log
 
 class MyDataBase(context: Context) : SQLiteOpenHelper(context,"dataBase.db", null, 1) {
@@ -24,7 +25,7 @@ class MyDataBase(context: Context) : SQLiteOpenHelper(context,"dataBase.db", nul
         //onCreate(db)
 
     }
-    //TODO quizas deberia agregar una columna de "COMPRA REALIZADA"
+
     fun addDatosCompra(id: Int, productoNombre: String, precio: String, comprado: Boolean, user: String){
 
         val datos = ContentValues()
@@ -46,9 +47,34 @@ class MyDataBase(context: Context) : SQLiteOpenHelper(context,"dataBase.db", nul
         val db = this.readableDatabase
         val cursor = db.rawQuery("SELECT * FROM compras ORDER BY id DESC LIMIT 1", null)
 
-        Log.e("NUMERO DEL CURSOR",cursor.getInt(0).toString())
+        //Log.e("NUMERO DEL CURSOR",cursor.getInt(0).toString())
         //Se cierra aca el cursor?
         return cursor
+    }
+
+    fun updateDatosCompra(i: Int): Boolean{
+
+        try {
+
+            val db = this.readableDatabase
+
+            var cv: ContentValues = ContentValues()
+
+            cv.put("comprado", true)
+
+            Log.e("A VER SI LLEGAMOS HASTA ACA", cv.toString())
+            Log.e("id", i.toString())
+
+
+            db.update("compras", cv, "comprado=0 AND id="+i,null)
+
+            return true
+        }catch (e:java.lang.Error){
+
+            Log.e("Error en updateDatosCompra:", e.toString())
+
+            return false
+        }
     }
 
     fun addDatosHistorial(productoNombre: String){

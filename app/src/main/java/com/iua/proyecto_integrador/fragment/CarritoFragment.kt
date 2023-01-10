@@ -49,7 +49,17 @@ class CarritoFragment : Fragment() {
         adapter = CarritoAdapter(carritoArrayList)
         recyclerView.adapter = adapter
 
+        //BOTONES
+        //TODO este boton tiene que cambiar el estado de la compra a 1
+        //TODO este boton tiene que limpiar el recycler view del carrito
+        //TODO el boton falla al hacer una compra y abrir la db, dice que te saliste del index
         buyButton.setOnClickListener {
+
+            val cursor = comprasDBHelper.getDatosCompra()
+            Log.e("cursor", cursor.toString())
+            //TODO tengo que cambiar para que este 1 sea el id de las compras
+            //TODO ademas tengo que hacer que el id de las compras no cambien cuando agrego un item
+            comprasDBHelper.updateDatosCompra(1)
             findNavController().navigate(R.id.action_carritoFragment_to_pedidoRealizadoFragment)
         }
 
