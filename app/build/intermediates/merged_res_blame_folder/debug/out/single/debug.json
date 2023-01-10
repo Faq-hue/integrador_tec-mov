@@ -48,6 +48,10 @@
         "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-48:/layout/activity_login.xml"
     },
     {
+        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/layout_activity_producto_carrito.xml.flat",
+        "source": "com.iua.proyecto_integrador.app-main-48:/layout/activity_producto_carrito.xml"
+    },
+    {
         "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-46:/layout_fragment_detalle_producto.xml.flat",
         "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-48:/layout/fragment_detalle_producto.xml"
     },
@@ -126,10 +130,6 @@
     {
         "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-46:/mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-48:/mipmap-mdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-46:/layout_fragment_carrito.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-48:/layout/fragment_carrito.xml"
     },
     {
         "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-46:/layout_activity_historial.xml.flat",

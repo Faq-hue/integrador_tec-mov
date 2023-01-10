@@ -73,7 +73,6 @@ id perfilButton
 id precio
 id precioCarrito
 id productoNombreHistorial
-id quantityBuyCarrito
 id recyclerViewCarrito
 id recyclerViewListado
 id register

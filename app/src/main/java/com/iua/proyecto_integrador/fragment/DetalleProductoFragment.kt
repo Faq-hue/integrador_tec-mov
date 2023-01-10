@@ -48,12 +48,12 @@ class DetalleProductoFragment : Fragment() {
 
         view.findViewById<TextView>(R.id.nombreProductoListaIndividual).text = productoLista[0]
 
-        view.findViewById<TextView>(R.id.precio).text = "$"+ productoLista[1]
+        view.findViewById<TextView>(R.id.precio).text = "$" + productoLista[1]
 
-        if (productoLista[2] ==  "true"){
+        if (productoLista[2] == "true") {
 
             view.findViewById<TextView>(R.id.disponible).text = "Disponible"
-        }else{
+        } else {
             view.findViewById<TextView>(R.id.disponible).text = "Sin existencias"
         }
 
@@ -61,60 +61,88 @@ class DetalleProductoFragment : Fragment() {
 
         view.findViewById<TextView>(R.id.ubicacion).text = "Ubicacion: " + productoLista[4]
 
-        Glide.with(view).load(productoLista[5]).into(view.findViewById(R.id.imagenProductoIndividual))
+        Glide.with(view).load(productoLista[5])
+            .into(view.findViewById(R.id.imagenProductoIndividual))
 
-        view.findViewById<TextView>(R.id.descripcionDetalleProducto).text = "Descripcion: " + productoLista[6]
+        view.findViewById<TextView>(R.id.descripcionDetalleProducto).text =
+            "Descripcion: " + productoLista[6]
 
         //DATABASE historial
-
         historialDBHelper.addDatosHistorial(productoLista[0])
 
         //BOTONES
-        //TODO este boton tiene que agregar a una lista el item en el que estamos parados y luego pasar al CarritoFragment
         buyButton.setOnClickListener {
 
-            if (productoLista[2] ==  "true"){
+            if (productoLista[2] == "true") {
 
                 //DATABASE compras
 
                 try {
-                    if (!comprasDBHelper.getDatosCompra().isNull(0)){
+                    if (!comprasDBHelper.getDatosCompra().isNull(0)) {
 
-                        comprasDBHelper.addDatosCompra(comprasDBHelper.getDatosCompra().getInt(0) + 1, productoLista[0], productoLista[1], false, prefs.SHARED_USER_NAME)
+                        comprasDBHelper.addDatosCompra(
+                            comprasDBHelper.getDatosCompra().getInt(0) + 1,
+                            productoLista[0],
+                            productoLista[1],
+                            false,
+                            prefs.SHARED_USER_NAME
+                        )
 
-                    }else{
-
+                    } else {
 
 
                     }
-                }catch (e:Exception){
+                } catch (e: Exception) {
                     Log.e("error", "Exception con comprasDBHelper")
-                    comprasDBHelper.addDatosCompra(0, productoLista[0], productoLista[1], false, prefs.SHARED_USER_NAME)
+                    comprasDBHelper.addDatosCompra(
+                        0,
+                        productoLista[0],
+                        productoLista[1],
+                        false,
+                        prefs.getNombre()
+                    )
                 }
-
-
-
 
                 findNavController().navigate(R.id.action_detalleProductoFragment_to_carritoFragment)
             }
         }
 
-        //TODO este boton tiene que agregar a una lista el item en el que estamos parados
         addButton.setOnClickListener {
 
-            if (!comprasDBHelper.getDatosCompra().isNull(0)){
+            if (productoLista[2] == "true") {
 
-                comprasDBHelper.addDatosCompra(comprasDBHelper.getDatosCompra().getInt(0), productoLista[0], productoLista[1], false, prefs.SHARED_USER_NAME)
+                //DATABASE compras
 
-            }else{
+                try {
+                    if (!comprasDBHelper.getDatosCompra().isNull(0)) {
 
-                comprasDBHelper.addDatosCompra(0, productoLista[0], productoLista[1], false, prefs.SHARED_USER_NAME)
+                        comprasDBHelper.addDatosCompra(
+                            comprasDBHelper.getDatosCompra().getInt(0) + 1,
+                            productoLista[0],
+                            productoLista[1],
+                            false,
+                            prefs.SHARED_USER_NAME
+                        )
 
+                    } else {
+
+
+                    }
+                } catch (e: Exception) {
+                    Log.e("error", "Exception con comprasDBHelper")
+                    comprasDBHelper.addDatosCompra(
+                        0,
+                        productoLista[0],
+                        productoLista[1],
+                        false,
+                        prefs.getNombre()
+                    )
+                }
+
+
+                Toast.makeText(view.context, "Added to cart!", Toast.LENGTH_LONG).show()
             }
 
-            Toast.makeText(view.context, "Added to cart!", Toast.LENGTH_LONG).show()
         }
-
     }
-
 }

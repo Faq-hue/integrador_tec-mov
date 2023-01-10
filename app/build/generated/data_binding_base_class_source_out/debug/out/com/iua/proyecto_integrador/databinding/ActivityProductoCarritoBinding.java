@@ -29,17 +29,13 @@ public final class ActivityProductoCarritoBinding implements ViewBinding {
   @NonNull
   public final TextView precioCarrito;
 
-  @NonNull
-  public final TextView quantityBuyCarrito;
-
   private ActivityProductoCarritoBinding(@NonNull ConstraintLayout rootView,
       @NonNull ImageView imageView9, @NonNull TextView nombreProductoCarrito,
-      @NonNull TextView precioCarrito, @NonNull TextView quantityBuyCarrito) {
+      @NonNull TextView precioCarrito) {
     this.rootView = rootView;
     this.imageView9 = imageView9;
     this.nombreProductoCarrito = nombreProductoCarrito;
     this.precioCarrito = precioCarrito;
-    this.quantityBuyCarrito = quantityBuyCarrito;
   }
 
   @Override
@@ -87,14 +83,8 @@ public final class ActivityProductoCarritoBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.quantityBuyCarrito;
-      TextView quantityBuyCarrito = ViewBindings.findChildViewById(rootView, id);
-      if (quantityBuyCarrito == null) {
-        break missingId;
-      }
-
       return new ActivityProductoCarritoBinding((ConstraintLayout) rootView, imageView9,
-          nombreProductoCarrito, precioCarrito, quantityBuyCarrito);
+          nombreProductoCarrito, precioCarrito);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
