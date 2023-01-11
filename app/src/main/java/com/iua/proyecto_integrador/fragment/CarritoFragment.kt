@@ -15,6 +15,7 @@ import com.iua.proyecto_integrador.R
 import com.iua.proyecto_integrador.adapter.CarritoAdapter
 import com.iua.proyecto_integrador.database.MyDataBase
 import com.iua.proyecto_integrador.model.ProductoCarrito
+import com.iua.proyecto_integrador.proyecto_integradorAplication.Companion.prefs
 
 class CarritoFragment : Fragment() {
 
@@ -59,7 +60,7 @@ class CarritoFragment : Fragment() {
             Log.e("cursor", cursor.toString())
             //TODO tengo que cambiar para que este 1 sea el id de las compras
             //TODO ademas tengo que hacer que el id de las compras no cambien cuando agrego un item
-            comprasDBHelper.updateDatosCompra(1)
+            comprasDBHelper.updateDatosCompra(prefs.getBuy())
             findNavController().navigate(R.id.action_carritoFragment_to_pedidoRealizadoFragment)
         }
 

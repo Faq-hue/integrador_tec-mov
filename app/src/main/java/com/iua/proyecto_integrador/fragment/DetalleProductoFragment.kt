@@ -85,12 +85,19 @@ class DetalleProductoFragment : Fragment() {
                             productoLista[0],
                             productoLista[1],
                             false,
-                            prefs.getNombre()
+                            prefs.getNombre(),
+                            0
                         )
 
                     } else {
-
-
+                        comprasDBHelper.addDatosCompra(
+                            comprasDBHelper.getDatosCompra().getInt(0) + 1,
+                            productoLista[0],
+                            productoLista[1],
+                            false,
+                            prefs.getNombre(),
+                            prefs.getBuy()+1)
+                        prefs.saveBuy(prefs.getBuy()+1)
                     }
                 } catch (e: Exception) {
                     Log.e("error", "Exception con comprasDBHelper")
@@ -99,8 +106,10 @@ class DetalleProductoFragment : Fragment() {
                         productoLista[0],
                         productoLista[1],
                         false,
-                        prefs.getNombre()
+                        prefs.getNombre(),
+                        prefs.getBuy()+1
                     )
+                    prefs.saveBuy(prefs.getBuy()+1)
                 }
 
                 findNavController().navigate(R.id.action_detalleProductoFragment_to_carritoFragment)
@@ -121,12 +130,20 @@ class DetalleProductoFragment : Fragment() {
                             productoLista[0],
                             productoLista[1],
                             false,
-                            prefs.getNombre()
+                            prefs.getNombre(),
+                            0
                         )
 
                     } else {
+                        comprasDBHelper.addDatosCompra(
+                            comprasDBHelper.getDatosCompra().getInt(0) + 1,
+                            productoLista[0],
+                            productoLista[1],
+                            false,
+                            prefs.getNombre(),
+                            prefs.getBuy()+1)
 
-
+                        prefs.saveBuy(prefs.getBuy()+1)
                     }
                 } catch (e: Exception) {
                     Log.e("error", "Exception con comprasDBHelper")
@@ -135,8 +152,10 @@ class DetalleProductoFragment : Fragment() {
                         productoLista[0],
                         productoLista[1],
                         false,
-                        prefs.getNombre()
-                    )
+                        prefs.getNombre(),
+                        prefs.getBuy()+1)
+
+                    prefs.saveBuy(prefs.getBuy()+1)
                 }
 
 

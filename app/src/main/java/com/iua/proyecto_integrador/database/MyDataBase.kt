@@ -13,7 +13,7 @@ class MyDataBase(context: Context) : SQLiteOpenHelper(context,"dataBase.db", nul
 
     override fun onCreate(db: SQLiteDatabase?) {
 
-        db!!.execSQL("CREATE TABLE compras (id INTEGER PRIMARY KEY, producto TEXT, precio DOUBLE,comprado BOOLEAN, user TEXT)")
+        db!!.execSQL("CREATE TABLE compras (id INTEGER PRIMARY KEY AUTOINCREMENT, producto TEXT, precio DOUBLE,comprado BOOLEAN, user TEXT, grupo INT)")
 
         db!!.execSQL("CREATE TABLE historial (id INTEGER PRIMARY KEY AUTOINCREMENT, producto TEXT)")
 
@@ -26,7 +26,7 @@ class MyDataBase(context: Context) : SQLiteOpenHelper(context,"dataBase.db", nul
 
     }
 
-    fun addDatosCompra(id: Int, productoNombre: String, precio: String, comprado: Boolean, user: String){
+    fun addDatosCompra(id: Int, productoNombre: String, precio: String, comprado: Boolean, user: String, grupo: Int){
 
         val datos = ContentValues()
         datos.put("producto", id)
@@ -34,6 +34,7 @@ class MyDataBase(context: Context) : SQLiteOpenHelper(context,"dataBase.db", nul
         datos.put("precio", precio)
         datos.put("user", user)
         datos.put("comprado", comprado)
+        datos.put("grupo", grupo)
 
         val db = this.writableDatabase
 
@@ -66,7 +67,7 @@ class MyDataBase(context: Context) : SQLiteOpenHelper(context,"dataBase.db", nul
             Log.e("id", i.toString())
 
 
-            db.update("compras", cv, "comprado=0 AND id="+i,null)
+            db.update("compras", cv, "comprado=0 AND grupo="+i,null)
 
             return true
         }catch (e:java.lang.Error){
