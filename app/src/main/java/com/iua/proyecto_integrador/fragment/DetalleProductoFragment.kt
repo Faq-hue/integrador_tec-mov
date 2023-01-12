@@ -96,7 +96,7 @@ class DetalleProductoFragment : Fragment() {
                             productoLista[1],
                             false,
                             prefs.getNombre(),
-                            prefs.getBuy()+1)
+                            (prefs.getBuy()+1))
                         prefs.saveBuy(prefs.getBuy()+1)
                     }
                 } catch (e: Exception) {
@@ -107,11 +107,12 @@ class DetalleProductoFragment : Fragment() {
                         productoLista[1],
                         false,
                         prefs.getNombre(),
-                        prefs.getBuy()+1
+                        (prefs.getBuy()+1)
                     )
-                    prefs.saveBuy(prefs.getBuy()+1)
+                    var aux = prefs.getBuy() + 1
+                    prefs.saveBuy(aux)
                 }
-
+                Log.e("get buy", prefs.getBuy().toString())
                 findNavController().navigate(R.id.action_detalleProductoFragment_to_carritoFragment)
             }
         }
@@ -154,8 +155,8 @@ class DetalleProductoFragment : Fragment() {
                         false,
                         prefs.getNombre(),
                         prefs.getBuy()+1)
-
-                    prefs.saveBuy(prefs.getBuy()+1)
+                    var aux = prefs.getBuy()+1
+                    prefs.saveBuy(aux)
                 }
 
 

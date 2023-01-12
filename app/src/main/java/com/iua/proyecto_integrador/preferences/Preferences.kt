@@ -8,7 +8,7 @@ class Preferences(val context: Context) {
     var SHARED_USER_NAME = "username"
     var SHARED_PASSWORD = "123"
     var SHARED_EMAIL = "usermail@gmail.com"
-    var SHARED_BUYS = 0
+    var SHARED_BUYS: Int = 0
 
     val storage = context.getSharedPreferences(SHARED_DB, 0)
 
@@ -37,7 +37,7 @@ class Preferences(val context: Context) {
     }
 
     fun saveBuy(buy: Int){
-        return storage.edit().putInt(SHARED_BUYS.toString(),buy).apply()
+        storage.edit().putInt(SHARED_BUYS.toString(),buy).apply()
     }
 
     fun getBuy(): Int{
