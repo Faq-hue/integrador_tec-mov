@@ -55,8 +55,9 @@ class CarritoFragment : Fragment() {
         //TODO este boton tiene que limpiar el recycler view del carrito
         buyButton.setOnClickListener {
 
-            val cursor = comprasDBHelper.getDatosCompra()
-            Log.e("cursor", cursor.toString())
+            val compras = comprasDBHelper.getDatosCompra()
+
+
             //TODO ademas tengo que hacer que el id de las compras no cambien cuando agrego un item
             comprasDBHelper.updateDatosCompra(prefs.getBuy())
             findNavController().navigate(R.id.action_carritoFragment_to_pedidoRealizadoFragment)
@@ -70,8 +71,6 @@ class CarritoFragment : Fragment() {
 
     private fun dataInitialize(){
         carritoArrayList = arrayListOf()
-
-
 
         val db: SQLiteDatabase = comprasDBHelper.readableDatabase
         val cursor = db.rawQuery("SELECT * FROM compras", null)

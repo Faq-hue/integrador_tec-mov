@@ -124,7 +124,7 @@ class DetalleProductoFragment : Fragment() {
                 //DATABASE compras
 
                 try {
-                    if (!comprasDBHelper.getDatosCompra().isNull(0)) {
+                    if (comprasDBHelper.getDatosCompra() != null) {
 
                         comprasDBHelper.addDatosCompra(
                             comprasDBHelper.getDatosCompra().getInt(0) + 1,

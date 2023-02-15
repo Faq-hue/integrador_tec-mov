@@ -6,6 +6,8 @@ import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 import android.util.Log
+import com.iua.proyecto_integrador.model.Producto
+import com.iua.proyecto_integrador.proyecto_integradorAplication.Companion.prefs
 import java.util.concurrent.atomic.AtomicInteger
 import kotlin.math.log
 
@@ -44,6 +46,24 @@ class MyDataBase(context: Context) : SQLiteOpenHelper(context,"dataBase.db", nul
 
     }
 
+    fun getArrayDatosCompra(): ArrayList<String> {
+
+        lateinit var comprasArrayList: ArrayList<String>
+
+        comprasArrayList = arrayListOf()
+
+        val db = this.readableDatabase
+        val cursor = db.rawQuery("SELECT * FROM compras ORDER BY id DESC LIMIT 1", null)
+
+        if (cursor.moveToFirst()){
+            do {
+                comprasArrayList.add(cursor.getString(1))
+            }while (cursor.moveToNext())
+        }
+
+        return comprasArrayList
+    }
+
     fun getDatosCompra(): Cursor {
         val db = this.readableDatabase
         val cursor = db.rawQuery("SELECT * FROM compras ORDER BY id DESC LIMIT 1", null)
@@ -53,22 +73,18 @@ class MyDataBase(context: Context) : SQLiteOpenHelper(context,"dataBase.db", nul
         return cursor
     }
 
-    fun updateDatosCompra(i: Int): Boolean{
+    fun updateDatosCompra(id: Int): Boolean{
 
         try {
 
             val db = this.readableDatabase
+            db.execSQL("UPDATE compras SET comprado = 1 WHERE grupo = " + id)
 
-            var cv: ContentValues = ContentValues()
+            var number = prefs.getBuy() + 1
 
-            cv.put("comprado", true)
+            Log.println(Log.ASSERT, "Numero de grupo que deberia actualizarse", number.toString())
 
-            Log.e("A VER SI LLEGAMOS HASTA ACA", cv.toString())
-            Log.e("id", i.toString())
-
-
-            db.update("compras", cv, "comprado=0 AND grupo="+i,null)
-
+            prefs.saveBuy(number)
             return true
         }catch (e:java.lang.Error){
 
