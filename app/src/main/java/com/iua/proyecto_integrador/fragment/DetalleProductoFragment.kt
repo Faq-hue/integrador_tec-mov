@@ -73,53 +73,15 @@ class DetalleProductoFragment : Fragment() {
         //BOTONES
         buyButton.setOnClickListener {
 
-            if (productoLista[2] == "true") {
+            comprasDBHelper.addDatosCompra(productoLista[0], productoLista[1],false ,prefs.getNombre(), prefs.getBuy())
 
-                //DATABASE compras
+            findNavController().navigate(R.id.action_detalleProductoFragment_to_carritoFragment)
 
-                try {
-                    if (!comprasDBHelper.getDatosCompra().isNull(0)) {
-
-                        comprasDBHelper.addDatosCompra(
-                            comprasDBHelper.getDatosCompra().getInt(0) + 1,
-                            productoLista[0],
-                            productoLista[1],
-                            false,
-                            prefs.getNombre(),
-                            0
-                        )
-
-                    } else {
-                        comprasDBHelper.addDatosCompra(
-                            comprasDBHelper.getDatosCompra().getInt(0) + 1,
-                            productoLista[0],
-                            productoLista[1],
-                            false,
-                            prefs.getNombre(),
-                            (prefs.getBuy()+1))
-                        prefs.saveBuy(prefs.getBuy()+1)
-                    }
-                } catch (e: Exception) {
-                    Log.e("error", "Exception con comprasDBHelper")
-                    comprasDBHelper.addDatosCompra(
-                        0,
-                        productoLista[0],
-                        productoLista[1],
-                        false,
-                        prefs.getNombre(),
-                        (prefs.getBuy()+1)
-                    )
-                    var aux = prefs.getBuy() + 1
-                    prefs.saveBuy(aux)
-                }
-                Log.e("get buy", prefs.getBuy().toString())
-                findNavController().navigate(R.id.action_detalleProductoFragment_to_carritoFragment)
-            }
         }
 
         addButton.setOnClickListener {
 
-            if (productoLista[2] == "true") {
+            /*if (productoLista[2] == "true") {
 
                 //DATABASE compras
 
@@ -157,11 +119,11 @@ class DetalleProductoFragment : Fragment() {
                         prefs.getBuy()+1)
                     var aux = prefs.getBuy()+1
                     prefs.saveBuy(aux)
-                }
+                }*/
 
 
                 Toast.makeText(view.context, "Added to cart!", Toast.LENGTH_LONG).show()
-            }
+            //}
 
         }
     }

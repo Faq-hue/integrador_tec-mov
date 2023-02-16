@@ -28,10 +28,10 @@ class MyDataBase(context: Context) : SQLiteOpenHelper(context,"dataBase.db", nul
 
     }
 
-    fun addDatosCompra(id: Int, productoNombre: String, precio: String, comprado: Boolean, user: String, grupo: Int){
+    fun addDatosCompra(productoNombre: String, precio: String, comprado: Boolean, user: String, grupo: Int){
 
         val datos = ContentValues()
-        datos.put("producto", id)
+        //datos.put("producto", id)
         datos.put("producto", productoNombre)
         datos.put("precio", precio)
         datos.put("user", user)
