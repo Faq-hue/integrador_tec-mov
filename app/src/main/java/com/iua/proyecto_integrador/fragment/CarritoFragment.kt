@@ -58,6 +58,8 @@ class CarritoFragment : Fragment() {
             comprasDBHelper.updateDatosCompra(prefs.getBuy())
 
             findNavController().navigate(R.id.action_carritoFragment_to_pedidoRealizadoFragment)
+
+            carritoArrayList.clear()
         }
 
         continueShoppingButton.setOnClickListener {
