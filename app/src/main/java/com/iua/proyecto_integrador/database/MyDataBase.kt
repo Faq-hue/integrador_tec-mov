@@ -77,6 +77,8 @@ class MyDataBase(context: Context) : SQLiteOpenHelper(context,"dataBase.db", nul
 
         try {
 
+            Log.println(Log.ASSERT,"numero---------->" , prefs.getBuy().toString())
+
             val db = this.readableDatabase
             db.execSQL("UPDATE compras SET comprado = 1 WHERE grupo = " + id)
 
@@ -85,7 +87,9 @@ class MyDataBase(context: Context) : SQLiteOpenHelper(context,"dataBase.db", nul
             Log.println(Log.ASSERT, "Numero de grupo que deberia actualizarse", number.toString())
 
             prefs.saveBuy(number)
+
             return true
+
         }catch (e:java.lang.Error){
 
             Log.e("Error en updateDatosCompra:", e.toString())
