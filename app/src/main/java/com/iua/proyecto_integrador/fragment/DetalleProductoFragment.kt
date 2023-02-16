@@ -81,49 +81,12 @@ class DetalleProductoFragment : Fragment() {
 
         addButton.setOnClickListener {
 
-            /*if (productoLista[2] == "true") {
+            if (productoLista[2] == "true") {
 
-                //DATABASE compras
-
-                try {
-                    if (comprasDBHelper.getDatosCompra() != null) {
-
-                        comprasDBHelper.addDatosCompra(
-                            comprasDBHelper.getDatosCompra().getInt(0) + 1,
-                            productoLista[0],
-                            productoLista[1],
-                            false,
-                            prefs.getNombre(),
-                            0
-                        )
-
-                    } else {
-                        comprasDBHelper.addDatosCompra(
-                            comprasDBHelper.getDatosCompra().getInt(0) + 1,
-                            productoLista[0],
-                            productoLista[1],
-                            false,
-                            prefs.getNombre(),
-                            prefs.getBuy()+1)
-
-                        prefs.saveBuy(prefs.getBuy()+1)
-                    }
-                } catch (e: Exception) {
-                    Log.e("error", "Exception con comprasDBHelper")
-                    comprasDBHelper.addDatosCompra(
-                        0,
-                        productoLista[0],
-                        productoLista[1],
-                        false,
-                        prefs.getNombre(),
-                        prefs.getBuy()+1)
-                    var aux = prefs.getBuy()+1
-                    prefs.saveBuy(aux)
-                }*/
-
+                comprasDBHelper.addDatosCompra(productoLista[0], productoLista[1],false ,prefs.getNombre(), prefs.getBuy())
 
                 Toast.makeText(view.context, "Added to cart!", Toast.LENGTH_LONG).show()
-            //}
+            }
 
         }
     }
