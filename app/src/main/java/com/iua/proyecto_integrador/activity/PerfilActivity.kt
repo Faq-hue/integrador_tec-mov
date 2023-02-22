@@ -41,5 +41,10 @@ class PerfilActivity : AppCompatActivity() {
 
         }
 
+        binding.opcionesHuella.setOnClickListener {
+            val intent = Intent(this, FingerprintActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }

@@ -17,6 +17,13 @@
         android:theme="@style/Theme.Proyecto_integrador"
         tools:targetApi="31">
         <activity
+            android:name=".activity.FingerprintActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".activity.ProductoHistorialActivity"
             android:exported="false">
             <meta-data

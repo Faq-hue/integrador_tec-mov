@@ -6,4 +6,13 @@
     <string name="precio">$0</string>
     <string name="quantity">Quantity: 0</string>
     <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus dui eros, in suscipit nibh pharetra blandit. Vestibulum mi arcu, molestie nec feugiat quis, gravida at lectus.</string>
+    <string name="title_activity_fingerprint">FingerprintActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>

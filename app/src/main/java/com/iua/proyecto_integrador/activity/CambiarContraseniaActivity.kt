@@ -4,9 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import com.iua.proyecto_integrador.R
 import com.iua.proyecto_integrador.databinding.ActivityCambiarContraseniaBinding
-import com.iua.proyecto_integrador.databinding.ActivityRegistroUsuarioBinding
 
 class CambiarContraseniaActivity : AppCompatActivity() {
 
