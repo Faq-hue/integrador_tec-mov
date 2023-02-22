@@ -28,11 +28,13 @@ class CarritoAdapter(private val carrito: List<ProductoCarrito>): RecyclerView.A
 
         }
 
+        ///TODO HACER TOTAL
+
         private fun total(): Double {
             var temp: Double = 0.0
 
             for (i in 0..carrito.size-1){
-                temp += carrito[i].precio * carrito[i].cantidadComprada
+                //temp += carrito[i].precio * carrito[i].cantidadComprada
             }
             return temp
         }

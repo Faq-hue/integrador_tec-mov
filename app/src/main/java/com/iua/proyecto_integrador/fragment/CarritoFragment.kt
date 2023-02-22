@@ -14,6 +14,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.iua.proyecto_integrador.R
 import com.iua.proyecto_integrador.adapter.CarritoAdapter
 import com.iua.proyecto_integrador.database.MyDataBase
+import com.iua.proyecto_integrador.model.Producto
 import com.iua.proyecto_integrador.model.ProductoCarrito
 import com.iua.proyecto_integrador.proyecto_integradorAplication.Companion.prefs
 
@@ -51,15 +52,12 @@ class CarritoFragment : Fragment() {
         recyclerView.adapter = adapter
 
         //BOTONES
-        //TODO este boton tiene que cambiar el estado de la compra a 1
         //TODO este boton tiene que limpiar el recycler view del carrito
         buyButton.setOnClickListener {
 
             comprasDBHelper.updateDatosCompra(prefs.getBuy())
 
             findNavController().navigate(R.id.action_carritoFragment_to_pedidoRealizadoFragment)
-
-            carritoArrayList.clear()
         }
 
         continueShoppingButton.setOnClickListener {
@@ -78,18 +76,37 @@ class CarritoFragment : Fragment() {
 
             do{
                 var aux = ProductoCarrito()
-                Log.e("cursor nombre: ", cursor.getString(1))
-                Log.e("cursor precio: ", cursor.getDouble(2).toString())
                 aux.nombre = cursor.getString(1)
                 aux.precio = cursor.getDouble(2)
+                aux.comprado = cursor.getString(3)
 
-                carritoArrayList.add(aux)
+                if(aux.comprado.equals("0")){
+                    carritoArrayList.add(aux)
+                }
+
 
             }while (cursor.moveToNext())
 
         }
 
+        Log.e("PRUEBA 696969969696", carritoArrayList.toString())
+
         cursor.close()
+    }
+
+    private fun dataFinalize(): ArrayList<ProductoCarrito> {
+
+        carritoArrayList = arrayListOf()
+
+        Log.e("mostrar todo", carritoArrayList.toString())
+
+        carritoArrayList.clear()
+
+
+        Log.e("mostrar todo", carritoArrayList.toString())
+
+
+        return carritoArrayList
     }
 
 }
