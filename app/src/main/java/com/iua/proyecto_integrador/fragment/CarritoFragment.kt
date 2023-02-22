@@ -1,5 +1,6 @@
 package com.iua.proyecto_integrador.fragment
 
+import android.content.Intent
 import android.database.sqlite.SQLiteDatabase
 import android.os.Bundle
 import android.util.Log
@@ -52,10 +53,11 @@ class CarritoFragment : Fragment() {
         recyclerView.adapter = adapter
 
         //BOTONES
-        //TODO este boton tiene que limpiar el recycler view del carrito
         buyButton.setOnClickListener {
 
             comprasDBHelper.updateDatosCompra(prefs.getBuy())
+
+            enviarMail()
 
             findNavController().navigate(R.id.action_carritoFragment_to_pedidoRealizadoFragment)
         }
@@ -89,24 +91,29 @@ class CarritoFragment : Fragment() {
 
         }
 
-        Log.e("PRUEBA 696969969696", carritoArrayList.toString())
-
         cursor.close()
     }
 
-    private fun dataFinalize(): ArrayList<ProductoCarrito> {
+    private fun enviarMail(){
 
-        carritoArrayList = arrayListOf()
+        var l: MutableList<String> = arrayListOf()
 
-        Log.e("mostrar todo", carritoArrayList.toString())
+        carritoArrayList.forEach{ it
 
-        carritoArrayList.clear()
+            l.add(it.nombre.toString())
 
+        }
 
-        Log.e("mostrar todo", carritoArrayList.toString())
+        val email = prefs.getEmail()
+        val subject = "Factura de compra"
+        val message = "El pedido posee: ${l.toString()} \n Total: ${"Aca debe ir el total"}"
+        val intent = Intent(Intent.ACTION_SEND)
+        intent.putExtra(Intent.EXTRA_EMAIL, arrayOf(email))
+        intent.putExtra(Intent.EXTRA_SUBJECT, subject)
+        intent.putExtra(Intent.EXTRA_TEXT, message)
+        intent.type = "message/rfc822"
+        startActivity(Intent.createChooser(intent, "Choose an email client"))
 
-
-        return carritoArrayList
     }
 
 }
