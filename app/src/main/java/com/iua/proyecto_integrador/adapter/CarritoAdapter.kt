@@ -2,7 +2,9 @@ package com.iua.proyecto_integrador.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.iua.proyecto_integrador.R
 import com.iua.proyecto_integrador.databinding.ActivityProductoCarritoBinding
 import com.iua.proyecto_integrador.model.ProductoCarrito
 
@@ -23,22 +25,18 @@ class CarritoAdapter(private val carrito: List<ProductoCarrito>): RecyclerView.A
 
         fun bind(carrito: ProductoCarrito){
             binding.nombreProductoCarrito.text = carrito.nombre
-            //binding.quantityBuyCarrito.text = carrito.cantidadComprada.toString()
             binding.precioCarrito.text = "$" + carrito.precio.toString()
 
         }
+    }
 
-        ///TODO HACER TOTAL
+    fun total(): Double {
+        var temp: Double = 0.0
 
-        private fun total(): Double {
-            var temp: Double = 0.0
-
-            for (i in 0..carrito.size-1){
-                //temp += carrito[i].precio * carrito[i].cantidadComprada
-            }
-            return temp
+        carrito.forEach{ it
+            temp += it.precio
         }
 
-
+        return temp
     }
 }

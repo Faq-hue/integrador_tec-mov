@@ -9,6 +9,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.TextView
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -51,6 +52,8 @@ class CarritoFragment : Fragment() {
         recyclerView.setHasFixedSize(true)
         adapter = CarritoAdapter(carritoArrayList)
         recyclerView.adapter = adapter
+
+        view.findViewById<TextView>(R.id.totalCarrito).text = adapter.total().toString()
 
         //BOTONES
         buyButton.setOnClickListener {
@@ -106,7 +109,7 @@ class CarritoFragment : Fragment() {
 
         val email = prefs.getEmail()
         val subject = "Factura de compra"
-        val message = "El pedido posee: ${l.toString()} \n Total: ${"Aca debe ir el total"}"
+        val message = "El pedido posee: ${l.toString()} \n Total: ${adapter.total().toString()}"
         val intent = Intent(Intent.ACTION_SEND)
         intent.putExtra(Intent.EXTRA_EMAIL, arrayOf(email))
         intent.putExtra(Intent.EXTRA_SUBJECT, subject)
