@@ -34,13 +34,13 @@ public final class ActivityPerfilSettingsBinding implements ViewBinding {
   public final EditText emailET;
 
   @NonNull
+  public final TextView fotoDePerfil;
+
+  @NonNull
   public final ImageView imageView5;
 
   @NonNull
   public final Button savePerfilSettingsButton;
-
-  @NonNull
-  public final TextView textView;
 
   @NonNull
   public final Toolbar toolbar;
@@ -50,16 +50,16 @@ public final class ActivityPerfilSettingsBinding implements ViewBinding {
 
   private ActivityPerfilSettingsBinding(@NonNull ConstraintLayout rootView,
       @NonNull ImageButton backButton, @NonNull Button changePasswordButton,
-      @NonNull EditText emailET, @NonNull ImageView imageView5,
-      @NonNull Button savePerfilSettingsButton, @NonNull TextView textView,
-      @NonNull Toolbar toolbar, @NonNull EditText userName) {
+      @NonNull EditText emailET, @NonNull TextView fotoDePerfil, @NonNull ImageView imageView5,
+      @NonNull Button savePerfilSettingsButton, @NonNull Toolbar toolbar,
+      @NonNull EditText userName) {
     this.rootView = rootView;
     this.backButton = backButton;
     this.changePasswordButton = changePasswordButton;
     this.emailET = emailET;
+    this.fotoDePerfil = fotoDePerfil;
     this.imageView5 = imageView5;
     this.savePerfilSettingsButton = savePerfilSettingsButton;
-    this.textView = textView;
     this.toolbar = toolbar;
     this.userName = userName;
   }
@@ -109,6 +109,12 @@ public final class ActivityPerfilSettingsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.fotoDePerfil;
+      TextView fotoDePerfil = ViewBindings.findChildViewById(rootView, id);
+      if (fotoDePerfil == null) {
+        break missingId;
+      }
+
       id = R.id.imageView5;
       ImageView imageView5 = ViewBindings.findChildViewById(rootView, id);
       if (imageView5 == null) {
@@ -118,12 +124,6 @@ public final class ActivityPerfilSettingsBinding implements ViewBinding {
       id = R.id.savePerfilSettingsButton;
       Button savePerfilSettingsButton = ViewBindings.findChildViewById(rootView, id);
       if (savePerfilSettingsButton == null) {
-        break missingId;
-      }
-
-      id = R.id.textView;
-      TextView textView = ViewBindings.findChildViewById(rootView, id);
-      if (textView == null) {
         break missingId;
       }
 
@@ -140,8 +140,8 @@ public final class ActivityPerfilSettingsBinding implements ViewBinding {
       }
 
       return new ActivityPerfilSettingsBinding((ConstraintLayout) rootView, backButton,
-          changePasswordButton, emailET, imageView5, savePerfilSettingsButton, textView, toolbar,
-          userName);
+          changePasswordButton, emailET, fotoDePerfil, imageView5, savePerfilSettingsButton,
+          toolbar, userName);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

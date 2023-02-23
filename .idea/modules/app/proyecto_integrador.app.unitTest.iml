@@ -16,12 +16,13 @@
               <args>
                 <arg>$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/327701fb8b575ac97edfa4839e4ce47d/transformed/viewbinding-7.3.1-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/516cabf64025cd17bc05c2cd727af430/transformed/biometric-ktx-1.2.0-alpha04-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/1fcfcab2425cfbca1f48f96700277405/transformed/navigation-ui-ktx-2.5.3-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/c6fecb9191f292d71fc00c1965815f14/transformed/navigation-ui-2.5.3-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/bbd36c0fa3ba8e1c48967c3dd62a335c/transformed/material-1.6.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/0bdf24dfb7a20a525681e66b91253557/transformed/appcompat-1.5.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/864eed674e7fdb05170986e3d939cf28/transformed/glide-4.11.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/05b90a5bb3e03a35826f9dc97f9379cc/transformed/biometric-1.1.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/334f2e9b4aee5c763da01574522d5388/transformed/biometric-1.2.0-alpha04-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/758f6b6ca57ae9b5a76db053d2aff79d/transformed/viewpager2-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/0eafca4d42110424e815d2cc6380f085/transformed/navigation-fragment-ktx-2.5.3-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/795d71ed2dd6ce098d369bb6f05dcaac/transformed/navigation-fragment-2.5.3-api.jar</arg>
@@ -36,8 +37,8 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/c6c129370e35327e36abe6a9c4a7b229/transformed/lifecycle-viewmodel-savedstate-2.5.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/4157224e84370dd6bc0d5fc9053a45a6/transformed/lifecycle-viewmodel-ktx-2.5.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/4a3b6fd5708edb9dbde848c6aa54907e/transformed/lifecycle-runtime-ktx-2.5.1-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.6.1/97fd74ccf54a863d221956ffcd21835e168e2aaa/kotlinx-coroutines-core-jvm-1.6.1.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-android/1.6.1/4e61fcdcc508cbaa37c4a284a50205d7c7767e37/kotlinx-coroutines-android-1.6.1.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.6.1/97fd74ccf54a863d221956ffcd21835e168e2aaa/kotlinx-coroutines-core-jvm-1.6.1.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.7.10/d70d7d2c56371f7aa18f32e984e3e2e998fe9081/kotlin-stdlib-jdk8-1.7.10.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.13.2/8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12/junit-4.13.2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar</arg>
@@ -217,7 +218,8 @@
     <orderEntry type="library" scope="TEST" name="Gradle: com.github.bumptech.glide:glide:4.11.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.github.bumptech.glide:gifdecoder:4.11.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.exifinterface:exifinterface:1.0.0@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: androidx.biometric:biometric:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.biometric:biometric:1.2.0-alpha04@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.biometric:biometric-ktx:1.2.0-alpha04@aar" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="proyecto_integrador.app.main" />
 </module>

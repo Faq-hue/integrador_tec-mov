@@ -1,6 +1,5 @@
 package com.iua.proyecto_integrador.adapter
 
-import android.app.Activity
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView

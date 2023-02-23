@@ -1,178 +1,190 @@
 [
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/layout_activity_listado_producto_individual.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/layout/activity_listado_producto_individual.xml"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/layout_activity_registro_usuario.xml.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/layout/activity_registro_usuario.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/layout_activity_splash.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/layout/activity_splash.xml"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-pngs-43:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/drawable_producto.webp.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/drawable/producto.webp"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/drawable_arrow.png.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/drawable/arrow.png"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/navigation_nav_graph.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/navigation/nav_graph.xml"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/layout_activity_producto_historial.xml.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/layout/activity_producto_historial.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/drawable_logo.png.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/drawable/logo.png"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/layout_fragment_carrito.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/layout/fragment_carrito.xml"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/xml_backup_rules.xml.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/drawable_person.png.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/drawable/person.png"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/layout_activity_olvido_contrasenia.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/layout/activity_olvido_contrasenia.xml"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/layout_activity_main_frag.xml.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/layout/activity_main_frag.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/layout_activity_cambiar_contrasenia.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/layout/activity_cambiar_contrasenia.xml"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/layout_fragment_pedido_realizado.xml.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/layout/fragment_pedido_realizado.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/layout_activity_perfil_settings.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/layout/activity_perfil_settings.xml"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/layout_activity_login.xml.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/layout/activity_login.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/layout_activity_main_frag.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/layout/activity_main_frag.xml"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/drawable_person.png.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/drawable/person.png"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/drawable/ic_launcher_background.xml"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/drawable_buy.png.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/drawable/buy.png"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/layout_activity_perfil.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/layout/activity_perfil.xml"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/layout_activity_listado_producto_individual.xml.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/layout/activity_listado_producto_individual.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/xml_mi_widget_info.xml.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/xml/mi_widget_info.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/drawable_register.png.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/drawable/register.png"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/layout_activity_perfil.xml.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/layout/activity_perfil.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-pngs-42:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/layout_activity_historial.xml.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/layout/activity_historial.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/xml_backup_rules.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/xml/backup_rules.xml"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/layout_activity_producto_carrito.xml.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/layout/activity_producto_carrito.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/drawable_arrow.png.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/drawable/arrow.png"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/xml_data_extraction_rules.xml.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/drawable_buy.png.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/drawable/buy.png"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/layout_activity_perfil_settings.xml.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/layout/activity_perfil_settings.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/drawable_pass.png.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/drawable/pass.png"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/layout_activity_fingerprint.xml.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/layout/activity_fingerprint.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/xml_data_extraction_rules.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/xml/data_extraction_rules.xml"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/layout_fragment_detalle_producto.xml.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/layout/fragment_detalle_producto.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/drawable_producto.webp.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/drawable/producto.webp"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/navigation_navigation_fragments.xml.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/navigation/navigation_fragments.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/layout_activity_login.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/layout/activity_login.xml"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/layout_activity_registro_usuario.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/layout/activity_registro_usuario.xml"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/drawable_login.png.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/drawable/login.png"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/layout_fragment_listado.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/layout/fragment_listado.xml"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/layout_activity_historial.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/layout/activity_historial.xml"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/layout_activity_my_widget.xml.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/layout/activity_my_widget.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/layout_activity_fingerprint.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/layout/activity_fingerprint.xml"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/drawable_pass.png.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/drawable/pass.png"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/layout_fragment_detalle_producto.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/layout/fragment_detalle_producto.xml"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/layout_fragment_listado.xml.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/layout/fragment_listado.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/layout_activity_producto_carrito.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/layout/activity_producto_carrito.xml"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/layout_activity_olvido_contrasenia.xml.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/layout/activity_olvido_contrasenia.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/drawable_logo.png.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/drawable/logo.png"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/layout_fragment_pedido_realizado.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/layout/fragment_pedido_realizado.xml"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/navigation_nav_graph.xml.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/navigation/nav_graph.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/drawable_ic_baseline_person_24.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/drawable/ic_baseline_person_24.xml"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/layout_fragment_carrito.xml.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/layout/fragment_carrito.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/navigation_navigation_fragments.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/navigation/navigation_fragments.xml"
+        "merged": "com.iua.proyecto_integrador.app-merged_res-48:/layout_activity_perfil.xml.flat",
+        "source": "com.iua.proyecto_integrador.app-main-50:/layout/activity_perfil.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/layout_activity_producto_historial.xml.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/layout/activity_producto_historial.xml"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/layout_activity_cambiar_contrasenia.xml.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/layout/activity_cambiar_contrasenia.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-merged_res-47:/drawable_login.png.flat",
-        "source": "com.iua.proyecto_integrador.app-main-49:/drawable/login.png"
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/layout_activity_splash.xml.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/drawable_register.png.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/drawable/register.png"
+    },
+    {
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-merged_res-48:/drawable_ic_baseline_person_24.xml.flat",
+        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/drawable/ic_baseline_person_24.xml"
     }
 ]

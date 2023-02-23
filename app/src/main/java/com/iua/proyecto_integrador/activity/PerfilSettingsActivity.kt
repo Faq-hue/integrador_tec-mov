@@ -3,7 +3,10 @@ package com.iua.proyecto_integrador.activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.provider.MediaStore
 import android.widget.Toast
+import androidx.core.content.ContentProviderCompat.requireContext
+import androidx.core.content.PermissionChecker
 import com.iua.proyecto_integrador.R
 import com.iua.proyecto_integrador.databinding.ActivityPerfilSettingsBinding
 import com.iua.proyecto_integrador.proyecto_integradorAplication
@@ -46,6 +49,17 @@ class PerfilSettingsActivity : AppCompatActivity() {
             startActivity(intent)
 
         }
+
+        /*binding.fotoDePerfil.setOnClickListener {
+
+            if (checkSelfPermission(requireContext(), android.Manifest.permission.CAMERA) == PermissionChecker.PERMISSION_DENIED) {
+                requestPermissions(arrayOf(android.Manifest.permission.CAMERA), 100)
+            } else {
+                val intent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
+                startActivity(intent)
+            }
+
+        }*/
 
     }
 }

@@ -34,7 +34,6 @@ id action_detalleProductoFragment_to_listadoFragment
 id action_listadoFragment_to_detalleProductoFragment
 id action_pedidoRealizadoFragment_to_carritoFragment
 id action_pedidoRealizadoFragment_to_listadoFragment
-id addFingerprint
 id addToCartButton
 id applyChangesPass
 id backButton
@@ -45,15 +44,16 @@ id carritoFragment
 id cart
 id changePasswordButton
 id continueShoppingButton
+id crearWidget
 id createAccount
 id descripcionDetalleProducto
 id detalleProductoFragment
 id disponible
-id editUserButton
 id email
 id emailAddressET
 id emailET
 id forgotPass
+id fotoDePerfil
 id fragmentContainerView2
 id guideline2
 id guideline4
@@ -64,7 +64,6 @@ id imageView3
 id imageView4
 id imageView5
 id imageView6
-id imageView8
 id imagenProductoIndividual
 id listadoFragment
 id loginButton
@@ -89,7 +88,6 @@ id repeatPassword
 id savePerfilSettingsButton
 id sendMailButton
 id shoppingHistoryButton
-id textView
 id textView3
 id textView4
 id toolbar
