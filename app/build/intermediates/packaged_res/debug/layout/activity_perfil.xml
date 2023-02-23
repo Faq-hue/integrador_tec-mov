@@ -98,7 +98,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/email"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/editUserButton"
@@ -112,7 +112,21 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/shoppingHistoryButton"
-        app:layout_constraintVertical_bias="0.372" />
+        app:layout_constraintVertical_bias="0.263" />
+
+    <Button
+        android:id="@+id/opcionesHuella"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/orange"
+        android:text="Fingerprint Options"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editUserButton"
+        app:layout_constraintVertical_bias="0.292" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

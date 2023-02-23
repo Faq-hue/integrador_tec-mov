@@ -16,200 +16,219 @@
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 12-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:6:5-79
 12-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:6:22-76
-13
-14    <application
-14-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:8:5-89:19
-15        android:name="com.iua.proyecto_integrador.proyecto_integradorAplication"
-15-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:9:9-54
-16        android:allowBackup="true"
-16-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:10:9-35
-17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-17-->[androidx.core:core:1.8.0] /home/faq/.gradle/caches/transforms-3/cbd2cea7a41c8b4414f86c37a63fa3c1/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
-18        android:dataExtractionRules="@xml/data_extraction_rules"
-18-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:11:9-65
-19        android:debuggable="true"
-20        android:extractNativeLibs="false"
-21        android:fullBackupContent="@xml/backup_rules"
-21-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:12:9-54
-22        android:icon="@mipmap/ic_launcher"
-22-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:13:9-43
-23        android:label="@string/app_name"
-23-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:14:9-41
-24        android:roundIcon="@mipmap/ic_launcher_round"
-24-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:15:9-54
-25        android:supportsRtl="true"
-25-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:16:9-35
-26        android:testOnly="true"
-27        android:theme="@style/Theme.Proyecto_integrador" >
-27-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:17:9-57
-28        <activity
-28-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:19:9-25:20
-29            android:name="com.iua.proyecto_integrador.activity.ProductoHistorialActivity"
-29-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:20:13-63
-30            android:exported="false" >
-30-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:21:13-37
-31            <meta-data
-31-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:22:13-24:36
-32                android:name="android.app.lib_name"
-32-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:23:17-52
-33                android:value="" />
-33-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:24:17-33
-34        </activity>
-35        <activity
-35-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:26:9-32:20
-36            android:name="com.iua.proyecto_integrador.activity.OlvidoContraseniaActivity"
-36-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:27:13-63
-37            android:exported="false" >
-37-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:28:13-37
-38            <meta-data
-38-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:22:13-24:36
-39                android:name="android.app.lib_name"
-39-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:23:17-52
-40                android:value="" />
-40-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:24:17-33
-41        </activity>
-42        <activity
-42-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:33:9-46:20
-43            android:name="com.iua.proyecto_integrador.activity.SplashActivity"
-43-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:34:13-52
-44            android:exported="true"
-44-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:35:13-36
-45            android:theme="@style/SplashScreen" >
-45-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:36:13-48
-46            <meta-data
-46-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:22:13-24:36
-47                android:name="android.app.lib_name"
-47-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:23:17-52
-48                android:value="" />
-48-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:24:17-33
-49
-50            <intent-filter>
-50-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:41:13-45:29
-51                <action android:name="android.intent.action.MAIN" />
-51-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:42:17-69
-51-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:42:25-66
-52
-53                <category android:name="android.intent.category.LAUNCHER" />
-53-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:44:17-77
-53-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:44:27-74
-54            </intent-filter>
-55        </activity>
-56        <activity
-56-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:47:9-53:20
-57            android:name="com.iua.proyecto_integrador.activity.HistorialActivity"
-57-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:48:13-55
-58            android:exported="false" >
-58-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:49:13-37
-59            <meta-data
-59-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:22:13-24:36
-60                android:name="android.app.lib_name"
-60-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:23:17-52
-61                android:value="" />
-61-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:24:17-33
-62        </activity>
-63        <activity
-63-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:54:9-56:39
-64            android:name="com.iua.proyecto_integrador.MainActivity"
-64-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:55:13-41
-65            android:exported="true" />
-65-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:56:13-36
-66        <activity
-66-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:57:9-63:20
-67            android:name="com.iua.proyecto_integrador.activity.ProductoCarritoActivity"
-67-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:58:13-61
-68            android:exported="false" >
-68-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:59:13-37
-69            <meta-data
-69-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:22:13-24:36
-70                android:name="android.app.lib_name"
-70-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:23:17-52
-71                android:value="" />
-71-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:24:17-33
-72        </activity>
-73        <activity
-73-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:64:9-70:20
-74            android:name="com.iua.proyecto_integrador.activity.MainFragActivity"
-74-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:65:13-54
-75            android:exported="false" >
-75-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:66:13-37
-76            <meta-data
-76-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:22:13-24:36
-77                android:name="android.app.lib_name"
-77-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:23:17-52
-78                android:value="" />
-78-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:24:17-33
-79        </activity>
-80        <activity
-80-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:71:9-73:40
-81            android:name="com.iua.proyecto_integrador.activity.ListadoProductoIndividualActivity"
-81-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:72:13-71
-82            android:exported="false" />
-82-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:73:13-37
-83        <activity
-83-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:74:9-76:40
-84            android:name="com.iua.proyecto_integrador.activity.CambiarContraseniaActivity"
-84-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:75:13-64
-85            android:exported="false" />
-85-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:76:13-37
-86        <activity
-86-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:77:9-79:40
-87            android:name="com.iua.proyecto_integrador.activity.LoginActivity"
-87-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:78:13-51
-88            android:exported="false" />
-88-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:79:13-37
+13    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- suppress DeprecatedClassUsageInspection -->
+13-->[androidx.biometric:biometric:1.1.0] /home/faq/.gradle/caches/transforms-3/09f852a882365a5658dbc485c21f91bd/transformed/biometric-1.1.0/AndroidManifest.xml:24:5-72
+13-->[androidx.biometric:biometric:1.1.0] /home/faq/.gradle/caches/transforms-3/09f852a882365a5658dbc485c21f91bd/transformed/biometric-1.1.0/AndroidManifest.xml:24:22-69
+14    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+14-->[androidx.biometric:biometric:1.1.0] /home/faq/.gradle/caches/transforms-3/09f852a882365a5658dbc485c21f91bd/transformed/biometric-1.1.0/AndroidManifest.xml:27:5-74
+14-->[androidx.biometric:biometric:1.1.0] /home/faq/.gradle/caches/transforms-3/09f852a882365a5658dbc485c21f91bd/transformed/biometric-1.1.0/AndroidManifest.xml:27:22-71
+15
+16    <application
+16-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:8:5-96:19
+17        android:name="com.iua.proyecto_integrador.proyecto_integradorAplication"
+17-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:9:9-54
+18        android:allowBackup="true"
+18-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:10:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.8.0] /home/faq/.gradle/caches/transforms-3/cbd2cea7a41c8b4414f86c37a63fa3c1/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:11:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:12:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:13:9-43
+25        android:label="@string/app_name"
+25-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:14:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:15:9-54
+27        android:supportsRtl="true"
+27-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:16:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.Proyecto_integrador" >
+29-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:17:9-57
+30        <activity
+30-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:19:9-25:20
+31            android:name="com.iua.proyecto_integrador.activity.FingerprintActivity"
+31-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:20:13-57
+32            android:exported="false" >
+32-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:21:13-37
+33            <meta-data
+33-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:22:13-24:36
+34                android:name="android.app.lib_name"
+34-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:23:17-52
+35                android:value="" />
+35-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:24:17-33
+36        </activity>
+37        <activity
+37-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:26:9-32:20
+38            android:name="com.iua.proyecto_integrador.activity.ProductoHistorialActivity"
+38-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:27:13-63
+39            android:exported="false" >
+39-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:28:13-37
+40            <meta-data
+40-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:22:13-24:36
+41                android:name="android.app.lib_name"
+41-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:23:17-52
+42                android:value="" />
+42-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:24:17-33
+43        </activity>
+44        <activity
+44-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:33:9-39:20
+45            android:name="com.iua.proyecto_integrador.activity.OlvidoContraseniaActivity"
+45-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:34:13-63
+46            android:exported="false" >
+46-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:35:13-37
+47            <meta-data
+47-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:22:13-24:36
+48                android:name="android.app.lib_name"
+48-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:23:17-52
+49                android:value="" />
+49-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:24:17-33
+50        </activity>
+51        <activity
+51-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:40:9-53:20
+52            android:name="com.iua.proyecto_integrador.activity.SplashActivity"
+52-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:41:13-52
+53            android:exported="true"
+53-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:42:13-36
+54            android:theme="@style/SplashScreen" >
+54-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:43:13-48
+55            <meta-data
+55-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:22:13-24:36
+56                android:name="android.app.lib_name"
+56-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:23:17-52
+57                android:value="" />
+57-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:24:17-33
+58
+59            <intent-filter>
+59-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:48:13-52:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:49:17-69
+60-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:49:25-66
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:51:17-77
+62-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:51:27-74
+63            </intent-filter>
+64        </activity>
+65        <activity
+65-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:54:9-60:20
+66            android:name="com.iua.proyecto_integrador.activity.HistorialActivity"
+66-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:55:13-55
+67            android:exported="false" >
+67-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:56:13-37
+68            <meta-data
+68-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:22:13-24:36
+69                android:name="android.app.lib_name"
+69-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:23:17-52
+70                android:value="" />
+70-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:24:17-33
+71        </activity>
+72        <activity
+72-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:61:9-63:39
+73            android:name="com.iua.proyecto_integrador.MainActivity"
+73-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:62:13-41
+74            android:exported="true" />
+74-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:63:13-36
+75        <activity
+75-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:64:9-70:20
+76            android:name="com.iua.proyecto_integrador.activity.ProductoCarritoActivity"
+76-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:65:13-61
+77            android:exported="false" >
+77-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:66:13-37
+78            <meta-data
+78-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:22:13-24:36
+79                android:name="android.app.lib_name"
+79-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:23:17-52
+80                android:value="" />
+80-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:24:17-33
+81        </activity>
+82        <activity
+82-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:71:9-77:20
+83            android:name="com.iua.proyecto_integrador.activity.MainFragActivity"
+83-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:72:13-54
+84            android:exported="false" >
+84-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:73:13-37
+85            <meta-data
+85-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:22:13-24:36
+86                android:name="android.app.lib_name"
+86-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:23:17-52
+87                android:value="" />
+87-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:24:17-33
+88        </activity>
 89        <activity
-89-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:80:9-82:40
-90            android:name="com.iua.proyecto_integrador.activity.PerfilSettingsActivity"
-90-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:81:13-60
+89-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:78:9-80:40
+90            android:name="com.iua.proyecto_integrador.activity.ListadoProductoIndividualActivity"
+90-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:79:13-71
 91            android:exported="false" />
-91-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:82:13-37
+91-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:80:13-37
 92        <activity
-92-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:83:9-85:40
-93            android:name="com.iua.proyecto_integrador.activity.PerfilActivity"
-93-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:84:13-52
+92-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:81:9-83:40
+93            android:name="com.iua.proyecto_integrador.activity.CambiarContraseniaActivity"
+93-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:82:13-64
 94            android:exported="false" />
-94-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:85:13-37
+94-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:83:13-37
 95        <activity
-95-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:86:9-88:40
-96            android:name="com.iua.proyecto_integrador.activity.RegisterActivity"
-96-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:87:13-54
+95-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:84:9-86:40
+96            android:name="com.iua.proyecto_integrador.activity.LoginActivity"
+96-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:85:13-51
 97            android:exported="false" />
-97-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:88:13-37
-98
-99        <uses-library
-99-->[androidx.window:window:1.0.0] /home/faq/.gradle/caches/transforms-3/3c65846e402a3018f0157401bd77d39f/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
-100            android:name="androidx.window.extensions"
-100-->[androidx.window:window:1.0.0] /home/faq/.gradle/caches/transforms-3/3c65846e402a3018f0157401bd77d39f/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
-101            android:required="false" />
-101-->[androidx.window:window:1.0.0] /home/faq/.gradle/caches/transforms-3/3c65846e402a3018f0157401bd77d39f/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
-102        <uses-library
-102-->[androidx.window:window:1.0.0] /home/faq/.gradle/caches/transforms-3/3c65846e402a3018f0157401bd77d39f/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
-103            android:name="androidx.window.sidecar"
-103-->[androidx.window:window:1.0.0] /home/faq/.gradle/caches/transforms-3/3c65846e402a3018f0157401bd77d39f/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
-104            android:required="false" />
-104-->[androidx.window:window:1.0.0] /home/faq/.gradle/caches/transforms-3/3c65846e402a3018f0157401bd77d39f/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
-105
-106        <provider
-106-->[androidx.emoji2:emoji2:1.2.0] /home/faq/.gradle/caches/transforms-3/b1c61a6361eb3f20cddda173d67f4de2/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-107            android:name="androidx.startup.InitializationProvider"
-107-->[androidx.emoji2:emoji2:1.2.0] /home/faq/.gradle/caches/transforms-3/b1c61a6361eb3f20cddda173d67f4de2/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
-108            android:authorities="com.iua.proyecto_integrador.androidx-startup"
-108-->[androidx.emoji2:emoji2:1.2.0] /home/faq/.gradle/caches/transforms-3/b1c61a6361eb3f20cddda173d67f4de2/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
-109            android:exported="false" >
-109-->[androidx.emoji2:emoji2:1.2.0] /home/faq/.gradle/caches/transforms-3/b1c61a6361eb3f20cddda173d67f4de2/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
-110            <meta-data
-110-->[androidx.emoji2:emoji2:1.2.0] /home/faq/.gradle/caches/transforms-3/b1c61a6361eb3f20cddda173d67f4de2/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-111                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-111-->[androidx.emoji2:emoji2:1.2.0] /home/faq/.gradle/caches/transforms-3/b1c61a6361eb3f20cddda173d67f4de2/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
-112                android:value="androidx.startup" />
-112-->[androidx.emoji2:emoji2:1.2.0] /home/faq/.gradle/caches/transforms-3/b1c61a6361eb3f20cddda173d67f4de2/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
-113            <meta-data
-113-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/faq/.gradle/caches/transforms-3/025ed7849c6f43c10d9a6c1cd4d240b1/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-114                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-114-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/faq/.gradle/caches/transforms-3/025ed7849c6f43c10d9a6c1cd4d240b1/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-115                android:value="androidx.startup" />
-115-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/faq/.gradle/caches/transforms-3/025ed7849c6f43c10d9a6c1cd4d240b1/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-116        </provider>
-117    </application>
-118
-119</manifest>
+97-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:86:13-37
+98        <activity
+98-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:87:9-89:40
+99            android:name="com.iua.proyecto_integrador.activity.PerfilSettingsActivity"
+99-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:88:13-60
+100            android:exported="false" />
+100-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:89:13-37
+101        <activity
+101-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:90:9-92:40
+102            android:name="com.iua.proyecto_integrador.activity.PerfilActivity"
+102-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:91:13-52
+103            android:exported="false" />
+103-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:92:13-37
+104        <activity
+104-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:93:9-95:40
+105            android:name="com.iua.proyecto_integrador.activity.RegisterActivity"
+105-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:94:13-54
+106            android:exported="false" />
+106-->/home/faq/Documentos/iua/tec_mov/integrador_tec-mov/app/src/main/AndroidManifest.xml:95:13-37
+107
+108        <uses-library
+108-->[androidx.window:window:1.0.0] /home/faq/.gradle/caches/transforms-3/3c65846e402a3018f0157401bd77d39f/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+109            android:name="androidx.window.extensions"
+109-->[androidx.window:window:1.0.0] /home/faq/.gradle/caches/transforms-3/3c65846e402a3018f0157401bd77d39f/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+110            android:required="false" />
+110-->[androidx.window:window:1.0.0] /home/faq/.gradle/caches/transforms-3/3c65846e402a3018f0157401bd77d39f/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+111        <uses-library
+111-->[androidx.window:window:1.0.0] /home/faq/.gradle/caches/transforms-3/3c65846e402a3018f0157401bd77d39f/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+112            android:name="androidx.window.sidecar"
+112-->[androidx.window:window:1.0.0] /home/faq/.gradle/caches/transforms-3/3c65846e402a3018f0157401bd77d39f/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+113            android:required="false" />
+113-->[androidx.window:window:1.0.0] /home/faq/.gradle/caches/transforms-3/3c65846e402a3018f0157401bd77d39f/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+114
+115        <provider
+115-->[androidx.emoji2:emoji2:1.2.0] /home/faq/.gradle/caches/transforms-3/b1c61a6361eb3f20cddda173d67f4de2/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+116            android:name="androidx.startup.InitializationProvider"
+116-->[androidx.emoji2:emoji2:1.2.0] /home/faq/.gradle/caches/transforms-3/b1c61a6361eb3f20cddda173d67f4de2/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+117            android:authorities="com.iua.proyecto_integrador.androidx-startup"
+117-->[androidx.emoji2:emoji2:1.2.0] /home/faq/.gradle/caches/transforms-3/b1c61a6361eb3f20cddda173d67f4de2/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+118            android:exported="false" >
+118-->[androidx.emoji2:emoji2:1.2.0] /home/faq/.gradle/caches/transforms-3/b1c61a6361eb3f20cddda173d67f4de2/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+119            <meta-data
+119-->[androidx.emoji2:emoji2:1.2.0] /home/faq/.gradle/caches/transforms-3/b1c61a6361eb3f20cddda173d67f4de2/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+120                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+120-->[androidx.emoji2:emoji2:1.2.0] /home/faq/.gradle/caches/transforms-3/b1c61a6361eb3f20cddda173d67f4de2/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+121                android:value="androidx.startup" />
+121-->[androidx.emoji2:emoji2:1.2.0] /home/faq/.gradle/caches/transforms-3/b1c61a6361eb3f20cddda173d67f4de2/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+122            <meta-data
+122-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/faq/.gradle/caches/transforms-3/025ed7849c6f43c10d9a6c1cd4d240b1/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+123                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+123-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/faq/.gradle/caches/transforms-3/025ed7849c6f43c10d9a6c1cd4d240b1/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+124                android:value="androidx.startup" />
+124-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/faq/.gradle/caches/transforms-3/025ed7849c6f43c10d9a6c1cd4d240b1/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+125        </provider>
+126    </application>
+127
+128</manifest>

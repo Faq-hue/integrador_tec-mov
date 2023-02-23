@@ -10,13 +10,21 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
+    <dimen name="fab_margin">16dp</dimen>
     <string name="api_key">a24fbc26-a37a-45ad-8f99-ab5f1c5beabf</string>
     <string name="app_name">proyecto_integrador</string>
     <string name="email">samplemail@mail.com</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus dui eros, in suscipit nibh pharetra blandit. Vestibulum mi arcu, molestie nec feugiat quis, gravida at lectus.</string>
+    <string name="next">Next</string>
     <string name="precio">$0</string>
+    <string name="previous">Previous</string>
     <string name="producto">Producto</string>
     <string name="quantity">Quantity: 0</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="title_activity_fingerprint">FingerprintActivity</string>
     <string name="userName">user</string>
     <style name="SplashScreen" parent="Theme.AppCompat.NoActionBar">
         <item name="android:windowBackground">
@@ -36,4 +44,10 @@
         <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
         
     </style>
+    <style name="Theme.Proyecto_integrador.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.Proyecto_integrador.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Proyecto_integrador.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 </resources>

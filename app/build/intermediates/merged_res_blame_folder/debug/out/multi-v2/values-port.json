@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.iua.proyecto_integrador.app-mergeDebugResources-44:/values-port/values-port.xml",
+            "outputFile": "com.iua.proyecto_integrador.app-mergeDebugResources-45:/values-port/values-port.xml",
             "map": [
                 {
                     "source": "/home/faq/.gradle/caches/transforms-3/68ee75195f0df5ad8d472ec660be41c8/transformed/appcompat-1.5.1/res/values-port/values-port.xml",

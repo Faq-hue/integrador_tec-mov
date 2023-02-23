@@ -40,6 +40,9 @@ public final class ActivityPerfilBinding implements ViewBinding {
   public final ImageView imageView5;
 
   @NonNull
+  public final Button opcionesHuella;
+
+  @NonNull
   public final TextView shoppingHistoryButton;
 
   @NonNull
@@ -50,14 +53,16 @@ public final class ActivityPerfilBinding implements ViewBinding {
 
   private ActivityPerfilBinding(@NonNull ConstraintLayout rootView, @NonNull ImageButton backButton,
       @NonNull Button editUserButton, @NonNull TextView email, @NonNull Guideline guideline4,
-      @NonNull ImageView imageView5, @NonNull TextView shoppingHistoryButton,
-      @NonNull Toolbar toolbar, @NonNull TextView userName) {
+      @NonNull ImageView imageView5, @NonNull Button opcionesHuella,
+      @NonNull TextView shoppingHistoryButton, @NonNull Toolbar toolbar,
+      @NonNull TextView userName) {
     this.rootView = rootView;
     this.backButton = backButton;
     this.editUserButton = editUserButton;
     this.email = email;
     this.guideline4 = guideline4;
     this.imageView5 = imageView5;
+    this.opcionesHuella = opcionesHuella;
     this.shoppingHistoryButton = shoppingHistoryButton;
     this.toolbar = toolbar;
     this.userName = userName;
@@ -120,6 +125,12 @@ public final class ActivityPerfilBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.opcionesHuella;
+      Button opcionesHuella = ViewBindings.findChildViewById(rootView, id);
+      if (opcionesHuella == null) {
+        break missingId;
+      }
+
       id = R.id.shoppingHistoryButton;
       TextView shoppingHistoryButton = ViewBindings.findChildViewById(rootView, id);
       if (shoppingHistoryButton == null) {
@@ -139,7 +150,7 @@ public final class ActivityPerfilBinding implements ViewBinding {
       }
 
       return new ActivityPerfilBinding((ConstraintLayout) rootView, backButton, editUserButton,
-          email, guideline4, imageView5, shoppingHistoryButton, toolbar, userName);
+          email, guideline4, imageView5, opcionesHuella, shoppingHistoryButton, toolbar, userName);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
