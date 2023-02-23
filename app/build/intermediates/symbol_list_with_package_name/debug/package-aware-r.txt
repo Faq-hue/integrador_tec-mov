@@ -2742,7 +2742,6 @@ id continuousVelocity
 id coordinator
 id cos
 id counterclockwise
-id crearWidget
 id createAccount
 id currentState
 id custom
@@ -2853,8 +2852,8 @@ id imageView10
 id imageView2
 id imageView3
 id imageView4
-id imageView5
 id imageView6
+id imageView7
 id imagenProductoIndividual
 id immediateStop
 id included
@@ -2983,12 +2982,14 @@ id pedidoRealizadoFragment
 id peekHeight
 id percent
 id perfilButton
+id perfilImage
 id pin
 id position
 id postLayout
 id precio
 id precioCarrito
 id productoNombreHistorial
+id profileImage
 id progress_circular
 id progress_horizontal
 id radio

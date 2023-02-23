@@ -9,6 +9,7 @@ class Preferences(val context: Context) {
     var SHARED_PASSWORD = "123"
     var SHARED_EMAIL = "usermail@gmail.com"
     var SHARED_BUYS = 1
+    var SHARED_PROFILE_IMAGE = ""
 
     val storage = context.getSharedPreferences(SHARED_DB, 0)
 
@@ -42,6 +43,14 @@ class Preferences(val context: Context) {
 
     fun getBuy(): Int{
         return storage.getInt(SHARED_BUYS.toString(), 0)
+    }
+
+    fun saveProfileImage(profileImage: String){
+        storage.edit().putString(SHARED_PROFILE_IMAGE, profileImage).apply()
+    }
+
+    fun getProfileImage(): String{
+        return storage.getString(SHARED_PROFILE_IMAGE, "")!!
     }
 
 }

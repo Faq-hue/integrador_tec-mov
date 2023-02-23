@@ -10,7 +10,19 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        android:required="true"
+        android:requiredFeature="true" />
+    <uses-permission android:name="android.hardware.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera.any"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
     <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- suppress DeprecatedClassUsageInspection -->
     <uses-permission android:name="android.permission.USE_FINGERPRINT" />
 
@@ -98,10 +110,10 @@
             android:exported="false" />
         <activity
             android:name="com.iua.proyecto_integrador.activity.PerfilSettingsActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name="com.iua.proyecto_integrador.activity.PerfilActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name="com.iua.proyecto_integrador.activity.RegisterActivity"
             android:exported="false" />

@@ -44,7 +44,6 @@ id carritoFragment
 id cart
 id changePasswordButton
 id continueShoppingButton
-id crearWidget
 id createAccount
 id descripcionDetalleProducto
 id detalleProductoFragment
@@ -62,8 +61,8 @@ id imageView10
 id imageView2
 id imageView3
 id imageView4
-id imageView5
 id imageView6
+id imageView7
 id imagenProductoIndividual
 id listadoFragment
 id loginButton
@@ -77,9 +76,11 @@ id password
 id passwordET
 id pedidoRealizadoFragment
 id perfilButton
+id perfilImage
 id precio
 id precioCarrito
 id productoNombreHistorial
+id profileImage
 id recyclerViewCarrito
 id recyclerViewListado
 id register

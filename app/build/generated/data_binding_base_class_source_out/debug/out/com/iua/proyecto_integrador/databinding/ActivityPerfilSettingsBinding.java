@@ -37,7 +37,7 @@ public final class ActivityPerfilSettingsBinding implements ViewBinding {
   public final TextView fotoDePerfil;
 
   @NonNull
-  public final ImageView imageView5;
+  public final ImageView profileImage;
 
   @NonNull
   public final Button savePerfilSettingsButton;
@@ -50,7 +50,7 @@ public final class ActivityPerfilSettingsBinding implements ViewBinding {
 
   private ActivityPerfilSettingsBinding(@NonNull ConstraintLayout rootView,
       @NonNull ImageButton backButton, @NonNull Button changePasswordButton,
-      @NonNull EditText emailET, @NonNull TextView fotoDePerfil, @NonNull ImageView imageView5,
+      @NonNull EditText emailET, @NonNull TextView fotoDePerfil, @NonNull ImageView profileImage,
       @NonNull Button savePerfilSettingsButton, @NonNull Toolbar toolbar,
       @NonNull EditText userName) {
     this.rootView = rootView;
@@ -58,7 +58,7 @@ public final class ActivityPerfilSettingsBinding implements ViewBinding {
     this.changePasswordButton = changePasswordButton;
     this.emailET = emailET;
     this.fotoDePerfil = fotoDePerfil;
-    this.imageView5 = imageView5;
+    this.profileImage = profileImage;
     this.savePerfilSettingsButton = savePerfilSettingsButton;
     this.toolbar = toolbar;
     this.userName = userName;
@@ -115,9 +115,9 @@ public final class ActivityPerfilSettingsBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView5;
-      ImageView imageView5 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView5 == null) {
+      id = R.id.profileImage;
+      ImageView profileImage = ViewBindings.findChildViewById(rootView, id);
+      if (profileImage == null) {
         break missingId;
       }
 
@@ -140,7 +140,7 @@ public final class ActivityPerfilSettingsBinding implements ViewBinding {
       }
 
       return new ActivityPerfilSettingsBinding((ConstraintLayout) rootView, backButton,
-          changePasswordButton, emailET, fotoDePerfil, imageView5, savePerfilSettingsButton,
+          changePasswordButton, emailET, fotoDePerfil, profileImage, savePerfilSettingsButton,
           toolbar, userName);
     }
     String missingId = rootView.getResources().getResourceName(id);

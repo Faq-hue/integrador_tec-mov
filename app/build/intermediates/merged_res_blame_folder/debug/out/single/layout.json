@@ -40,14 +40,6 @@
         "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/layout/activity_perfil_settings.xml"
     },
     {
-        "merged": "com.iua.proyecto_integrador.app-mergeDebugResources-47:/layout/activity_perfil.xml",
-        "source": "com.iua.proyecto_integrador.app-main-50:/layout/activity_perfil.xml"
-    },
-    {
-        "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-mergeDebugResources-47:/layout/activity_my_widget.xml",
-        "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/layout/activity_my_widget.xml"
-    },
-    {
         "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-mergeDebugResources-47:/layout/activity_producto_carrito.xml",
         "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/layout/activity_producto_carrito.xml"
     },
@@ -58,6 +50,10 @@
     {
         "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-mergeDebugResources-47:/layout/fragment_carrito.xml",
         "source": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-main-50:/layout/fragment_carrito.xml"
+    },
+    {
+        "merged": "com.iua.proyecto_integrador.app-mergeDebugResources-47:/layout/activity_perfil_settings.xml",
+        "source": "com.iua.proyecto_integrador.app-main-50:/layout/activity_perfil_settings.xml"
     },
     {
         "merged": "/home/faq/.gradle/daemon/7.4/com.iua.proyecto_integrador.app-mergeDebugResources-47:/layout/activity_perfil.xml",

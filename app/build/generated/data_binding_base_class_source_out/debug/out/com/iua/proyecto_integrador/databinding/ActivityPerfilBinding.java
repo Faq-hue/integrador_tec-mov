@@ -28,19 +28,16 @@ public final class ActivityPerfilBinding implements ViewBinding {
   public final ImageButton backButton;
 
   @NonNull
-  public final Button editUserButton;
-
-  @NonNull
   public final TextView email;
 
   @NonNull
   public final Guideline guideline4;
 
   @NonNull
-  public final ImageView imageView5;
+  public final Button opcionesHuella;
 
   @NonNull
-  public final Button opcionesHuella;
+  public final ImageView perfilImage;
 
   @NonNull
   public final TextView shoppingHistoryButton;
@@ -52,17 +49,15 @@ public final class ActivityPerfilBinding implements ViewBinding {
   public final TextView userName;
 
   private ActivityPerfilBinding(@NonNull ConstraintLayout rootView, @NonNull ImageButton backButton,
-      @NonNull Button editUserButton, @NonNull TextView email, @NonNull Guideline guideline4,
-      @NonNull ImageView imageView5, @NonNull Button opcionesHuella,
-      @NonNull TextView shoppingHistoryButton, @NonNull Toolbar toolbar,
-      @NonNull TextView userName) {
+      @NonNull TextView email, @NonNull Guideline guideline4, @NonNull Button opcionesHuella,
+      @NonNull ImageView perfilImage, @NonNull TextView shoppingHistoryButton,
+      @NonNull Toolbar toolbar, @NonNull TextView userName) {
     this.rootView = rootView;
     this.backButton = backButton;
-    this.editUserButton = editUserButton;
     this.email = email;
     this.guideline4 = guideline4;
-    this.imageView5 = imageView5;
     this.opcionesHuella = opcionesHuella;
+    this.perfilImage = perfilImage;
     this.shoppingHistoryButton = shoppingHistoryButton;
     this.toolbar = toolbar;
     this.userName = userName;
@@ -101,12 +96,6 @@ public final class ActivityPerfilBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.editUserButton;
-      Button editUserButton = ViewBindings.findChildViewById(rootView, id);
-      if (editUserButton == null) {
-        break missingId;
-      }
-
       id = R.id.email;
       TextView email = ViewBindings.findChildViewById(rootView, id);
       if (email == null) {
@@ -119,15 +108,15 @@ public final class ActivityPerfilBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView5;
-      ImageView imageView5 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView5 == null) {
-        break missingId;
-      }
-
       id = R.id.opcionesHuella;
       Button opcionesHuella = ViewBindings.findChildViewById(rootView, id);
       if (opcionesHuella == null) {
+        break missingId;
+      }
+
+      id = R.id.perfilImage;
+      ImageView perfilImage = ViewBindings.findChildViewById(rootView, id);
+      if (perfilImage == null) {
         break missingId;
       }
 
@@ -149,8 +138,8 @@ public final class ActivityPerfilBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityPerfilBinding((ConstraintLayout) rootView, backButton, editUserButton,
-          email, guideline4, imageView5, opcionesHuella, shoppingHistoryButton, toolbar, userName);
+      return new ActivityPerfilBinding((ConstraintLayout) rootView, backButton, email, guideline4,
+          opcionesHuella, perfilImage, shoppingHistoryButton, toolbar, userName);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

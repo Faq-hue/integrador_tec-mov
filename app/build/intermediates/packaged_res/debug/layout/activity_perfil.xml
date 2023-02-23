@@ -34,7 +34,7 @@
         app:srcCompat="@drawable/arrow" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/perfilImage"
         android:layout_width="115dp"
         android:layout_height="112dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -54,7 +54,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.483"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintStart_toEndOf="@+id/perfilImage"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.18" />
 
@@ -101,31 +101,17 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/editUserButton"
+        android:id="@+id/opcionesHuella"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:backgroundTint="@color/orange"
-        android:text="Edit user"
+        android:text="Edit User"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/shoppingHistoryButton"
-        app:layout_constraintVertical_bias="0.263" />
-
-    <Button
-        android:id="@+id/opcionesHuella"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:backgroundTint="@color/orange"
-        android:text="Fingerprint Options"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editUserButton"
         app:layout_constraintVertical_bias="0.292" />
 
 

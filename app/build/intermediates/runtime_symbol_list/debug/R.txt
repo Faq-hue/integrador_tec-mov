@@ -2741,7 +2741,6 @@ int id continuousVelocity 0x7f09009d
 int id coordinator 0x7f09009e
 int id cos 0x7f09009f
 int id counterclockwise 0x7f0900a0
-int id crearWidget 0x7f090241
 int id createAccount 0x7f0900a1
 int id currentState 0x7f0900a2
 int id custom 0x7f0900a3
@@ -2852,8 +2851,8 @@ int id imageView10 0x7f09010c
 int id imageView2 0x7f09010d
 int id imageView3 0x7f09010e
 int id imageView4 0x7f09010f
-int id imageView5 0x7f090110
 int id imageView6 0x7f090111
+int id imageView7 0x7f090242
 int id imagenProductoIndividual 0x7f090112
 int id immediateStop 0x7f090114
 int id included 0x7f090115
@@ -2982,12 +2981,14 @@ int id pedidoRealizadoFragment 0x7f09018f
 int id peekHeight 0x7f090190
 int id percent 0x7f090191
 int id perfilButton 0x7f090192
+int id perfilImage 0x7f090244
 int id pin 0x7f090193
 int id position 0x7f090194
 int id postLayout 0x7f090195
 int id precio 0x7f090196
 int id precioCarrito 0x7f090197
 int id productoNombreHistorial 0x7f090198
+int id profileImage 0x7f090243
 int id progress_circular 0x7f090199
 int id progress_horizontal 0x7f09019a
 int id radio 0x7f09019b

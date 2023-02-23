@@ -47,7 +47,7 @@
             >
 
             <ImageView
-                android:id="@+id/imageView5"
+                android:id="@+id/profileImage"
                 android:layout_width="115dp"
                 android:layout_height="112dp"
                 app:srcCompat="@drawable/person"
@@ -73,7 +73,7 @@
             android:background="@color/gray"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="@string/userName"
+            android:hint="@string/userName"
             android:textAlignment="center"
             android:gravity="center"
             android:layout_gravity="center"
@@ -87,7 +87,7 @@
             android:background="@color/gray"
             android:ems="10"
             android:inputType="textEmailAddress"
-            android:text="@string/email"
+            android:hint="@string/email"
             android:textAlignment="center"
             android:gravity="center"
             android:layout_gravity="center"
